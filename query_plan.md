@@ -54,6 +54,9 @@ JaLC Reference Coverage 2026年創業
 F = {authors_tokens, title_tokens, journal_tokens, year_tokens, volume_tokens, page_tokens}
 ```
 
+`first_author_tokens` はSolrに登録するが、今回の検索対象には含めない。
+後続のCC計算で使用するためのフィールドとして扱う。
+
 ---
 
 ## 検索の考え方（重要）
