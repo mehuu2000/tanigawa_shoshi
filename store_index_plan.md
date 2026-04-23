@@ -19,6 +19,8 @@
 F = {authors, title, journal, year, volume, page}
 ```
 
+MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせて `content_type = "JA"` の文献に限定する。
+
 ---
 
 ## Solr登録構成
@@ -34,32 +36,46 @@ F = {authors, title, journal, year, volume, page}
 | volume_raw  | true   | false   |
 | page_raw    | true   | false   |
 
+rawフィールドは、著者名・論文タイトル・雑誌名などの複数表記を保持できるよう配列として登録する。
+発行年・巻・ページも、Solr上の型を揃えるため配列として扱う。
+
 ---
 
 ### 2. 検索用トークン（フィールド別）
 
 | フィールド          | stored | indexed |
 | -------------- | ------ | ------- |
-| authors_tokens | false  | true    |
-| title_tokens   | false  | true    |
-| journal_tokens | false  | true    |
-| year_tokens    | false  | true    |
-| volume_tokens  | false  | true    |
-| page_tokens    | false  | true    |
+| authors_tokens | true   | true    |
+| title_tokens   | true   | true    |
+| journal_tokens | true   | true    |
+| year_tokens    | true   | true    |
+| volume_tokens  | true   | true    |
+| page_tokens    | true   | true    |
+
+※ 今回は勉強用の実装として、Solrに保存されたトークンを検索結果や管理画面から確認できるよう `stored=true` とする。
+本番運用で容量を優先する場合は、rawフィールドから同一ロジックで再生成できるため `stored=false` も選択肢になる。
 
 ---
 
 ## トークン生成
 
-各フィールドに対してアプリ側で tokenize() を適用する。
+各rawフィールドの配列要素ごとにアプリ側で tokenize() を適用し、同一フィールド内のトークン集合としてまとめる。
 
 ```python
-authors_tokens = tokenize(authors_raw)
-title_tokens   = tokenize(title_raw)
-journal_tokens = tokenize(journal_raw)
-year_tokens    = tokenize(year_raw)
-volume_tokens  = tokenize(volume_raw)
-page_tokens    = tokenize(page_raw)
+authors_tokens = tokenize_values(authors_raw)
+title_tokens   = tokenize_values(title_raw)
+journal_tokens = tokenize_values(journal_raw)
+year_tokens    = tokenize_values(year_raw)
+volume_tokens  = tokenize_values(volume_raw)
+page_tokens    = tokenize_values(page_raw)
+```
+
+```python
+def tokenize_values(values):
+    tokens = []
+    for value in values:
+        tokens.extend(tokenize(value))
+    return list(set(tokens))
 ```
 
 ---
@@ -70,16 +86,16 @@ page_tokens    = tokenize(page_raw)
 {
   "id": "paper_001",
 
-  "authors_raw": "山田 太郎",
-  "title_raw": "全文検索に基づく手法",
-  "journal_raw": "情報処理学会",
-  "year_raw": "2024",
-  "volume_raw": "12",
-  "page_raw": "1-10",
+  "authors_raw": ["山田 太郎", "Yamada Taro"],
+  "title_raw": ["全文検索に基づく手法", "Search-Based Reference Matching"],
+  "journal_raw": ["情報処理学会", "IPSJ Journal"],
+  "year_raw": ["2024"],
+  "volume_raw": ["12"],
+  "page_raw": ["1-10"],
 
-  "authors_tokens": ["山田", "田太", "太郎"],
-  "title_tokens": ["全文", "文検", "検索", "索に", "に基", "基づ", "づく", "く手", "手法"],
-  "journal_tokens": ["情報", "報処", "処理", "理学", "学会"],
+  "authors_tokens": ["山田", "田太", "太郎", "Yamada", "Taro", "Yamada Taro"],
+  "title_tokens": ["全文", "文検", "検索", "索に", "に基", "基づ", "づく", "く手", "手法", "Search", "Based", "Reference", "Matching", "Search Based", "Based Reference", "Reference Matching"],
+  "journal_tokens": ["情報", "報処", "処理", "理学", "学会", "IPSJ", "Journal", "IPSJ Journal"],
   "year_tokens": ["2024"],
   "volume_tokens": ["12"],
   "page_tokens": ["1", "10"]
@@ -172,6 +188,7 @@ C = ⋃ Cf
 
 * 各フィールド単位でトークンを確認可能
 * 検索と評価のズレを追跡しやすい
+* 学習目的のため、検索用トークンもSolrに保存して目視確認できるようにする
 
 ---
 
@@ -187,6 +204,7 @@ C = ⋃ Cf
 
 * トークンは集合として扱う
 * 重複は除去する
+* rawフィールドの配列要素ごとに生成したトークンを、同じフィールドのトークン配列にまとめる
 
 ---
 
