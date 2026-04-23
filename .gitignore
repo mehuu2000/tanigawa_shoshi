@@ -3,5 +3,6 @@
 .serena
 .uv-cache
 first_manuscript_tanigawa.pdf
+venv.sh
 
 .env
