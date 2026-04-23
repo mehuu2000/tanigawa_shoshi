@@ -2,12 +2,12 @@
 
 ## 概要
 
-本システムでは、
+本システムでは以下の役割分担を行う。
 
 * トークン生成：アプリ側
 * インデックス構築：Solr
 
-という役割分担を行う。
+また、トークンは**フィールド単位で生成・管理する方式**を採用する。
 
 ---
 
@@ -15,7 +15,7 @@
 
 論文に基づき、以下の書誌要素を使用：
 
-```
+```text
 F = {authors, title, journal, year, volume, page}
 ```
 
@@ -36,25 +36,30 @@ F = {authors, title, journal, year, volume, page}
 
 ---
 
-### 2. 検索用トークン
+### 2. 検索用トークン（フィールド別）
 
-| フィールド      | stored | indexed |
-| ---------- | ------ | ------- |
-| all_tokens | false  | true    |
+| フィールド          | stored | indexed |
+| -------------- | ------ | ------- |
+| authors_tokens | false  | true    |
+| title_tokens   | false  | true    |
+| journal_tokens | false  | true    |
+| year_tokens    | false  | true    |
+| volume_tokens  | false  | true    |
+| page_tokens    | false  | true    |
 
 ---
 
-## all_tokens の生成
+## トークン生成
+
+各フィールドに対してアプリ側で tokenize() を適用する。
 
 ```python
-all_tokens = set(
-    authors_tokens +
-    title_tokens +
-    journal_tokens +
-    year_tokens +
-    volume_tokens +
-    page_tokens
-)
+authors_tokens = tokenize(authors_raw)
+title_tokens   = tokenize(title_raw)
+journal_tokens = tokenize(journal_raw)
+year_tokens    = tokenize(year_raw)
+volume_tokens  = tokenize(volume_raw)
+page_tokens    = tokenize(page_raw)
 ```
 
 ---
@@ -72,12 +77,12 @@ all_tokens = set(
   "volume_raw": "12",
   "page_raw": "1-10",
 
-  "all_tokens": [
-    "全文", "文検", "検索",
-    "山田", "田太", "太郎",
-    "情報", "報処", "処理",
-    "2024", "12", "1", "10"
-  ]
+  "authors_tokens": ["山田", "田太", "太郎"],
+  "title_tokens": ["全文", "文検", "検索", "索に", "に基", "基づ", "づく", "く手", "手法"],
+  "journal_tokens": ["情報", "報処", "処理", "理学", "学会"],
+  "year_tokens": ["2024"],
+  "volume_tokens": ["12"],
+  "page_tokens": ["1", "10"]
 }
 ```
 
@@ -85,8 +90,8 @@ all_tokens = set(
 
 ## インデックスの役割
 
-* `all_tokens` を使って倒立インデックスを構築
-* 初期検索はこのフィールドのみ使用
+* 各フィールドごとに倒立インデックスを構築
+* フィールド単位のトークン集合 Cf を保持
 
 ---
 
@@ -102,20 +107,31 @@ query_tokens = tokenize(reference_string)
 
 ### 2. Solr検索
 
-* 対象：`all_tokens`
-* 条件：OR検索（部分一致）
+複数フィールドを対象に検索を行う。
+
+論理的には：
+
+```text
+C = ⋃ Cf
+```
+
+に対する検索を行う。
+
+実装上は複数フィールド検索（edismax等）で実現する。
 
 ---
 
 ### 3. 上位K件取得
 
-BM25スコアで候補取得
+* BM25スコアによりランキング
+* 上位K件を取得（実装用）
+* 論文準拠では第一位候補を評価対象とする
 
 ---
 
-### 4. 再ランキング
+## 再ランキング
 
-取得した候補に対して：
+取得した候補文献に対して：
 
 1. rawデータを取得
 2. 各フィールドを再トークン化
@@ -123,9 +139,7 @@ BM25スコアで候補取得
 
 ---
 
-## 再ランキングで使うデータ
-
-Solrから取得：
+## 再ランキングで使用するフィールド
 
 * authors_raw
 * title_raw
@@ -134,29 +148,52 @@ Solrから取得：
 * volume_raw
 * page_raw
 
+※ CC計算時は authors_raw から first author を抽出して使用する
+
 ---
 
-## 設計のメリット
+## 設計の特徴
 
-### 1. ストレージ削減
+### 1. フィールド構造の保持
 
-* field別 tokens を保存しない
+* トークンをフィールドごとに管理
+* 論文の Cf 構造をそのまま再現可能
 
-### 2. 柔軟性
+---
 
-* トークナイザ変更が容易
+### 2. 論文再現性
 
-### 3. 論文再現性
+* トークン生成を完全に制御
+* RC / CC / MC の計算と整合性が取れる
 
-* RC / CC / MC を正しく計算可能
+---
+
+### 3. デバッグ性
+
+* 各フィールド単位でトークンを確認可能
+* 検索と評価のズレを追跡しやすい
 
 ---
 
 ## 注意点
 
-* トークナイザは検索時と再ランキング時で完全一致させる
-* `all_tokens` は重複排除して登録する
-* 数字・英語は単語単位で扱う
+### 1. トークナイザの一致
+
+インデックス作成時・検索時・再ランキング時でトークナイザは完全一致させる
+
+---
+
+### 2. トークンの扱い
+
+* トークンは集合として扱う
+* 重複は除去する
+
+---
+
+### 3. 数字・英語の扱い
+
+* 単語単位でトークン化
+* 隣接2-gramを含める
 
 ---
 
@@ -165,4 +202,8 @@ Solrから取得：
 * Solrは「候補取得エンジン」
 * アプリは「意味評価エンジン」
 
-という構成で分離する
+さらに、
+
+👉 **フィールド単位トークン + 統合集合検索（C = ⋃ Cf）**
+
+という構成で論文を忠実に再現する
