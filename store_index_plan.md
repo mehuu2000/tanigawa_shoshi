@@ -9,6 +9,10 @@
 
 また、トークンは**フィールド単位で生成・管理する方式**を採用する。
 
+Solrへの接続、スキーマ設定、MongoDB `jalc.restapi` からの抽出、バッチ登録の基本的な流れは `../jalc/jalc-to-solr.ipynb` を参考にする。
+ただし、既存ノートブックのコードをそのまま流用するのではなく、本リポジトリで独自実装する。
+登録フィールド、トークン生成、検索対象フィールドは本実装の方針に合わせて定義する。
+
 ---
 
 ## 登録対象フィールド
@@ -23,6 +27,7 @@ F = {authors, title, journal, year, volume, page}
 ただし今回の検索では、論文の候補検索対象 `F` に合わせて `first_author_tokens` は検索対象から除外する。
 
 MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせて `content_type = "JA"` の文献に限定する。
+抽出処理は `jalc-to-solr.ipynb` の考え方を参考にし、JaLC文書の `creator_list`, `title_list`, `journal_title_name_list`, `publication_date`, `volume`, `issue`, `first_page`, `last_page` から登録用データを構築する。
 
 ---
 
@@ -84,6 +89,20 @@ def tokenize_values(values):
         tokens.extend(tokenize(value))
     return list(set(tokens))
 ```
+
+---
+
+## 実装分割方針
+
+実装時は、処理を以下のように関数・モジュールへ分ける。
+
+* JaLC文書が必要フィールドを持つか判定する処理
+* 著者・筆頭著者・タイトル・雑誌名・年・巻号・ページを抽出する処理
+* rawフィールド配列からtokensフィールドを生成する処理
+* Solrスキーマを設定する処理
+* MongoDBからSolrへバッチ登録する処理
+
+既存 `jalc-to-solr.ipynb` のヘルパー関数は参考にするが、実装は本リポジトリ内で新しく行い、ノートブック依存にしない。
 
 ---
 
