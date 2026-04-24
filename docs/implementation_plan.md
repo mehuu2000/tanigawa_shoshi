@@ -71,6 +71,7 @@ tanigawa_shoshi/
 ### `tokenizer.py`
 
 論文準拠のトークン化を実装する。
+分割には PyICU の `BreakIterator` を使用する。
 
 想定関数：
 

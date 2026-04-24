@@ -22,7 +22,7 @@
 
 ## 処理の流れ
 
-1. 文字列を ICU 等で分割（擬似的な単位）
+1. PyICU の `BreakIterator` で単語境界を取得し、単位に分割
 2. 日本語 / 非日本語の判定
 3. 日本語連続列・非日本語連続列に再構成
 4. 各ブロックごとにトークン生成
@@ -69,6 +69,17 @@ def is_japanese_token(token):
     return any(is_japanese_char(ch) for ch in token)
 ```
 
+日本語文字として扱う主な対象は以下とする。
+
+* ひらがな
+* カタカナ
+* 半角カタカナ
+* 漢字
+* カタカナ拡張
+* 長音記号・反復記号など、日本語表記で文字として扱いたい一部記号
+
+一方で、句読点・中点・かっこ・区切り記号などの特殊文字・デリミタは含めない。
+
 ---
 
 ### セグメント生成
@@ -110,6 +121,8 @@ def build_segments(units):
 
     return segments
 ```
+
+ICUで分割した単位は同種の文字列になっている前提で、各単位の先頭文字を見て日本語 / 非日本語を判定する。
 
 ---
 
@@ -167,7 +180,7 @@ def generate_tokens(segments):
 
 ```python
 def tokenize(text):
-    units = icu_like_split(text)  # ICU分割
+    units = split_units_with_icu(text)
     segments = build_segments(units)
     tokens = generate_tokens(segments)
     return tokens
@@ -232,7 +245,8 @@ Coverage 2026
 
 ### 4. ICUの役割
 
-* ICUは単語分割ではなく「境界検出」のみに使用する
+* PyICU の `BreakIterator` で単語境界を取得する
+* ICUは書誌要素そのものの意味解析ではなく「境界検出」に使用する
 * 実際のトークン生成はすべて本ロジックで行う
 
 ---
