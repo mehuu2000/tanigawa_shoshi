@@ -5,7 +5,7 @@ MONGODB_DATABASE = "jalc"
 MONGODB_COLLECTION = "restapi"
 
 SOLR_BASE_URL = "http://localhost:8983/solr"
-SOLR_CORE = "tanigawa_jalc"
+SOLR_CORE = "tanigawa_paper_jalc"
 
 BATCH_SIZE = 500
 
