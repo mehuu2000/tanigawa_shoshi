@@ -25,6 +25,8 @@ F = {authors, title, journal, year, volume, page}
 
 後続のCC計算で使用するため、`first_author` も保存・トークン化する。
 ただし今回の検索では、論文の候補検索対象 `F` に合わせて `first_author_tokens` は検索対象から除外する。
+また、`doi` は `jalc-to-solr.ipynb` と同様に保持する。
+`id` はアプリ側では指定せず、Solr 側の自動生成設定に任せる。
 
 MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせて `content_type = "JA"` の文献に限定する。
 抽出処理は `jalc-to-solr.ipynb` の考え方を参考にし、JaLC文書の `creator_list`, `title_list`, `journal_title_name_list`, `publication_date`, `volume`, `issue`, `first_page`, `last_page` から登録用データを構築する。
@@ -37,6 +39,7 @@ MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせ
 
 | フィールド       | stored | indexed |
 | ----------- | ------ | ------- |
+| doi | true | false |
 | authors | true   | false   |
 | first_author | true | false |
 | title   | true   | false   |
@@ -111,10 +114,9 @@ def tokenize_values(values):
 
 ```json
 {
-  "id": "paper_001",
-
   "authors": ["山田 太郎", "Yamada Taro"],
   "first_author": ["山田 太郎", "Yamada Taro"],
+  "doi": "10.0000/example",
   "title": ["全文検索に基づく手法", "Search-Based Reference Matching"],
   "journal": ["情報処理学会", "IPSJ Journal"],
   "year": ["2024"],

@@ -103,6 +103,7 @@ MongoDB上のJaLC文書をSolr登録用データへ変換する。
 保存フィールド：
 
 ```text
+doi
 authors
 first_author
 title
@@ -232,6 +233,7 @@ Solr core に必要なフィールドを追加する。
 
 確認項目：
 
+* `doi` が取得できる
 * `authors` が配列で取れる
 * `first_author` が配列で取れる
 * `title` が複数表記を保持する
