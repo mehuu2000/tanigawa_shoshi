@@ -113,6 +113,7 @@ volume
 page
 ```
 
+`doi` は単一値で保持する。
 `volume` には MongoDB の `volume` と `issue` を同じ配列内に分けて入れる。
 
 検索用トークンフィールド：
@@ -137,6 +138,7 @@ Solrのスキーマ設定を行う。
 * `ensure_schema(solr_base_url, core_name)`
 
 保存フィールドは `stored=true, indexed=false`。
+ただし `doi` は単一値、その他の保存フィールドは multiValued を想定する。
 トークンフィールドは `stored=false, indexed=true`。
 
 ### `solr_indexer.py`
@@ -261,7 +263,8 @@ Solr core に必要なフィールドを追加する。
 
 * 保存フィールド: `stored=true`, `indexed=false`
 * token fields: `stored=false`, `indexed=true`
-* multiValued=true
+* `doi` は単一値
+* それ以外の保存フィールドと token fields は multiValued=true
 * 再実行しても壊れにくい
 
 ### 6. 小件数でSolr登録する

@@ -58,15 +58,12 @@
 
 ```python
 def is_japanese_char(ch):
-    code = ord(ch)
-    return (
-        0x4E00 <= code <= 0x9FFF or  # 漢字
-        0x3040 <= code <= 0x309F or  # ひらがな
-        0x30A0 <= code <= 0x30FF     # カタカナ
-    )
+    ...
 
 def is_japanese_token(token):
-    return any(is_japanese_char(ch) for ch in token)
+    if not token:
+        return False
+    return is_japanese_char(token[0])
 ```
 
 日本語文字として扱う主な対象は以下とする。
@@ -86,38 +83,38 @@ def is_japanese_token(token):
 
 ```python
 def build_segments(units):
+    unit_list = list(units)
+    if not unit_list:
+        return []
+
     segments = []
-    jp_buffer = []
-    nonjp_buffer = []
+    current_type = None
+    current_items = []
 
-    def flush_jp():
-        nonlocal jp_buffer
-        if jp_buffer:
-            segments.append({
-                "type": "japanese",
-                "items": ["".join(jp_buffer)]
-            })
-            jp_buffer = []
+    for unit in unit_list:
+        unit_type = "japanese" if is_japanese_token(unit) else "non_japanese_seq"
 
-    def flush_nonjp():
-        nonlocal nonjp_buffer
-        if nonjp_buffer:
-            segments.append({
-                "type": "non_japanese_seq",
-                "items": nonjp_buffer[:]
-            })
-            nonjp_buffer = []
+        if current_type is None:
+            current_type = unit_type
+            current_items = [unit]
+            continue
 
-    for unit in units:
-        if is_japanese_token(unit):
-            flush_nonjp()
-            jp_buffer.append(unit)
+        if unit_type == current_type:
+            current_items.append(unit)
+            continue
+
+        if current_type == "japanese":
+            segments.append({"type": "japanese", "items": ["".join(current_items)]})
         else:
-            flush_jp()
-            nonjp_buffer.append(unit)
+            segments.append({"type": "non_japanese_seq", "items": current_items[:]})
 
-    flush_jp()
-    flush_nonjp()
+        current_type = unit_type
+        current_items = [unit]
+
+    if current_type == "japanese":
+        segments.append({"type": "japanese", "items": ["".join(current_items)]})
+    else:
+        segments.append({"type": "non_japanese_seq", "items": current_items[:]})
 
     return segments
 ```
@@ -171,7 +168,7 @@ def generate_tokens(segments):
         elif seg["type"] == "non_japanese_seq":
             tokens.extend(non_japanese_ngrams(seg["items"]))
 
-    return list(set(tokens))  # 重複除去
+    return unique_preserve_order(tokens)
 ```
 
 ---
@@ -180,7 +177,7 @@ def generate_tokens(segments):
 
 ```python
 def tokenize(text):
-    units = split_units_with_icu(text)
+    units = split_units(text)
     segments = build_segments(units)
     tokens = generate_tokens(segments)
     return tokens

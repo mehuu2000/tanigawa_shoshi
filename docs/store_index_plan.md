@@ -48,7 +48,8 @@ MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせ
 | volume  | true   | false   |
 | page    | true   | false   |
 
-保存フィールドは、著者名・論文タイトル・雑誌名などの複数表記を保持できるよう配列として登録する。
+`doi` は `jalc-to-solr.ipynb` に合わせて単一値で保持する。
+それ以外の保存フィールドは、著者名・論文タイトル・雑誌名などの複数表記を保持できるよう配列として登録する。
 発行年・巻号・ページも、Solr上の型を揃えるため配列として扱う。
 保存フィールド名は論文の書誌要素名に合わせ、`*_raw` とはしない。
 `volume` は論文の「巻・号フィールド」に対応させるため、MongoDB上の `volume` と `issue` を同じ配列内に分けて保持する。
@@ -91,7 +92,7 @@ def tokenize_values(values):
     tokens = []
     for value in values:
         tokens.extend(tokenize(value))
-    return list(set(tokens))
+    return unique_preserve_order(tokens)
 ```
 
 ---
@@ -129,7 +130,7 @@ def tokenize_values(values):
   "journal_tokens": ["情報", "報処", "処理", "理学", "学会", "IPSJ", "Journal", "IPSJ Journal"],
   "year_tokens": ["2024"],
   "volume_tokens": ["12", "3"],
-  "page_tokens": ["1", "10"]
+  "page_tokens": ["1", "10", "1 10"]
 }
 ```
 
