@@ -37,16 +37,16 @@ MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせ
 
 ### 1. 保存データ（表示・再計算用）
 
-| フィールド       | stored | indexed |
-| ----------- | ------ | ------- |
-| doi | true | false |
-| authors | true   | false   |
-| first_author | true | false |
-| title   | true   | false   |
-| journal | true   | false   |
-| year    | true   | false   |
-| volume  | true   | false   |
-| page    | true   | false   |
+| フィールド       | stored | indexed | docValues |
+| ----------- | ------ | ------- | --------- |
+| doi | true | false | false |
+| authors | true   | false   | false |
+| first_author | true | false | false |
+| title   | true   | false   | false |
+| journal | true   | false   | false |
+| year    | true   | false   | false |
+| volume  | true   | false   | false |
+| page    | true   | false   | false |
 
 `doi` は `jalc-to-solr.ipynb` に合わせて単一値で保持する。
 それ以外の保存フィールドは、著者名・論文タイトル・雑誌名などの複数表記を保持できるよう配列として登録する。
@@ -58,17 +58,17 @@ MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせ
 
 ### 2. 検索用トークン（フィールド別）
 
-| フィールド          | stored | indexed |
-| -------------- | ------ | ------- |
-| authors_tokens | false  | true    |
-| first_author_tokens | false | true |
-| title_tokens   | false  | true    |
-| journal_tokens | false  | true    |
-| year_tokens    | false  | true    |
-| volume_tokens  | false  | true    |
-| page_tokens    | false  | true    |
+| フィールド          | stored | indexed | docValues |
+| -------------- | ------ | ------- | --------- |
+| authors_tokens | false  | true    | false |
+| first_author_tokens | false | true | false |
+| title_tokens   | false  | true    | false |
+| journal_tokens | false  | true    | false |
+| year_tokens    | false  | true    | false |
+| volume_tokens  | false  | true    | false |
+| page_tokens    | false  | true    | false |
 
-検索用トークンはインデックス専用とし、ストレージ容量を抑えるため `stored=false` とする。
+検索用トークンはインデックス専用とし、ストレージ容量を抑えるため `stored=false`, `docValues=false` とする。
 トークン内容の確認は、Solrから取得するのではなく、登録処理時のログやローカルの tokenize() 実行結果で行う。
 
 ---

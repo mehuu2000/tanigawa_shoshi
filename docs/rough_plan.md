@@ -76,6 +76,7 @@ Solrへの登録処理やスキーマ設定は、既存の `../jalc/jalc-to-solr
 
 * `stored=true`
 * `indexed=false`
+* `docValues=false`
 
 保存フィールドは、複数表記を保持できるよう配列として登録する。
 保存フィールド名は論文の書誌要素名に合わせ、`*_raw` とはしない。
@@ -97,8 +98,9 @@ Solrへの登録処理やスキーマ設定は、既存の `../jalc/jalc-to-solr
 
 * `stored=false`
 * `indexed=true`
+* `docValues=false`
 
-※ 検索用トークンはインデックス専用とし、ストレージ容量を抑えるため `stored=false` とする。
+※ 検索用トークンはインデックス専用とし、ストレージ容量を抑えるため `stored=false`, `docValues=false` とする。
 トークン内容の確認は、登録処理時のログやローカルの tokenize() 実行結果で行う。
 
 ※ all_tokens は使用しない
