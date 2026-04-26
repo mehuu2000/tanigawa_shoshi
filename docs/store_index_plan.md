@@ -95,6 +95,9 @@ def tokenize_values(values):
     return unique_preserve_order(tokens)
 ```
 
+raw データ上は必須項目が存在していても、特殊文字のみのタイトルのように tokenize() の結果が空集合になる文書がある。
+このような文書は `*_tokens` の required 制約を満たせないため、Solr 登録対象から除外する。
+
 ---
 
 ## 実装分割方針

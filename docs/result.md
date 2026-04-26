@@ -1,6 +1,6 @@
-### notebooks/03_setup_solr_schema.ipynb
+## notebooks/03_setup_solr_schema.ipynb
 --
-# schema を確認し、不足フィールドを追加する
+#### schema を確認し、不足フィールドを追加する
 result = ensure_schema(SOLR_BASE_URL, SOLR_CORE)
 pprint(result)
 
@@ -38,3 +38,11 @@ pprint(result)
                      'volume_tokens',
                      'page_tokens']}
 ```
+
+
+## notebooks/06_index_all_to_solr.ipynb
+--
+#### トークン化処理をした結果から文字になってしまったもの
+{doi: '10.3327/jaesjb.52.4_187'}
+タイトル：[ ・ ]
+↑何これ

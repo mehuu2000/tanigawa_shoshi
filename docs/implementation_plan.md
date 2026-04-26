@@ -98,6 +98,7 @@ MongoDB上のJaLC文書をSolr登録用データへ変換する。
 * `extract_year(doc)`
 * `extract_volume(doc)`
 * `extract_page(doc)`
+* `has_required_token_fields(solr_document)`
 * `build_solr_document(doc)`
 
 保存フィールド：
@@ -153,6 +154,7 @@ MongoDBから文献を取得し、Solrへバッチ登録する。
 * `index_all()`
 
 対象文献は `content_type = "JA"` に限定する。
+raw データの必須項目が揃っていても、token fields のいずれかが空になる文書は登録対象から除外する。
 
 ### `search.py`
 

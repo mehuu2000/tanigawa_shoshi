@@ -181,6 +181,18 @@ def extract_doi(doc: Dict[str, Any]) -> Optional[str]:
         return None
     return str(doi)
 
+# token fields に必要なトークンがすべて生成できているかを確認する関数。
+def has_required_token_fields(solr_document: Dict[str, Any]) -> bool:
+    return bool(
+        solr_document.get("authors_tokens")
+        and solr_document.get("first_author_tokens")
+        and solr_document.get("title_tokens")
+        and solr_document.get("journal_tokens")
+        and solr_document.get("year_tokens")
+        and solr_document.get("volume_tokens")
+        and solr_document.get("page_tokens")
+    )
+
 # 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
 def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not has_required_fields(doc):
@@ -215,4 +227,8 @@ def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "volume_tokens": tokenize_values(volume),
         "page_tokens": tokenize_values(page),
     }
+
+    if not has_required_token_fields(solr_document):
+        return None
+
     return solr_document
