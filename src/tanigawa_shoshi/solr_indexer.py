@@ -1,5 +1,8 @@
 """MongoDB から Solr へ JaLC 文書を登録する処理。"""
 
+import json
+from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from pymongo import MongoClient
@@ -13,10 +16,12 @@ from .config import (
     SOLR_BASE_URL,
     SOLR_CORE,
 )
-from .jalc_extract import build_solr_document, has_required_fields
+from .jalc_extract import build_solr_document_with_issues
 
 
 JALC_FIND_QUERY = {"content_type": "JA"}
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+LOG_DIR = PROJECT_ROOT / "log"
 
 # 登録時に必要な書誌要素だけを取得する。
 JALC_PROJECTION = {
@@ -67,6 +72,32 @@ def iter_jalc_documents(
         cursor = cursor.limit(limit)
     return cursor
 
+def create_skip_log_path() -> Path:
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+    log_path = LOG_DIR / f"{timestamp}.log"
+    log_path.touch()
+    return log_path
+
+def append_skip_log(log_path: Path, mongo_id: str, field_name: str, value: Any, reason: str) -> None:
+    log_record = {
+        "mongo_id": mongo_id,
+        "field_name": field_name,
+        "value": value,
+        "reason": reason,
+    }
+    with log_path.open("a", encoding="utf-8") as log_file:
+        log_file.write(json.dumps(log_record, ensure_ascii=False) + "\n")
+
+def get_skip_stat_key(issues: List[Dict[str, Any]]) -> str:
+    reason_codes = {issue.get("reason_code") for issue in issues}
+
+    if "raw_required_field_missing" in reason_codes:
+        return "skipped_missing_required_fields"
+    if "required_token_field_empty" in reason_codes:
+        return "skipped_missing_required_token_fields"
+    return "skipped_build_failed"
+
 # sample 側で使う。JaLC 文書列から Solr 登録用文書列を作る。
 def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
     solr_documents = []
@@ -74,19 +105,16 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
         "input_count": 0,
         "built_count": 0,
         "skipped_missing_required_fields": 0,
+        "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
     }
 
     for doc in docs:
         stats["input_count"] += 1
 
-        if not has_required_fields(doc):
-            stats["skipped_missing_required_fields"] += 1
-            continue
-
-        solr_document = build_solr_document(doc)
+        solr_document, issues = build_solr_document_with_issues(doc)
         if solr_document is None:
-            stats["skipped_build_failed"] += 1
+            stats[get_skip_stat_key(issues)] += 1
             continue
 
         solr_documents.append(solr_document)
@@ -159,19 +187,26 @@ def index_all(
         "indexed_count": 0,
         "batch_count": 0,
         "skipped_missing_required_fields": 0,
+        "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
     }
+    skip_log_path = create_skip_log_path()
+    print(f"skip log: {skip_log_path}")
 
     for doc in raw_docs:
         stats["input_count"] += 1
-
-        if not has_required_fields(doc):
-            stats["skipped_missing_required_fields"] += 1
-            continue
-
-        solr_document = build_solr_document(doc)
+        solr_document, issues = build_solr_document_with_issues(doc)
         if solr_document is None:
-            stats["skipped_build_failed"] += 1
+            stats[get_skip_stat_key(issues)] += 1
+            mongo_id = str(doc.get("_id", ""))
+            for issue in issues:
+                append_skip_log(
+                    skip_log_path,
+                    mongo_id=mongo_id,
+                    field_name=str(issue.get("field_name", "")),
+                    value=issue.get("value"),
+                    reason=str(issue.get("reason", "")),
+                )
             continue
 
         batch.append(solr_document)
@@ -199,5 +234,8 @@ def index_all(
     print(f"読み込み件数: {stats['input_count']}")
     print(f"登録対象件数: {stats['built_count']}")
     print(f"登録件数: {stats['indexed_count']}")
+    print(f"raw 必須不足スキップ件数: {stats['skipped_missing_required_fields']}")
+    print(f"token 必須不足スキップ件数: {stats['skipped_missing_required_token_fields']}")
+    print(f"その他スキップ件数: {stats['skipped_build_failed']}")
 
     return stats

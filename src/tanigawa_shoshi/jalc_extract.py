@@ -2,12 +2,22 @@
 
 import re
 from itertools import permutations
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from .tokenizer import is_japanese_char, tokenize_values
 
 
 ENGLISH_NAME_SPLIT_PATTERN = re.compile(r"[,\.\s\-\(\)]+")
+
+TOKEN_SOURCE_FIELDS = {
+    "authors_tokens": "authors",
+    "first_author_tokens": "first_author",
+    "title_tokens": "title",
+    "journal_tokens": "journal",
+    "year_tokens": "year",
+    "volume_tokens": "volume",
+    "page_tokens": "page",
+}
 
 # 重複を削除しつつ、順序を保ったままリストを返す関数。空文字や None は無視する。また、余分な空白も削除する。
 # jalc-to-solr.ipynbのlist(set(...))を拡張したもの
@@ -181,6 +191,72 @@ def extract_doi(doc: Dict[str, Any]) -> Optional[str]:
         return None
     return str(doi)
 
+# raw データの必須項目に不足がある場合、その内容を返す。
+def get_required_field_issues(doc: Dict[str, Any]) -> List[Dict[str, Any]]:
+    issues = []
+
+    if not doc.get("title_list"):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "title_list",
+                "value": doc.get("title_list"),
+                "reason": "raw の必須フィールド title_list が不足しているため登録しない",
+            }
+        )
+
+    if not doc.get("creator_list"):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "creator_list",
+                "value": doc.get("creator_list"),
+                "reason": "raw の必須フィールド creator_list が不足しているため登録しない",
+            }
+        )
+
+    if not doc.get("publication_date"):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "publication_date",
+                "value": doc.get("publication_date"),
+                "reason": "raw の必須フィールド publication_date が不足しているため登録しない",
+            }
+        )
+
+    if not doc.get("journal_title_name_list"):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "journal_title_name_list",
+                "value": doc.get("journal_title_name_list"),
+                "reason": "raw の必須フィールド journal_title_name_list が不足しているため登録しない",
+            }
+        )
+
+    if not (doc.get("volume") or doc.get("issue")):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "volume",
+                "value": {"volume": doc.get("volume"), "issue": doc.get("issue")},
+                "reason": "raw の必須フィールド volume/issue が不足しているため登録しない",
+            }
+        )
+
+    if not (doc.get("first_page") or doc.get("last_page")):
+        issues.append(
+            {
+                "reason_code": "raw_required_field_missing",
+                "field_name": "page",
+                "value": {"first_page": doc.get("first_page"), "last_page": doc.get("last_page")},
+                "reason": "raw の必須フィールド first_page/last_page が不足しているため登録しない",
+            }
+        )
+
+    return issues
+
 # token fields に必要なトークンがすべて生成できているかを確認する関数。
 def has_required_token_fields(solr_document: Dict[str, Any]) -> bool:
     return bool(
@@ -193,10 +269,24 @@ def has_required_token_fields(solr_document: Dict[str, Any]) -> bool:
         and solr_document.get("page_tokens")
     )
 
-# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
-def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    if not has_required_fields(doc):
-        return None
+def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[str, Any]]:
+    issues = []
+    for token_field_name, source_field_name in TOKEN_SOURCE_FIELDS.items():
+        if not solr_document.get(token_field_name):
+            issues.append(
+                {
+                    "reason_code": "required_token_field_empty",
+                    "field_name": token_field_name,
+                    "value": solr_document.get(source_field_name),
+                    "reason": f"tokenize 後に必須フィールド {token_field_name} が空になったため登録しない",
+                }
+            )
+    return issues
+
+def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
+    issues = get_required_field_issues(doc)
+    if issues:
+        return None, issues
 
     authors = extract_authors(doc)
     first_author = extract_first_author(doc)
@@ -207,8 +297,78 @@ def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     page = extract_page(doc)
     doi = extract_doi(doc)
 
-    if not all([authors, first_author, title, journal, year, volume, page]):
-        return None
+    if not authors:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "authors",
+                "value": authors,
+                "reason": "抽出後の必須フィールド authors が空のため登録しない",
+            }
+        )
+
+    if not first_author:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "first_author",
+                "value": first_author,
+                "reason": "抽出後の必須フィールド first_author が空のため登録しない",
+            }
+        )
+
+    if not title:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "title",
+                "value": title,
+                "reason": "抽出後の必須フィールド title が空のため登録しない",
+            }
+        )
+
+    if not journal:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "journal",
+                "value": journal,
+                "reason": "抽出後の必須フィールド journal が空のため登録しない",
+            }
+        )
+
+    if not year:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "year",
+                "value": year,
+                "reason": "抽出後の必須フィールド year が空のため登録しない",
+            }
+        )
+
+    if not volume:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "volume",
+                "value": volume,
+                "reason": "抽出後の必須フィールド volume が空のため登録しない",
+            }
+        )
+
+    if not page:
+        issues.append(
+            {
+                "reason_code": "required_extracted_field_empty",
+                "field_name": "page",
+                "value": page,
+                "reason": "抽出後の必須フィールド page が空のため登録しない",
+            }
+        )
+
+    if issues:
+        return None, issues
 
     solr_document = {
         "doi": doi,
@@ -228,7 +388,13 @@ def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "page_tokens": tokenize_values(page),
     }
 
-    if not has_required_token_fields(solr_document):
-        return None
+    issues = get_required_token_field_issues(solr_document)
+    if issues:
+        return None, issues
 
+    return solr_document, []
+
+# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
+def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    solr_document, _ = build_solr_document_with_issues(doc)
     return solr_document

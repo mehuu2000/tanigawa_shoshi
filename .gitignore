@@ -4,6 +4,7 @@
 .uv-cache
 __pycache__/
 *.pyc
+log/
 first_manuscript_tanigawa.pdf
 venv.sh
 
