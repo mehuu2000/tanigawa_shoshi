@@ -98,7 +98,6 @@ MongoDB上のJaLC文書をSolr登録用データへ変換する。
 * `extract_year(doc)`
 * `extract_volume(doc)`
 * `extract_page(doc)`
-* `has_required_token_fields(solr_document)`
 * `build_solr_document(doc)`
 
 保存フィールド：
@@ -155,7 +154,7 @@ MongoDBから文献を取得し、Solrへバッチ登録する。
 
 対象文献は `content_type = "JA"` に限定する。
 raw データの必須項目が揃っていても、token fields のいずれかが空になる文書は登録対象から除外する。
-全件登録開始時に `log/YYYY_MM_DD_HH_MM_SS.log` を作成し、スキップした文書の MongoDB `_id`・対象フィールド・値・理由を1行ずつ追記する。
+全件登録開始時に `log/YYYY_MM_DD_HH_MM_SS.log` を作成し、tokenize 後に必須 token field が空になった文書だけを MongoDB `_id`・対象フィールド・元の値・理由の形式で1行ずつ追記する。
 
 ### `search.py`
 

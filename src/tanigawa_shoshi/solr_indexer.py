@@ -16,7 +16,7 @@ from .config import (
     SOLR_BASE_URL,
     SOLR_CORE,
 )
-from .jalc_extract import build_solr_document_with_issues
+from .jalc_extract import build_solr_document_with_issues, has_required_fields
 
 
 JALC_FIND_QUERY = {"content_type": "JA"}
@@ -72,6 +72,7 @@ def iter_jalc_documents(
         cursor = cursor.limit(limit)
     return cursor
 
+# 全件登録時のスキップログファイルを作成し、そのパスを返す。
 def create_skip_log_path() -> Path:
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
@@ -79,6 +80,7 @@ def create_skip_log_path() -> Path:
     log_path.touch()
     return log_path
 
+# スキップ対象1件分の内容を JSON Lines 形式でログへ追記する。
 def append_skip_log(log_path: Path, mongo_id: str, field_name: str, value: Any, reason: str) -> None:
     log_record = {
         "mongo_id": mongo_id,
@@ -88,15 +90,6 @@ def append_skip_log(log_path: Path, mongo_id: str, field_name: str, value: Any, 
     }
     with log_path.open("a", encoding="utf-8") as log_file:
         log_file.write(json.dumps(log_record, ensure_ascii=False) + "\n")
-
-def get_skip_stat_key(issues: List[Dict[str, Any]]) -> str:
-    reason_codes = {issue.get("reason_code") for issue in issues}
-
-    if "raw_required_field_missing" in reason_codes:
-        return "skipped_missing_required_fields"
-    if "required_token_field_empty" in reason_codes:
-        return "skipped_missing_required_token_fields"
-    return "skipped_build_failed"
 
 # sample 側で使う。JaLC 文書列から Solr 登録用文書列を作る。
 def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
@@ -112,9 +105,16 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
     for doc in docs:
         stats["input_count"] += 1
 
+        if not has_required_fields(doc):
+            stats["skipped_missing_required_fields"] += 1
+            continue
+
         solr_document, issues = build_solr_document_with_issues(doc)
         if solr_document is None:
-            stats[get_skip_stat_key(issues)] += 1
+            if issues:
+                stats["skipped_missing_required_token_fields"] += 1
+            else:
+                stats["skipped_build_failed"] += 1
             continue
 
         solr_documents.append(solr_document)
@@ -195,9 +195,17 @@ def index_all(
 
     for doc in raw_docs:
         stats["input_count"] += 1
+
+        if not has_required_fields(doc):
+            stats["skipped_missing_required_fields"] += 1
+            continue
+
         solr_document, issues = build_solr_document_with_issues(doc)
         if solr_document is None:
-            stats[get_skip_stat_key(issues)] += 1
+            if issues:
+                stats["skipped_missing_required_token_fields"] += 1
+            else:
+                stats["skipped_build_failed"] += 1
             mongo_id = str(doc.get("_id", ""))
             for issue in issues:
                 append_skip_log(
