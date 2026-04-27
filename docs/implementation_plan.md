@@ -92,8 +92,11 @@ MongoDB上のJaLC文書をSolr登録用データへ変換する。
 
 * `has_required_fields(doc)`
 * `extract_authors(doc)`
+* `extract_authors_basic(doc)`
 * `extract_first_author(doc)`
+* `extract_first_author_basic(doc)`
 * `extract_titles(doc)`
+* `extract_titles_basic(doc)`
 * `extract_journals(doc)`
 * `extract_year(doc)`
 * `extract_volume(doc)`
@@ -107,6 +110,9 @@ doi
 authors
 first_author
 title
+authors_variations
+first_author_variations
+title_variations
 journal
 year
 volume
@@ -238,9 +244,14 @@ Solr core に必要なフィールドを追加する。
 確認項目：
 
 * `doi` が取得できる
+* `authors` が基本表記で配列取得できる
+* `first_author` が基本表記で配列取得できる
+* `title` が subtitle を含まず取得できる
 * `authors` が配列で取れる
 * `first_author` が配列で取れる
-* `title` が複数表記を保持する
+* `authors_variations` が複数表記を保持する
+* `first_author_variations` が複数表記を保持する
+* `title_variations` が複数表記を保持する
 * `journal` が略称・言語違いを保持する
 * `year` が配列で取れる
 * `volume` に `volume` と `issue` が分かれて入る

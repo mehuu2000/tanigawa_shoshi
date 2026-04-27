@@ -90,6 +90,19 @@ def _build_name_variants(name: Dict[str, Any]) -> List[str]:
 
     return _unique_preserve_order(variants)
 
+# 1つの names 要素から、バリエーションを増やさない基本の氏名表記を1つ作る関数。英語は "姓 名"、日本語は "姓 名" を返す。
+def _build_basic_name(name: Dict[str, Any]) -> Optional[str]:
+    last_name = (name.get("last_name") or "").strip()
+    first_name = (name.get("first_name") or "").strip()
+
+    if not last_name and not first_name:
+        return None
+    if not last_name:
+        return first_name
+    if not first_name:
+        return last_name
+    return f"{last_name} {first_name}"
+
 # JaLC文書に必要な書誌要素が揃っているかをチェックする関数。タイトル、著者、出版年、雑誌名、巻号、ページ情報のいずれかが欠けている場合は False を返す。
 def has_required_fields(doc: Dict[str, Any]) -> bool:
     return bool(
@@ -108,6 +121,16 @@ def extract_authors(doc: Dict[str, Any]) -> List[str]:
     for creator in doc.get("creator_list") or []:
         for name in creator.get("names") or []:
             authors.extend(_build_name_variants(name))
+    return _unique_preserve_order(authors)
+
+# 1つの JaLC文書から著者フィールド用の基本表記を抽出する関数。creator_list の各 creator の names から、バリエーションを増やさない氏名表記を生成して返す。
+def extract_authors_basic(doc: Dict[str, Any]) -> List[str]:
+    authors = []
+    for creator in doc.get("creator_list") or []:
+        for name in creator.get("names") or []:
+            basic_name = _build_basic_name(name)
+            if basic_name:
+                authors.append(basic_name)
     return _unique_preserve_order(authors)
 
 # 1つの JaLC文書から筆頭著者フィールド用の氏名バリエーションを抽出する関数。creator_list の最初の creator の names から氏名バリエーションを生成し、重複を削除して返す。
@@ -137,6 +160,20 @@ def extract_first_author(doc: Dict[str, Any]) -> List[str]:
 
     return _unique_preserve_order(first_author)
 
+# 1つの JaLC文書から筆頭著者フィールド用の基本表記を抽出する関数。creator_list の最初の creator の names から、バリエーションを増やさない氏名表記を生成して返す。
+def extract_first_author_basic(doc: Dict[str, Any]) -> List[str]:
+    creator_list = doc.get("creator_list") or []
+    if not creator_list:
+        return []
+
+    first_creator = creator_list[0]
+    first_author = []
+    for name in first_creator.get("names") or []:
+        basic_name = _build_basic_name(name)
+        if basic_name:
+            first_author.append(basic_name)
+    return _unique_preserve_order(first_author)
+
 # 1つの JaLC文書からタイトルフィールド用のタイトルと副題のバリエーションを抽出する関数。title_list の各 title と subtitle を組み合わせてタイトルバリエーションを生成し、重複を削除して返す。
 def extract_titles(doc: Dict[str, Any]) -> List[str]:
     titles = []
@@ -147,6 +184,15 @@ def extract_titles(doc: Dict[str, Any]) -> List[str]:
             titles.append(title)
             if subtitle:
                 titles.append(f"{title} | {subtitle}")
+    return _unique_preserve_order(titles)
+
+# 1つの JaLC文書からタイトルフィールド用の基本表記を抽出する関数。title_list の title だけを使い、subtitle は使わない。
+def extract_titles_basic(doc: Dict[str, Any]) -> List[str]:
+    titles = []
+    for title_data in doc.get("title_list") or []:
+        title = title_data.get("title")
+        if title:
+            titles.append(title)
     return _unique_preserve_order(titles)
 
 # 1つの JaLC文書から雑誌名フィールド用の雑誌名のバリエーションを抽出する関数。journal_title_name_list の各 journal_title_name を抽出し、重複を削除して返す。
@@ -206,19 +252,22 @@ def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[
             )
     return issues
 
-# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。また、トークン化後に必須フィールドが空になっている場合は None を返し、その理由などを issue として返す。
+# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。また、トークン化後に必須フィールドが空になっている場合は None を返し、その理由などを issue として返す。
 def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
     if not has_required_fields(doc):
         return None, []
 
-    authors = extract_authors(doc)
-    first_author = extract_first_author(doc)
-    title = extract_titles(doc)
+    authors = extract_authors_basic(doc)
+    first_author = extract_first_author_basic(doc)
+    title = extract_titles_basic(doc)
     journal = extract_journals(doc)
     year = extract_year(doc)
     volume = extract_volume(doc)
     page = extract_page(doc)
     doi = extract_doi(doc)
+    authors_variations = extract_authors(doc)
+    first_author_variations = extract_first_author(doc)
+    title_variations = extract_titles(doc)
 
     if not all([authors, first_author, title, journal, year, volume, page]):
         return None, []
@@ -228,6 +277,9 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
         "authors": authors,
         "first_author": first_author,
         "title": title,
+        "authors_variations": authors_variations,
+        "first_author_variations": first_author_variations,
+        "title_variations": title_variations,
         "journal": journal,
         "year": year,
         "volume": volume,
@@ -247,7 +299,7 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
 
     return solr_document, []
 
-# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
+# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
 # こちらは確認用関数で、token_issues は返さず、トークン化後に必須フィールドが空になっている場合は None を返す。
 def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     solr_document, _ = build_solr_document_with_issues(doc)
