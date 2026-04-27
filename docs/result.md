@@ -46,3 +46,23 @@ pprint(result)
 {doi: '10.3327/jaesjb.52.4_187'}
 タイトル：[ ・ ]
 ↑何これ
+
+#### 全文書登録
+500件のデータを登録
+500件のデータを登録
+295件のデータを登録
+最後に commit を実行
+全件登録完了
+読み込み件数: 11936840
+登録対象件数: 9558795
+登録件数: 9558795
+raw 必須不足スキップ件数: 2377785
+token 必須不足スキップ件数: 85
+その他スキップ件数: 175
+{'batch_count': 19118,
+ 'built_count': 9558795,
+ 'indexed_count': 9558795,
+ 'input_count': 11936840,
+ 'skipped_build_failed': 175,
+ 'skipped_missing_required_fields': 2377785,
+ 'skipped_missing_required_token_fields': 85}

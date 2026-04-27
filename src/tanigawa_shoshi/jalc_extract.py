@@ -248,7 +248,7 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
     return solr_document, []
 
 # 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、著者、筆頭著者、タイトル、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
-# こちらは確認用関数で、トークン化後に必須フィールドが空になっている場合も None を返さず、token_issues も返さない。
+# こちらは確認用関数で、token_issues は返さず、トークン化後に必須フィールドが空になっている場合は None を返す。
 def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     solr_document, _ = build_solr_document_with_issues(doc)
     return solr_document
