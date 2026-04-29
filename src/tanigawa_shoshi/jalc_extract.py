@@ -116,7 +116,6 @@ def has_required_fields(doc: Dict[str, Any]) -> bool:
 
 # 1つの JaLC文書から著者フィールド用の氏名バリエーションを抽出する関数。creator_list の各 creator の names から氏名バリエーションを生成し、重複を削除して返す。
 def extract_authors(doc: Dict[str, Any]) -> List[str]:
-    """著者フィールド用の氏名バリエーションを抽出する。"""
     authors = []
     for creator in doc.get("creator_list") or []:
         for name in creator.get("names") or []:

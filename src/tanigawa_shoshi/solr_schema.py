@@ -183,7 +183,6 @@ def get_expected_fields() -> List[Dict[str, object]]:
 
 # 引数を指定して、Schema APIにリクエストを送る共通関数。レスポンスを Jsonとして返す。
 def _request_json(url: str, method: str = "GET", payload: Optional[Dict] = None) -> Dict:
-    """Schema API に JSON リクエストを送る。"""
     data = None
     headers = {}
     if payload is not None:
