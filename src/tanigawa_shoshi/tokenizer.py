@@ -51,11 +51,11 @@ def is_japanese_token(token: str) -> bool:
 
 # ICUのBreakIteratorを使って単語境界を取り、特殊文字・デリミタを除外した単語のリストを返す処理
 def split_units(text: str) -> List[str]:
-    """ICUで単語境界を取り、特殊文字・デリミタを除外した単位を返す。"""
     if not text:
         return []
 
-    # 引数のテキストをICUのBreakIteratorを使って単語単位で分割する。日本語のルールに従うため、Localeを日本語に設定する。
+    # 引数のテキストをICUのBreakIteratorを使って単語単位で分割する。日本語のルールに従うため、
+    # Localeを日本語に設定する。
     # 例："I am 佐々木です" 
     # → UnicodeString("I am 佐々木です") 
     # → BreakIteratorで "I", " ", "am", " ", "佐々木", "です"
@@ -66,7 +66,8 @@ def split_units(text: str) -> List[str]:
     unicode_text = UnicodeString(text)
     iterator.setText(unicode_text)
 
-    # 境界ごとに文字列を切り出して、ICUのルールに従って単語として扱うかを判定する。単語のリストを作成する。
+    # 境界ごとに文字列を切り出して、ICUのルールに従って単語として扱うかを判定する。
+    # 単語のリストを作成する。
     units: List[str] = []
     start = iterator.first()
     for end in iterator:
@@ -139,12 +140,12 @@ def char_2gram(text: str) -> List[str]:
     if len(text) < 2:
         return []
     
-    result: List[str] = []
+    tokens: List[str] = []
     for index in range(len(text) - 1):
         gram = text[index : index + 2]
-        result.append(gram)
+        tokens.append(gram)
 
-    return result
+    return tokens
 
 # 非日本語列から単語1-gramと隣接単語2-gramを生成する。
 def non_japanese_ngrams(items: Iterable[str]) -> List[str]:
