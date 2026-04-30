@@ -54,20 +54,20 @@ def split_units(text: str) -> List[str]:
     if not text:
         return []
 
-    # 引数のテキストをICUのBreakIteratorを使って単語単位で分割する。日本語のルールに従うため、
+    # 引数のテキストをICUのBreakIteratorを使って単語単位で分割する。日本語のルールに従うため
     # Localeを日本語に設定する。
     # 例："I am 佐々木です" 
-    # → UnicodeString("I am 佐々木です") 
-    # → BreakIteratorで "I", " ", "am", " ", "佐々木", "です"
-    # → iterator
-    # 文字　　　:  I  _  am  _  佐々木  です
-    # 境界index:  0  1  2   4  5      8   10
+    # → UnicodeString("I am 佐々木です") -> ユニコードで扱えるように変形
+    # → BreakIteratorで [0, 2, 5, 11] のように単語境界を示すインデックスの列を得る
+    # 文字　　　: | I  |  am  |  佐々木  です |
+    # 境界index: 0 1  2  3   5  6      9   11
     iterator = BreakIterator.createWordInstance(Locale.getJapanese())
     unicode_text = UnicodeString(text)
     iterator.setText(unicode_text)
 
     # 境界ごとに文字列を切り出して、ICUのルールに従って単語として扱うかを判定する。
     # 単語のリストを作成する。
+    # 例: ["I", " ", "am", " ", "佐々木", "です"] -> ["I", "am", "佐々木", "です"]
     units: List[str] = []
     start = iterator.first()
     for end in iterator:
