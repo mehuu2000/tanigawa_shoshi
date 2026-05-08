@@ -144,7 +144,7 @@ Solrのスキーマ設定を行う。
 * `ensure_schema(solr_base_url, core_name)`
 
 保存フィールドは `stored=true, indexed=false, docValues=false`。
-ただし `doi` は単一値、その他の保存フィールドは multiValued を想定する。
+ただし `doi` は単一値かつ必須、その他の保存フィールドは multiValued を想定する。
 トークンフィールドは `stored=false, indexed=true, docValues=false`。
 
 ### `solr_indexer.py`
@@ -159,6 +159,7 @@ MongoDBから文献を取得し、Solrへバッチ登録する。
 * `index_all()`
 
 対象文献は `content_type = "JA"` に限定する。
+`doi` が存在しない文書はその場でスキップし、DOI 不足スキップ件数として他の raw 必須不足とは別に集計する。
 raw データの必須項目が揃っていても、token fields のいずれかが空になる文書は登録対象から除外する。
 全件登録開始時に `log/YYYY_MM_DD_HH_MM_SS.log` を作成し、tokenize 後に必須 token field が空になった文書だけを MongoDB `_id`・対象フィールド・元の値・理由の形式で1行ずつ追記する。
 
@@ -276,7 +277,7 @@ Solr core に必要なフィールドを追加する。
 
 * 保存フィールド: `stored=true`, `indexed=false`, `docValues=false`
 * token fields: `stored=false`, `indexed=true`, `docValues=false`
-* `doi` は単一値
+* `doi` は単一値かつ必須
 * それ以外の保存フィールドと token fields は multiValued=true
 * 再実行しても壊れにくい
 

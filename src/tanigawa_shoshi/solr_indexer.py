@@ -16,7 +16,7 @@ from .config import (
     SOLR_BASE_URL,
     SOLR_CORE,
 )
-from .jalc_extract import build_solr_document_with_issues, has_required_fields
+from .jalc_extract import build_solr_document_with_issues, has_required_doi, has_required_fields
 
 
 JALC_FIND_QUERY = {"content_type": "JA"}
@@ -97,6 +97,7 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
     stats = {
         "input_count": 0,
         "built_count": 0,
+        "skipped_missing_doi": 0,
         "skipped_missing_required_fields": 0,
         "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
@@ -104,6 +105,10 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
 
     for doc in docs:
         stats["input_count"] += 1
+
+        if not has_required_doi(doc):
+            stats["skipped_missing_doi"] += 1
+            continue
 
         if not has_required_fields(doc):
             stats["skipped_missing_required_fields"] += 1
@@ -186,6 +191,7 @@ def index_all(
         "built_count": 0,
         "indexed_count": 0,
         "batch_count": 0,
+        "skipped_missing_doi": 0,
         "skipped_missing_required_fields": 0,
         "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
@@ -195,6 +201,10 @@ def index_all(
 
     for doc in raw_docs:
         stats["input_count"] += 1
+
+        if not has_required_doi(doc):
+            stats["skipped_missing_doi"] += 1
+            continue
 
         if not has_required_fields(doc):
             stats["skipped_missing_required_fields"] += 1
@@ -242,6 +252,7 @@ def index_all(
     print(f"読み込み件数: {stats['input_count']}")
     print(f"登録対象件数: {stats['built_count']}")
     print(f"登録件数: {stats['indexed_count']}")
+    print(f"DOI 不足スキップ件数: {stats['skipped_missing_doi']}")
     print(f"raw 必須不足スキップ件数: {stats['skipped_missing_required_fields']}")
     print(f"token 必須不足スキップ件数: {stats['skipped_missing_required_token_fields']}")
     print(f"その他スキップ件数: {stats['skipped_build_failed']}")

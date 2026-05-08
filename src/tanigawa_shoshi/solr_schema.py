@@ -14,7 +14,7 @@ SAVED_FIELDS = [
         "stored": True,
         "indexed": False,
         "docValues": False,
-        "required": False,
+        "required": True,
         "multiValued": False,
     },
     {

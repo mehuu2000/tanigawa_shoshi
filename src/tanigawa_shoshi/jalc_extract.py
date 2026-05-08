@@ -114,6 +114,10 @@ def has_required_fields(doc: Dict[str, Any]) -> bool:
         and (doc.get("first_page") or doc.get("last_page"))
     )
 
+# JaLC文書に DOI が存在し、空文字ではないことを確認する。
+def has_required_doi(doc: Dict[str, Any]) -> bool:
+    return bool(str(doc.get("doi") or "").strip())
+
 # 1つの JaLC文書から著者フィールド用の氏名バリエーションを抽出する関数。creator_list の各 creator の names から氏名バリエーションを生成し、重複を削除して返す。
 def extract_authors(doc: Dict[str, Any]) -> List[str]:
     authors = []
@@ -231,10 +235,10 @@ def extract_page(doc: Dict[str, Any]) -> List[str]:
 
 # 1つの JaLC文書から DOI を抽出する関数。doi フィールドの値をそのまま文字列として返す。doi フィールドが存在しない場合は None を返す。
 def extract_doi(doc: Dict[str, Any]) -> Optional[str]:
-    doi = doc.get("doi")
-    if doi is None:
+    doi = str(doc.get("doi") or "").strip()
+    if not doi:
         return None
-    return str(doi)
+    return doi
 
 # トークン化後に必須フィールドが空になっていないかをチェックする関数。空になっているフィールドがある場合はその理由などをissueとして返す。
 def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -253,6 +257,9 @@ def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[
 
 # 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。また、トークン化後に必須フィールドが空になっている場合は None を返し、その理由などを issue として返す。
 def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
+    if not has_required_doi(doc):
+        return None, []
+
     if not has_required_fields(doc):
         return None, []
 

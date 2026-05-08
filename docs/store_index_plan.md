@@ -25,7 +25,7 @@ F = {authors, title, journal, year, volume, page}
 
 後続のCC計算で使用するため、`first_author` も保存・トークン化する。
 ただし今回の検索では、論文の候補検索対象 `F` に合わせて `first_author_tokens` は検索対象から除外する。
-また、`doi` は `jalc-to-solr.ipynb` と同様に保持する。
+また、`doi` は `jalc-to-solr.ipynb` と同様に保持し、必須項目として扱う。
 `id` はアプリ側では指定せず、Solr 側の自動生成設定に任せる。
 
 MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせて `content_type = "JA"` の文献に限定する。
@@ -51,7 +51,7 @@ MongoDB `jalc.restapi` から取得する対象は、論文の対象に合わせ
 | volume  | true   | false   | false |
 | page    | true   | false   | false |
 
-`doi` は `jalc-to-solr.ipynb` に合わせて単一値で保持する。
+`doi` は `jalc-to-solr.ipynb` に合わせて単一値で保持し、存在しない文書は Solr 登録対象から除外する。
 `authors`, `first_author`, `title` は検索とトークン化の基準になる基本表記を保持する。
 `authors_variations`, `first_author_variations`, `title_variations` は、従来の複数表記を保持する補助フィールドとして登録する。
 それ以外の保存フィールドは、雑誌名などの複数表記を保持できるよう配列として登録する。
@@ -100,6 +100,8 @@ def tokenize_values(values):
         tokens.extend(tokenize(value))
     return unique_preserve_order(tokens)
 ```
+
+DOI が存在しない文書は、他の必須項目検査やトークン生成に進む前に Solr 登録対象から除外し、DOI 不足スキップ件数として集計する。
 
 raw データ上は必須項目が存在していても、特殊文字のみのタイトルのように tokenize() の結果が空集合になる文書がある。
 このような文書は `*_tokens` の required 制約を満たせないため、Solr 登録対象から除外する。
