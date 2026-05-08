@@ -9,6 +9,9 @@ pprint(result)
                   'authors',
                   'first_author',
                   'title',
+                  'authors_variations',
+                  'first_author_variations',
+                  'title_variations',
                   'journal',
                   'year',
                   'volume',
@@ -20,12 +23,15 @@ pprint(result)
                   'year_tokens',
                   'volume_tokens',
                   'page_tokens'],
- 'existing_field_count_after': 20,
+ 'existing_field_count_after': 23,
  'existing_field_count_before': 5,
  'expected_fields': ['doi',
                      'authors',
                      'first_author',
                      'title',
+                     'authors_variations',
+                     'first_author_variations',
+                     'title_variations',
                      'journal',
                      'year',
                      'volume',
@@ -36,7 +42,8 @@ pprint(result)
                      'journal_tokens',
                      'year_tokens',
                      'volume_tokens',
-                     'page_tokens']}
+                     'page_tokens'],
+ 'mismatched_fields': []}
 ```
 
 

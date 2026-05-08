@@ -5,6 +5,8 @@ from typing import Dict, List, Optional
 from urllib import error, parse, request
 
 
+FIELD_COMPARE_KEYS = ("type", "stored", "indexed", "docValues", "required", "multiValued")
+
 SAVED_FIELDS = [
     {
         "name": "doi",
@@ -181,6 +183,36 @@ def get_schema_url(solr_base_url: str, core_name: str) -> str:
 def get_expected_fields() -> List[Dict[str, object]]:
     return SAVED_FIELDS + TOKEN_FIELDS
 
+# 既存フィールドが期待定義と一致しているか確認し、不一致の詳細を返す。
+def find_field_mismatches(existing_fields: Dict[str, Dict]) -> List[Dict[str, object]]:
+    mismatches = []
+
+    for expected_field in get_expected_fields():
+        field_name = str(expected_field["name"])
+        existing_field = existing_fields.get(field_name)
+        if existing_field is None:
+            continue
+
+        differences = {}
+        for key in FIELD_COMPARE_KEYS:
+            expected_value = expected_field.get(key)
+            actual_value = existing_field.get(key)
+            if actual_value != expected_value:
+                differences[key] = {
+                    "expected": expected_value,
+                    "actual": actual_value,
+                }
+
+        if differences:
+            mismatches.append(
+                {
+                    "name": field_name,
+                    "differences": differences,
+                }
+            )
+
+    return mismatches
+
 # 引数を指定して、Schema APIにリクエストを送る共通関数。レスポンスを Jsonとして返す。
 def _request_json(url: str, method: str = "GET", payload: Optional[Dict] = None) -> Dict:
     data = None
@@ -231,10 +263,18 @@ def ensure_schema(solr_base_url: str, core_name: str) -> Dict:
     before_fields = get_existing_fields(solr_base_url, core_name)
     add_result = add_fields(solr_base_url, core_name)
     after_fields = get_existing_fields(solr_base_url, core_name)
+    mismatches = find_field_mismatches(after_fields)
+
+    if mismatches:
+        raise RuntimeError(
+            "既存 Solr field の定義が期待定義と一致しません。"
+            f" core を作り直すか schema を修正してください: {json.dumps(mismatches, ensure_ascii=False)}"
+        )
 
     return {
         "existing_field_count_before": len(before_fields),
         "existing_field_count_after": len(after_fields),
         "expected_fields": [field["name"] for field in get_expected_fields()],
         "added_fields": add_result.get("added_fields", []),
+        "mismatched_fields": [],
     }
