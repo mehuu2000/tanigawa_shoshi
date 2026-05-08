@@ -51,6 +51,15 @@ JaLC Reference Coverage 2026年創業
 
 ---
 
+## 参考文献文字列の分割
+
+参考文献文字列は MongoDB の書誌フィールドとは表示形式が異なり、`,`、`:`、`[]`、`()` などの区切り記号で要素が連結されていることが多い。
+検索時は、これらの区切り記号で参考文献文字列を疑似フィールド配列に分割してから、各要素に `tokenize_values()` を適用する。
+
+これにより、区切り記号をまたいだ不要な非日本語2-gramを作らず、MongoDBから抽出した保存フィールド配列に近い単位でクエリトークンを生成する。
+
+---
+
 ## 検索対象フィールド
 
 ```text
@@ -81,7 +90,8 @@ C = ⋃ Cf
 ## クエリ生成
 
 ```python
-tokens = tokenize(reference_string)
+reference_values = split_reference_values(reference_string)
+tokens = tokenize_values(reference_values)
 query_str = " ".join(tokens)
 
 params = {

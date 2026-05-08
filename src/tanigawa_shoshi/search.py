@@ -1,20 +1,30 @@
 """参考文献文字列に対する Solr 検索処理。"""
 
+import re
 from typing import Dict, List, Optional
 
 import pysolr
 
 from .config import SEARCH_FIELDS, SOLR_BASE_URL, SOLR_CORE
 from .solr_indexer import get_solr_client
-from .tokenizer import tokenize
+from .tokenizer import tokenize_values
 
 DEFAULT_MM = "2"    # mm(Minimum Match)：検索クエリのtokenが最低N個以上一致した文書だけを対象とする
 DEFAULT_ROWS = 10   # rows：検索結果の最大件数(上位N件)を指定する
 
+REFERENCE_SPLIT_PATTERN = re.compile(r"[,，、:：\[\]［］\(\)（）]+")
+
+
+# 参考文献文字列を区切り記号で疑似フィールド配列に分割する。
+def split_reference_values(reference_text: str) -> List[str]:
+    if not reference_text:
+        return []
+    return [value.strip() for value in REFERENCE_SPLIT_PATTERN.split(reference_text) if value.strip()]
+
 
 # 参考文献文字列をトークン化し、検索用 token 配列を返す。
 def build_query_tokens(reference_text: str) -> List[str]:
-    return tokenize(reference_text)
+    return tokenize_values(split_reference_values(reference_text))
 
 
 # token 配列を Solr の q パラメータへ渡す文字列に変換する。
