@@ -249,12 +249,13 @@ def index_all(
         print("最後に commit を実行")
 
     print("全件登録完了")
-    print(f"読み込み件数: {stats['input_count']}")
-    print(f"登録対象件数: {stats['built_count']}")
-    print(f"登録件数: {stats['indexed_count']}")
-    print(f"DOI 不足スキップ件数: {stats['skipped_missing_doi']}")
-    print(f"raw 必須不足スキップ件数: {stats['skipped_missing_required_fields']}")
-    print(f"token 必須不足スキップ件数: {stats['skipped_missing_required_token_fields']}")
-    print(f"その他スキップ件数: {stats['skipped_build_failed']}")
+    print(f"Mongo取得した日本語書誌の件数: {stats['input_count']}")
+    print(f"正常にSolrに登録できる形にビルドした件数: {stats['built_count']}")
+    print(f"正常にSolrに登録できた件数: {stats['indexed_count']}")
+    print("")
+    print(f"DOIがな買った件数: {stats['skipped_missing_doi']}")
+    print(f"必須生データが不足していた件数: {stats['skipped_missing_required_fields']}")
+    print(f"値が特殊文字のみだった件数: {stats['skipped_missing_required_token_fields']}")
+    print(f"カラムは存在するが、値が不足していた件数: {stats['skipped_build_failed']}")
 
     return stats
