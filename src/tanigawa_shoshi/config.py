@@ -9,11 +9,4 @@ SOLR_CORE = "tanigawa_paper_jalc"
 
 BATCH_SIZE = 10000
 
-SEARCH_FIELDS = [
-    "authors_tokens",
-    "title_tokens",
-    "journal_tokens",
-    "year_tokens",
-    "volume_tokens",
-    "page_tokens",
-]
+SEARCH_FIELD = "all_tokens"

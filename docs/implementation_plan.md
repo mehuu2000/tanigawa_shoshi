@@ -122,7 +122,7 @@ page
 `doi` は単一値で保持する。
 `volume` には MongoDB の `volume` と `issue` を同じ配列内に分けて入れる。
 
-検索用トークンフィールド：
+フィールド別トークンフィールド：
 
 ```text
 authors_tokens
@@ -132,6 +132,12 @@ journal_tokens
 year_tokens
 volume_tokens
 page_tokens
+```
+
+検索用統合トークンフィールド：
+
+```text
+all_tokens
 ```
 
 ### `solr_schema.py`
@@ -145,7 +151,8 @@ Solrのスキーマ設定を行う。
 
 保存フィールドは `stored=true, indexed=false, docValues=false`。
 ただし `doi` は単一値かつ必須、その他の保存フィールドは multiValued を想定する。
-トークンフィールドは `stored=false, indexed=true, docValues=false`。
+フィールド別トークンフィールドは `stored=true, indexed=false, docValues=false`。
+検索用の `all_tokens` は `stored=false, indexed=true, docValues=false`。
 
 ### `solr_indexer.py`
 
@@ -176,15 +183,10 @@ raw データの必須項目が揃っていても、token fields のいずれか
 今回の検索対象：
 
 ```text
-authors_tokens
-title_tokens
-journal_tokens
-year_tokens
-volume_tokens
-page_tokens
+all_tokens
 ```
 
-`first_author_tokens` は登録するが、今回の検索対象には含めない。
+`first_author_tokens` は登録するが、`all_tokens` には含めず、今回の検索対象にはしない。
 
 ---
 
@@ -266,9 +268,10 @@ Solr core に必要なフィールドを追加する。
 確認項目：
 
 * 保存フィールドは `stored=true` 用の値として残る
-* token fields は検索用に生成される
+* フィールド別 token fields は後続計算用に生成される
 * `first_author_tokens` は生成する
-* `all_tokens` は作らない
+* `all_tokens` は `authors_tokens`, `title_tokens`, `journal_tokens`, `year_tokens`, `volume_tokens`, `page_tokens` から生成する
+* `first_author_tokens` は `all_tokens` に含めない
 
 ### 5. Solrスキーマ設定を実装する
 
@@ -277,7 +280,8 @@ Solr core に必要なフィールドを追加する。
 確認項目：
 
 * 保存フィールド: `stored=true`, `indexed=false`, `docValues=false`
-* token fields: `stored=false`, `indexed=true`, `docValues=false`
+* フィールド別 token fields: `stored=true`, `indexed=false`, `docValues=false`
+* `all_tokens`: `stored=false`, `indexed=true`, `docValues=false`
 * `doi` は単一値かつ必須
 * それ以外の保存フィールドと token fields は multiValued=true
 * 再実行しても壊れにくい
@@ -300,16 +304,16 @@ Solr core に必要なフィールドを追加する。
 
 `search.py` を実装し、`notebooks/05_search_sample.ipynb` から実行する。
 
-検索には `edismax` を使い、`qf` は以下にする。
+検索には標準検索フィールド `df` を使い、対象フィールドは以下にする。
 
 ```text
-authors_tokens title_tokens journal_tokens year_tokens volume_tokens page_tokens
+all_tokens
 ```
 
 確認項目：
 
 * 入力文字列がトークン化される
-* `first_author_tokens` は検索対象に含めない
+* `first_author_tokens` は `all_tokens` に含めない
 * Solrから候補文献が返る
 * DOIやtitleなど保存フィールドが表示できる
 

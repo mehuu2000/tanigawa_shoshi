@@ -19,6 +19,15 @@ TOKEN_SOURCE_FIELDS = {
     "page_tokens": "page",
 }
 
+ALL_TOKEN_SOURCE_FIELDS = [
+    "authors_tokens",
+    "title_tokens",
+    "journal_tokens",
+    "year_tokens",
+    "volume_tokens",
+    "page_tokens",
+]
+
 # 重複を削除しつつ、順序を保ったままリストを返す関数。空文字や None は無視する。また、余分な空白も削除する。
 # jalc-to-solr.ipynbのlist(set(...))を拡張したもの
 def _unique_preserve_order(values: Iterable[Optional[str]]) -> List[str]:
@@ -243,7 +252,11 @@ def extract_doi(doc: Dict[str, Any]) -> Optional[str]:
 # トークン化後に必須フィールドが空になっていないかをチェックする関数。空になっているフィールドがある場合はその理由などをissueとして返す。
 def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[str, Any]]:
     issues = []
-    for token_field_name, source_field_name in TOKEN_SOURCE_FIELDS.items():
+    required_token_fields = {
+        **TOKEN_SOURCE_FIELDS,
+        "all_tokens": "all_tokens",
+    }
+    for token_field_name, source_field_name in required_token_fields.items():
         if not solr_document.get(token_field_name):
             issues.append(
                 {
@@ -254,6 +267,13 @@ def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[
                 }
             )
     return issues
+
+# 検索用の統合トークン集合を生成する。first_author_tokens は CC 用なので含めない。
+def build_all_tokens(solr_document: Dict[str, Any]) -> List[str]:
+    tokens = []
+    for field_name in ALL_TOKEN_SOURCE_FIELDS:
+        tokens.extend(solr_document.get(field_name) or [])
+    return _unique_preserve_order(tokens)
 
 # 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。また、トークン化後に必須フィールドが空になっている場合は None を返し、その理由などを issue として返す。
 def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
@@ -278,6 +298,14 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
     if not all([authors, first_author, title, journal, year, volume, page]):
         return None, []
 
+    authors_tokens = tokenize_values(authors)
+    first_author_tokens = tokenize_values(first_author)
+    title_tokens = tokenize_values(title)
+    journal_tokens = tokenize_values(journal)
+    year_tokens = tokenize_values(year)
+    volume_tokens = tokenize_values(volume)
+    page_tokens = tokenize_values(page)
+
     solr_document = {
         "doi": doi,
         "authors": authors,
@@ -290,14 +318,15 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
         "year": year,
         "volume": volume,
         "page": page,
-        "authors_tokens": tokenize_values(authors),
-        "first_author_tokens": tokenize_values(first_author),
-        "title_tokens": tokenize_values(title),
-        "journal_tokens": tokenize_values(journal),
-        "year_tokens": tokenize_values(year),
-        "volume_tokens": tokenize_values(volume),
-        "page_tokens": tokenize_values(page),
+        "authors_tokens": authors_tokens,
+        "first_author_tokens": first_author_tokens,
+        "title_tokens": title_tokens,
+        "journal_tokens": journal_tokens,
+        "year_tokens": year_tokens,
+        "volume_tokens": volume_tokens,
+        "page_tokens": page_tokens,
     }
+    solr_document["all_tokens"] = build_all_tokens(solr_document)
 
     token_issues = get_required_token_field_issues(solr_document)
     if token_issues:

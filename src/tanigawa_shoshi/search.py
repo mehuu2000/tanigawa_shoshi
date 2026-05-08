@@ -5,11 +5,10 @@ from typing import Dict, List, Optional
 
 import pysolr
 
-from .config import SEARCH_FIELDS, SOLR_BASE_URL, SOLR_CORE
+from .config import SEARCH_FIELD, SOLR_BASE_URL, SOLR_CORE
 from .solr_indexer import get_solr_client
 from .tokenizer import tokenize_values
 
-DEFAULT_MM = "2"    # mm(Minimum Match)：検索クエリのtokenが最低N個以上一致した文書だけを対象とする
 DEFAULT_ROWS = 10   # rows：検索結果の最大件数(上位N件)を指定する
 
 REFERENCE_SPLIT_PATTERN = re.compile(r"[,，、:：\[\]［］\(\)（）]+")
@@ -28,33 +27,35 @@ def build_query_tokens(reference_text: str) -> List[str]:
 
 
 # token 配列を Solr の q パラメータへ渡す文字列に変換する。
+def escape_query_token(token: str) -> str:
+    if any(ch.isspace() for ch in token):
+        return f'"{token}"'
+    return token
+
+
 def build_query_string(tokens: List[str]) -> str:
-    return " ".join(tokens)
+    return " ".join(escape_query_token(token) for token in tokens)
 
 
-# 検索対象フィールドを qf パラメータ文字列に変換する。
-def build_qf(fields: Optional[List[str]] = None) -> str:
-    target_fields = fields or SEARCH_FIELDS
-    return " ".join(target_fields)
+# 検索対象の統合トークンフィールドを返す。
+def build_search_field(field: Optional[str] = None) -> str:
+    return field or SEARCH_FIELD
 
 
 # Solr 検索パラメータを組み立てる。
 def build_search_params(
     reference_text: str,
     rows: int = DEFAULT_ROWS,
-    mm: str = DEFAULT_MM,
-    fields: Optional[List[str]] = None,
+    field: Optional[str] = None,
 ) -> Dict[str, object]:
     tokens = build_query_tokens(reference_text)
     query_string = build_query_string(tokens)
 
-    # edismax(Extended DisMax Query Parser)：検索対象を複数フィールドに指定できるクエリパーサー(qfで指定したフィールドに対して一括で検索をかけることができる)
+    # all_tokens 単一フィールドに対して、統合トークン集合 C = ⋃Cf の候補検索を行う。
     # "fl": "*,score"：検索結果に全てのフィールドとスコアを返す
     return {
         "q": query_string,
-        "defType": "edismax",
-        "qf": build_qf(fields),
-        "mm": mm,
+        "df": build_search_field(field),
         "rows": rows,
         "fl": "*,score",
     }
@@ -64,14 +65,13 @@ def build_search_params(
 def search_reference(
     reference_text: str,
     rows: int = DEFAULT_ROWS,
-    mm: str = DEFAULT_MM,
-    fields: Optional[List[str]] = None,
+    field: Optional[str] = None,
     solr: Optional[pysolr.Solr] = None,
     solr_base_url: str = SOLR_BASE_URL,
     core_name: str = SOLR_CORE,
 ):
     tokens = build_query_tokens(reference_text)
-    params = build_search_params(reference_text, rows=rows, mm=mm, fields=fields)
+    params = build_search_params(reference_text, rows=rows, field=field)
 
     if not tokens:
         return {
