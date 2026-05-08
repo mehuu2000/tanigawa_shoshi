@@ -3,7 +3,7 @@
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 from pymongo import MongoClient
 import pysolr
@@ -16,7 +16,12 @@ from .config import (
     SOLR_BASE_URL,
     SOLR_CORE,
 )
-from .jalc_extract import build_solr_document_with_issues, has_required_doi, has_required_fields
+from .jalc_extract import (
+    build_solr_document_with_issues,
+    extract_doi,
+    has_required_doi,
+    has_required_fields,
+)
 
 
 JALC_FIND_QUERY = {"content_type": "JA"}
@@ -94,10 +99,12 @@ def append_skip_log(log_path: Path, mongo_id: str, field_name: str, value: Any, 
 # sample 側で使う。JaLC 文書列から Solr 登録用文書列を作る。
 def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
     solr_documents = []
+    seen_dois: Set[str] = set()
     stats = {
         "input_count": 0,
         "built_count": 0,
         "skipped_missing_doi": 0,
+        "skipped_duplicate_doi": 0,
         "skipped_missing_required_fields": 0,
         "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
@@ -108,6 +115,11 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
 
         if not has_required_doi(doc):
             stats["skipped_missing_doi"] += 1
+            continue
+
+        doi = extract_doi(doc)
+        if doi in seen_dois:
+            stats["skipped_duplicate_doi"] += 1
             continue
 
         if not has_required_fields(doc):
@@ -122,9 +134,11 @@ def build_documents(docs: Iterable[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]
                 stats["skipped_build_failed"] += 1
             continue
 
+        seen_dois.add(doi)
         solr_documents.append(solr_document)
         stats["built_count"] += 1
 
+    stats["seen_doi_count"] = len(seen_dois)
     return solr_documents, stats
 
 # sample 側で使う。Solr 登録用文書列を batch 単位で Solr に送る。
@@ -186,12 +200,14 @@ def index_all(
         raise ValueError("batch_size は 1 以上である必要があります。")
 
     batch = []
+    seen_dois: Set[str] = set()
     stats = {
         "input_count": 0,
         "built_count": 0,
         "indexed_count": 0,
         "batch_count": 0,
         "skipped_missing_doi": 0,
+        "skipped_duplicate_doi": 0,
         "skipped_missing_required_fields": 0,
         "skipped_missing_required_token_fields": 0,
         "skipped_build_failed": 0,
@@ -204,6 +220,11 @@ def index_all(
 
         if not has_required_doi(doc):
             stats["skipped_missing_doi"] += 1
+            continue
+
+        doi = extract_doi(doc)
+        if doi in seen_dois:
+            stats["skipped_duplicate_doi"] += 1
             continue
 
         if not has_required_fields(doc):
@@ -227,6 +248,7 @@ def index_all(
                 )
             continue
 
+        seen_dois.add(doi)
         batch.append(solr_document)
         stats["built_count"] += 1
 
@@ -253,9 +275,11 @@ def index_all(
     print(f"正常にSolrに登録できる形にビルドした件数: {stats['built_count']}")
     print(f"正常にSolrに登録できた件数: {stats['indexed_count']}")
     print("")
-    print(f"DOIがな買った件数: {stats['skipped_missing_doi']}")
+    print(f"DOIがなかった件数: {stats['skipped_missing_doi']}")
+    print(f"DOIが重複していた件数: {stats['skipped_duplicate_doi']}")
     print(f"必須生データが不足していた件数: {stats['skipped_missing_required_fields']}")
     print(f"値が特殊文字のみだった件数: {stats['skipped_missing_required_token_fields']}")
     print(f"カラムは存在するが、値が不足していた件数: {stats['skipped_build_failed']}")
 
+    stats["seen_doi_count"] = len(seen_dois)
     return stats
