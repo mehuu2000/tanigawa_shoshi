@@ -2,7 +2,7 @@
 
 ## 目的
 
-今回の実装範囲は、MongoDB `jalc.restapi` の JaLC 文献データから、論文方針に沿ったフィールド別トークンを生成し、Solrへ登録・インデックス作成し、参考文献文字列から簡単な検索を行うところまでとする。
+今回の実装範囲は、MongoDB `jalc.restapi` の JaLC 文献データから、論文方針に沿った統合トークン `all_tokens` を生成し、Solrへ登録・インデックス作成し、参考文献文字列から簡単な検索を行うところまでとする。
 
 RC / CC / MC によるスコアリングと閾値判定は後続フェーズで実装する。
 
@@ -122,18 +122,6 @@ page
 `doi` は単一値で保持する。
 `volume` には MongoDB の `volume` と `issue` を同じ配列内に分けて入れる。
 
-フィールド別トークンフィールド：
-
-```text
-authors_tokens
-first_author_tokens
-title_tokens
-journal_tokens
-year_tokens
-volume_tokens
-page_tokens
-```
-
 検索用統合トークンフィールド：
 
 ```text
@@ -151,7 +139,6 @@ Solrのスキーマ設定を行う。
 
 保存フィールドは `stored=true, indexed=false, docValues=false`。
 ただし `doi` は単一値かつ必須、その他の保存フィールドは multiValued を想定する。
-フィールド別トークンフィールドは `stored=true, indexed=false, docValues=false`。
 検索用の `all_tokens` は `stored=false, indexed=true, docValues=false`。
 
 ### `solr_indexer.py`
@@ -168,7 +155,7 @@ MongoDBから文献を取得し、Solrへバッチ登録する。
 対象文献は `content_type = "JA"` に限定する。
 `doi` が存在しない文書はその場でスキップし、DOI 不足スキップ件数として他の raw 必須不足とは別に集計する。
 登録対象として採用済みの DOI はアプリ側の `set` で保持し、同じ DOI を持つ後続文書はスキップして DOI 重複スキップ件数として集計する。
-raw データの必須項目が揃っていても、token fields のいずれかが空になる文書は登録対象から除外する。
+raw データの必須項目が揃っていても、`all_tokens` が空になる文書は登録対象から除外する。
 全件登録開始時に `log/YYYY_MM_DD_HH_MM_SS.log` を作成し、tokenize 後に必須 token field が空になった文書だけを MongoDB `_id`・対象フィールド・元の値・理由の形式で1行ずつ追記する。
 
 ### `search.py`
@@ -186,7 +173,7 @@ raw データの必須項目が揃っていても、token fields のいずれか
 all_tokens
 ```
 
-`first_author_tokens` は登録するが、`all_tokens` には含めず、今回の検索対象にはしない。
+`first_author` は登録するが、`all_tokens` の生成元には含めず、今回の検索対象にはしない。
 
 ---
 
@@ -263,15 +250,13 @@ Solr core に必要なフィールドを追加する。
 
 ### 4. Solr登録用ドキュメント生成を実装する
 
-保存フィールドから対応する `*_tokens` を生成し、Solr登録用dictを作る。
+保存フィールドから `all_tokens` を生成し、Solr登録用dictを作る。
 
 確認項目：
 
 * 保存フィールドは `stored=true` 用の値として残る
-* フィールド別 token fields は後続計算用に生成される
-* `first_author_tokens` は生成する
-* `all_tokens` は `authors_tokens`, `title_tokens`, `journal_tokens`, `year_tokens`, `volume_tokens`, `page_tokens` から生成する
-* `first_author_tokens` は `all_tokens` に含めない
+* `all_tokens` は `authors`, `title`, `journal`, `year`, `volume`, `page` から生成する
+* `first_author` は `all_tokens` の生成元に含めない
 
 ### 5. Solrスキーマ設定を実装する
 
@@ -280,10 +265,10 @@ Solr core に必要なフィールドを追加する。
 確認項目：
 
 * 保存フィールド: `stored=true`, `indexed=false`, `docValues=false`
-* フィールド別 token fields: `stored=true`, `indexed=false`, `docValues=false`
 * `all_tokens`: `stored=false`, `indexed=true`, `docValues=false`
 * `doi` は単一値かつ必須
-* それ以外の保存フィールドと token fields は multiValued=true
+* それ以外の保存フィールドと `all_tokens` は multiValued=true
+* 旧 `*_tokens` field が既存 core に残っている場合はエラーにする
 * 再実行しても壊れにくい
 
 ### 6. 小件数でSolr登録する
@@ -313,7 +298,7 @@ all_tokens
 確認項目：
 
 * 入力文字列がトークン化される
-* `first_author_tokens` は `all_tokens` に含めない
+* `first_author` は `all_tokens` の生成元に含めない
 * Solrから候補文献が返る
 * DOIやtitleなど保存フィールドが表示できる
 

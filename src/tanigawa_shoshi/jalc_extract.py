@@ -250,32 +250,41 @@ def extract_doi(doc: Dict[str, Any]) -> Optional[str]:
     return doi
 
 # トークン化後に必須フィールドが空になっていないかをチェックする関数。空になっているフィールドがある場合はその理由などをissueとして返す。
-def get_required_token_field_issues(solr_document: Dict[str, Any]) -> List[Dict[str, Any]]:
+def get_required_token_field_issues(
+    token_fields: Dict[str, List[str]],
+    source_fields: Dict[str, Any],
+) -> List[Dict[str, Any]]:
     issues = []
-    required_token_fields = {
-        **TOKEN_SOURCE_FIELDS,
-        "all_tokens": "all_tokens",
-    }
-    for token_field_name, source_field_name in required_token_fields.items():
-        if not solr_document.get(token_field_name):
+    for token_field_name, source_field_name in TOKEN_SOURCE_FIELDS.items():
+        if not token_fields.get(token_field_name):
             issues.append(
                 {
                     "reason_code": "required_token_field_empty",
                     "field_name": token_field_name,
-                    "value": solr_document.get(source_field_name),
+                    "value": source_fields.get(source_field_name),
                     "reason": f"tokenize 後に必須フィールド {token_field_name} が空になったため登録しない",
                 }
             )
+    if not token_fields.get("all_tokens"):
+        issues.append(
+            {
+                "reason_code": "required_token_field_empty",
+                "field_name": "all_tokens",
+                "value": token_fields.get("all_tokens"),
+                "reason": "tokenize 後に必須フィールド all_tokens が空になったため登録しない",
+            }
+        )
     return issues
 
-# 検索用の統合トークン集合を生成する。first_author_tokens は CC 用なので含めない。
-def build_all_tokens(solr_document: Dict[str, Any]) -> List[str]:
+# 検索用の統合トークン集合を生成する。first_author は CC 用なので含めない。
+def build_all_tokens(token_fields: Dict[str, List[str]]) -> List[str]:
     tokens = []
     for field_name in ALL_TOKEN_SOURCE_FIELDS:
-        tokens.extend(solr_document.get(field_name) or [])
+        tokens.extend(token_fields.get(field_name) or [])
     return _unique_preserve_order(tokens)
 
-# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。また、トークン化後に必須フィールドが空になっている場合は None を返し、その理由などを issue として返す。
+# 1つの JaLC文書から Solr 登録用の dict を生成する関数。
+# フィールド別トークンは検証と all_tokens 生成だけに使い、Solr 登録用 dict には含めない。
 def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
     if not has_required_doi(doc):
         return None, []
@@ -298,13 +307,25 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
     if not all([authors, first_author, title, journal, year, volume, page]):
         return None, []
 
-    authors_tokens = tokenize_values(authors)
-    first_author_tokens = tokenize_values(first_author)
-    title_tokens = tokenize_values(title)
-    journal_tokens = tokenize_values(journal)
-    year_tokens = tokenize_values(year)
-    volume_tokens = tokenize_values(volume)
-    page_tokens = tokenize_values(page)
+    source_fields = {
+        "authors": authors,
+        "first_author": first_author,
+        "title": title,
+        "journal": journal,
+        "year": year,
+        "volume": volume,
+        "page": page,
+    }
+    token_fields = {
+        "authors_tokens": tokenize_values(authors),
+        "first_author_tokens": tokenize_values(first_author),
+        "title_tokens": tokenize_values(title),
+        "journal_tokens": tokenize_values(journal),
+        "year_tokens": tokenize_values(year),
+        "volume_tokens": tokenize_values(volume),
+        "page_tokens": tokenize_values(page),
+    }
+    token_fields["all_tokens"] = build_all_tokens(token_fields)
 
     solr_document = {
         "doi": doi,
@@ -318,24 +339,17 @@ def build_solr_document_with_issues(doc: Dict[str, Any]) -> Tuple[Optional[Dict[
         "year": year,
         "volume": volume,
         "page": page,
-        "authors_tokens": authors_tokens,
-        "first_author_tokens": first_author_tokens,
-        "title_tokens": title_tokens,
-        "journal_tokens": journal_tokens,
-        "year_tokens": year_tokens,
-        "volume_tokens": volume_tokens,
-        "page_tokens": page_tokens,
+        "all_tokens": token_fields["all_tokens"],
     }
-    solr_document["all_tokens"] = build_all_tokens(solr_document)
 
-    token_issues = get_required_token_field_issues(solr_document)
+    token_issues = get_required_token_field_issues(token_fields, source_fields)
     if token_issues:
         return None, token_issues
 
     return solr_document, []
 
-# 1つの JaLC文書から Solr 登録用の dict を生成する関数。必要な書誌要素が揃っていない場合は None を返す。それ以外の場合は、基本表記の著者・筆頭著者・タイトル、各 variations フィールド、雑誌名、出版年、巻号、ページ情報、DOI とそれぞれのトークン化されたバージョンを含む dict を返す。
-# こちらは確認用関数で、token_issues は返さず、トークン化後に必須フィールドが空になっている場合は None を返す。
+# 1つの JaLC文書から Solr 登録用の dict を生成する確認用関数。
+# token_issues は返さず、登録できない文書は None を返す。
 def build_solr_document(doc: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     solr_document, _ = build_solr_document_with_issues(doc)
     return solr_document

@@ -6,6 +6,15 @@ from urllib import error, parse, request
 
 
 FIELD_COMPARE_KEYS = ("type", "stored", "indexed", "docValues", "required", "multiValued")
+DEPRECATED_TOKEN_FIELD_NAMES = (
+    "authors_tokens",
+    "first_author_tokens",
+    "title_tokens",
+    "journal_tokens",
+    "year_tokens",
+    "volume_tokens",
+    "page_tokens",
+)
 
 SAVED_FIELDS = [
     {
@@ -111,69 +120,6 @@ SAVED_FIELDS = [
 
 TOKEN_FIELDS = [
     {
-        "name": "authors_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "first_author_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "title_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "journal_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "year_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "volume_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
-        "name": "page_tokens",
-        "type": "string",
-        "stored": True,
-        "indexed": False,
-        "docValues": False,
-        "required": True,
-        "multiValued": True,
-    },
-    {
         "name": "all_tokens",
         "type": "string",
         "stored": False,
@@ -221,6 +167,10 @@ def find_field_mismatches(existing_fields: Dict[str, Dict]) -> List[Dict[str, ob
             )
 
     return mismatches
+
+# 旧スキーマで作成したフィールド別トークンが残っているか確認する。
+def find_deprecated_fields(existing_fields: Dict[str, Dict]) -> List[str]:
+    return [field_name for field_name in DEPRECATED_TOKEN_FIELD_NAMES if field_name in existing_fields]
 
 # 引数を指定して、Schema APIにリクエストを送る共通関数。レスポンスを Jsonとして返す。
 def _request_json(url: str, method: str = "GET", payload: Optional[Dict] = None) -> Dict:
@@ -270,6 +220,14 @@ def add_fields(solr_base_url: str, core_name: str) -> Dict:
 # 最後に元のフィールド数、最終的なフィールド数、追加されたフィールド名のリストを返す。
 def ensure_schema(solr_base_url: str, core_name: str) -> Dict:
     before_fields = get_existing_fields(solr_base_url, core_name)
+    deprecated_fields = find_deprecated_fields(before_fields)
+    if deprecated_fields:
+        raise RuntimeError(
+            "旧 Solr field が残っています。現行実装では all_tokens だけを登録するため、"
+            "既存 core を作り直すか旧 field を削除してから再実行してください: "
+            f"{json.dumps(deprecated_fields, ensure_ascii=False)}"
+        )
+
     add_result = add_fields(solr_base_url, core_name)
     after_fields = get_existing_fields(solr_base_url, core_name)
     mismatches = find_field_mismatches(after_fields)
@@ -285,5 +243,6 @@ def ensure_schema(solr_base_url: str, core_name: str) -> Dict:
         "existing_field_count_after": len(after_fields),
         "expected_fields": [field["name"] for field in get_expected_fields()],
         "added_fields": add_result.get("added_fields", []),
+        "deprecated_fields": [],
         "mismatched_fields": [],
     }

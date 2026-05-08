@@ -66,8 +66,8 @@ JaLC Reference Coverage 2026年創業
 all_tokens
 ```
 
-`all_tokens` は `authors_tokens`, `title_tokens`, `journal_tokens`, `year_tokens`, `volume_tokens`, `page_tokens` を統合した検索用フィールド。
-`first_author_tokens` はSolrに stored field として登録するが、`all_tokens` には含めない。
+`all_tokens` は `authors`, `title`, `journal`, `year`, `volume`, `page` から生成したトークンを統合した検索用フィールド。
+`first_author` はSolrに stored field として登録するが、`all_tokens` の生成元には含めない。
 後続のCC計算で使用するためのフィールドとして扱う。
 
 ---

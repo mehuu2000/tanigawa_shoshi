@@ -187,13 +187,17 @@ def tokenize(text):
 
 ## フィールド単位での使用方法
 
-本関数は以下のようにフィールド単位で適用する。
+本関数は以下のようにフィールド単位で適用し、Solr登録時は検索用の `all_tokens` を生成する。
 
 ```python
-title_tokens = tokenize(title)
-authors_tokens = tokenize(authors)
-journal_tokens = tokenize(journal)
-...
+all_tokens = unique_preserve_order(
+    tokenize_values(authors)
+    + tokenize_values(title)
+    + tokenize_values(journal)
+    + tokenize_values(year)
+    + tokenize_values(volume)
+    + tokenize_values(page)
+)
 ```
 
 ---
