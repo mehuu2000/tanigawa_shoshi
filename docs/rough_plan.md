@@ -94,7 +94,7 @@ Solrへの登録処理やスキーマ設定は、既存の `../jalc/jalc-to-solr
 * `indexed=true`
 * `docValues=false`
 
-`all_tokens` は `authors`, `title`, `journal`, `year`, `volume`, `page` から生成したトークンを統合した `C = ⋃Cf` として登録する。
+`all_tokens` は `authors`, `title`, `journal`, `year`, `volume`, `page` から生成したトークンを統合した `C = ⋃_{f ∈ F} C_f` として登録する。
 `first_author` は CC 計算用なので `all_tokens` の生成元には含めない。
 raw の書誌要素が存在していても、tokenize() の結果 `all_tokens` が空になる文書は登録対象から除外する。
 
@@ -119,7 +119,7 @@ raw の書誌要素が存在していても、tokenize() の結果 `all_tokens` 
 論文における
 
 ```
-C = ⋃ Cf
+C = ⋃_{f ∈ F} C_f
 ```
 
 に対応し、登録時に作成した `all_tokens` に対して検索を行う。
@@ -205,4 +205,4 @@ F' = {first author, title, journal, year, volume, page}
 * 検索件数（K）の最適値
 * トークン化の高速化
 * 表記揺れ（著者名・雑誌名）の扱い
-* 閾値の決定方法
+* 論文記載閾値の妥当性確認

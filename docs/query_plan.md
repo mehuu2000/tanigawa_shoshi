@@ -77,7 +77,7 @@ all_tokens
 論文では
 
 ```text
-C = ⋃ Cf
+C = ⋃_{f ∈ F} C_f
 ```
 
 として、全フィールドのトークン集合を検索対象としている。
@@ -134,7 +134,7 @@ tokens ∈ all_tokens
     ↓
 トークン集合生成
     ↓
-all_tokens 検索（C = ⋃ Cf）
+all_tokens 検索（C = ⋃_{f ∈ F} C_f）
     ↓
 候補取得（BM25）
 ```

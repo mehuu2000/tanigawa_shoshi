@@ -29,6 +29,7 @@ tanigawa_shoshi/
     store_index_plan.md
     query_plan.md
     implementation_plan.md
+    evaluation_plan.md
 
   src/
     tanigawa_shoshi/
@@ -319,7 +320,7 @@ all_tokens
 以下は後続フェーズで扱う。
 
 * RC / CC / MC のスコアリング
-* 閾値決定
+* 論文記載閾値の適用
 * 同定成功 / 同定なしの判定
 * 評価用 positive / negative データ生成
 * 検索件数 K の最適化
