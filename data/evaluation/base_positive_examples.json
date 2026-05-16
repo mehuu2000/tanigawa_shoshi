@@ -1,0 +1,4526 @@
+[
+  {
+    "example_id": "6906efb3f54a306c79d12998:ipsj",
+    "source_id": "6906efb3f54a306c79d12998",
+    "label": "positive",
+    "doi": "10.14930/jsma1939.32.511",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "与儀洋",
+        "鄭彰雄",
+        "松崎史朗",
+        "増田豊",
+        "宮田拓雄",
+        "細山田明義",
+        "高橋敬蔵",
+        "外丸輝明"
+      ],
+      "title": "STUDIES OF TETANY DURING ANESTHESIA",
+      "journal": "J Showa Med Assoc",
+      "year": "1972",
+      "volume": "32",
+      "issue": "9",
+      "page": "511-515"
+    },
+    "reference_text": "与儀洋, 鄭彰雄, 松崎史朗, 増田豊, 宮田拓雄, 細山田明義, 高橋敬蔵, 外丸輝明：STUDIES OF TETANY DURING ANESTHESIA, J Showa Med Assoc, Vol. 32, No. 9, pp. 511-515, 1972"
+  },
+  {
+    "example_id": "6906efb3f54a306c79d12998:jsai",
+    "source_id": "6906efb3f54a306c79d12998",
+    "label": "positive",
+    "doi": "10.14930/jsma1939.32.511",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "与儀洋",
+        "鄭彰雄",
+        "松崎史朗",
+        "増田豊",
+        "宮田拓雄",
+        "細山田明義",
+        "高橋敬蔵",
+        "外丸輝明"
+      ],
+      "title": "STUDIES OF TETANY DURING ANESTHESIA",
+      "journal": "J Showa Med Assoc",
+      "year": "1972",
+      "volume": "32",
+      "issue": "9",
+      "page": "511-515"
+    },
+    "reference_text": "与儀洋, 鄭彰雄, 松崎史朗, 増田豊, 宮田拓雄, 細山田明義, 高橋敬蔵, 外丸輝明：STUDIES OF TETANY DURING ANESTHESIA, J Showa Med Assoc, Vol. 32, No. 9, pp. 511-515 (1972)"
+  },
+  {
+    "example_id": "6906efb3f54a306c79d12998:lsj",
+    "source_id": "6906efb3f54a306c79d12998",
+    "label": "positive",
+    "doi": "10.14930/jsma1939.32.511",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "与儀洋",
+        "鄭彰雄",
+        "松崎史朗",
+        "増田豊",
+        "宮田拓雄",
+        "細山田明義",
+        "高橋敬蔵",
+        "外丸輝明"
+      ],
+      "title": "STUDIES OF TETANY DURING ANESTHESIA",
+      "journal": "J Showa Med Assoc",
+      "year": "1972",
+      "volume": "32",
+      "issue": "9",
+      "page": "511-515"
+    },
+    "reference_text": "与儀洋・鄭彰雄・松崎史朗・増田豊・宮田拓雄・細山田明義・高橋敬蔵・外丸輝明（1972）「STUDIES OF TETANY DURING ANESTHESIA」『J Showa Med Assoc』32(9): 511-515."
+  },
+  {
+    "example_id": "690712d276e32cb9064913a2:ipsj",
+    "source_id": "690712d276e32cb9064913a2",
+    "label": "positive",
+    "doi": "10.2151/jmsj1882.15.7_333",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小川徳太郎"
+      ],
+      "title": "漁業奨勵と暴風",
+      "journal": "Journal of the Meteorological Society of Japan. Ser. I",
+      "year": "1896",
+      "volume": "15",
+      "issue": "7",
+      "page": "333-335"
+    },
+    "reference_text": "小川徳太郎：漁業奨勵と暴風, Journal of the Meteorological Society of Japan. Ser. I, Vol. 15, No. 7, pp. 333-335, 1896"
+  },
+  {
+    "example_id": "690712d276e32cb9064913a2:jsai",
+    "source_id": "690712d276e32cb9064913a2",
+    "label": "positive",
+    "doi": "10.2151/jmsj1882.15.7_333",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小川徳太郎"
+      ],
+      "title": "漁業奨勵と暴風",
+      "journal": "Journal of the Meteorological Society of Japan. Ser. I",
+      "year": "1896",
+      "volume": "15",
+      "issue": "7",
+      "page": "333-335"
+    },
+    "reference_text": "小川徳太郎：漁業奨勵と暴風, Journal of the Meteorological Society of Japan. Ser. I, Vol. 15, No. 7, pp. 333-335 (1896)"
+  },
+  {
+    "example_id": "690712d276e32cb9064913a2:lsj",
+    "source_id": "690712d276e32cb9064913a2",
+    "label": "positive",
+    "doi": "10.2151/jmsj1882.15.7_333",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小川徳太郎"
+      ],
+      "title": "漁業奨勵と暴風",
+      "journal": "Journal of the Meteorological Society of Japan. Ser. I",
+      "year": "1896",
+      "volume": "15",
+      "issue": "7",
+      "page": "333-335"
+    },
+    "reference_text": "小川徳太郎（1896）「漁業奨勵と暴風」『Journal of the Meteorological Society of Japan. Ser. I』15(7): 333-335."
+  },
+  {
+    "example_id": "690714a176e32cb9068c56d7:ipsj",
+    "source_id": "690714a176e32cb9068c56d7",
+    "label": "positive",
+    "doi": "10.11477/mf.1551202280",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田中敏明",
+        "杉原俊一"
+      ],
+      "title": "Close-up ロボット ロボットと理学療法-現状と展望",
+      "journal": "理学療法ジャーナル",
+      "year": "2021",
+      "volume": "55",
+      "issue": "4",
+      "page": "453-459"
+    },
+    "reference_text": "田中敏明, 杉原俊一：Close-up ロボット ロボットと理学療法-現状と展望, 理学療法ジャーナル, Vol. 55, No. 4, pp. 453-459, 2021"
+  },
+  {
+    "example_id": "690714a176e32cb9068c56d7:jsai",
+    "source_id": "690714a176e32cb9068c56d7",
+    "label": "positive",
+    "doi": "10.11477/mf.1551202280",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田中敏明",
+        "杉原俊一"
+      ],
+      "title": "Close-up ロボット ロボットと理学療法-現状と展望",
+      "journal": "理学療法ジャーナル",
+      "year": "2021",
+      "volume": "55",
+      "issue": "4",
+      "page": "453-459"
+    },
+    "reference_text": "田中敏明, 杉原俊一：Close-up ロボット ロボットと理学療法-現状と展望, 理学療法ジャーナル, Vol. 55, No. 4, pp. 453-459 (2021)"
+  },
+  {
+    "example_id": "690714a176e32cb9068c56d7:lsj",
+    "source_id": "690714a176e32cb9068c56d7",
+    "label": "positive",
+    "doi": "10.11477/mf.1551202280",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田中敏明",
+        "杉原俊一"
+      ],
+      "title": "Close-up ロボット ロボットと理学療法-現状と展望",
+      "journal": "理学療法ジャーナル",
+      "year": "2021",
+      "volume": "55",
+      "issue": "4",
+      "page": "453-459"
+    },
+    "reference_text": "田中敏明・杉原俊一（2021）「Close-up ロボット ロボットと理学療法-現状と展望」『理学療法ジャーナル』55(4): 453-459."
+  },
+  {
+    "example_id": "6906ee84f54a306c79a63fad:ipsj",
+    "source_id": "6906ee84f54a306c79a63fad",
+    "label": "positive",
+    "doi": "10.1299/jsmeapbio.2015.8.111",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Takeda Ryo",
+        "Lisco Giulia",
+        "Fujisawa Tadashi",
+        "Gastaldi Laura",
+        "Pastorelli Stefano",
+        "Tohyama Harukazu",
+        "Tadano Shigeru"
+      ],
+      "title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)",
+      "journal": "Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics",
+      "year": "2015",
+      "volume": "2015.8",
+      "issue": "0",
+      "page": "111"
+    },
+    "reference_text": "Takeda Ryo, Lisco Giulia, Fujisawa Tadashi, Gastaldi Laura, Pastorelli Stefano, Tohyama Harukazu, Tadano Shigeru：OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation), Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics, Vol. 2015.8, No. 0, pp. 111, 2015"
+  },
+  {
+    "example_id": "6906ee84f54a306c79a63fad:jsai",
+    "source_id": "6906ee84f54a306c79a63fad",
+    "label": "positive",
+    "doi": "10.1299/jsmeapbio.2015.8.111",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Takeda Ryo",
+        "Lisco Giulia",
+        "Fujisawa Tadashi",
+        "Gastaldi Laura",
+        "Pastorelli Stefano",
+        "Tohyama Harukazu",
+        "Tadano Shigeru"
+      ],
+      "title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)",
+      "journal": "Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics",
+      "year": "2015",
+      "volume": "2015.8",
+      "issue": "0",
+      "page": "111"
+    },
+    "reference_text": "Takeda Ryo, Lisco Giulia, Fujisawa Tadashi, Gastaldi Laura, Pastorelli Stefano, Tohyama Harukazu, Tadano Shigeru：OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation), Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics, Vol. 2015.8, No. 0, pp. 111 (2015)"
+  },
+  {
+    "example_id": "6906ee84f54a306c79a63fad:lsj",
+    "source_id": "6906ee84f54a306c79a63fad",
+    "label": "positive",
+    "doi": "10.1299/jsmeapbio.2015.8.111",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Takeda Ryo",
+        "Lisco Giulia",
+        "Fujisawa Tadashi",
+        "Gastaldi Laura",
+        "Pastorelli Stefano",
+        "Tohyama Harukazu",
+        "Tadano Shigeru"
+      ],
+      "title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)",
+      "journal": "Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics",
+      "year": "2015",
+      "volume": "2015.8",
+      "issue": "0",
+      "page": "111"
+    },
+    "reference_text": "Takeda Ryo・Lisco Giulia・Fujisawa Tadashi・Gastaldi Laura・Pastorelli Stefano・Tohyama Harukazu・Tadano Shigeru（2015）「OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)」『Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics』2015.8(0): 111."
+  },
+  {
+    "example_id": "6907164976e32cb906d1a87d:ipsj",
+    "source_id": "6907164976e32cb906d1a87d",
+    "label": "positive",
+    "doi": "10.57540/campushealth.56.2_211",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山﨑勇",
+        "高橋知音",
+        "金井美保子",
+        "榛葉清香",
+        "金子稔"
+      ],
+      "title": "工学部2年生以上におけるASD・ADHD関連の困り感",
+      "journal": "CAMPUS HEALTH",
+      "year": "2019",
+      "volume": "56",
+      "issue": "2",
+      "page": "211-217"
+    },
+    "reference_text": "山﨑勇, 高橋知音, 金井美保子, 榛葉清香, 金子稔：工学部2年生以上におけるASD・ADHD関連の困り感, CAMPUS HEALTH, Vol. 56, No. 2, pp. 211-217, 2019"
+  },
+  {
+    "example_id": "6907164976e32cb906d1a87d:jsai",
+    "source_id": "6907164976e32cb906d1a87d",
+    "label": "positive",
+    "doi": "10.57540/campushealth.56.2_211",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山﨑勇",
+        "高橋知音",
+        "金井美保子",
+        "榛葉清香",
+        "金子稔"
+      ],
+      "title": "工学部2年生以上におけるASD・ADHD関連の困り感",
+      "journal": "CAMPUS HEALTH",
+      "year": "2019",
+      "volume": "56",
+      "issue": "2",
+      "page": "211-217"
+    },
+    "reference_text": "山﨑勇, 高橋知音, 金井美保子, 榛葉清香, 金子稔：工学部2年生以上におけるASD・ADHD関連の困り感, CAMPUS HEALTH, Vol. 56, No. 2, pp. 211-217 (2019)"
+  },
+  {
+    "example_id": "6907164976e32cb906d1a87d:lsj",
+    "source_id": "6907164976e32cb906d1a87d",
+    "label": "positive",
+    "doi": "10.57540/campushealth.56.2_211",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山﨑勇",
+        "高橋知音",
+        "金井美保子",
+        "榛葉清香",
+        "金子稔"
+      ],
+      "title": "工学部2年生以上におけるASD・ADHD関連の困り感",
+      "journal": "CAMPUS HEALTH",
+      "year": "2019",
+      "volume": "56",
+      "issue": "2",
+      "page": "211-217"
+    },
+    "reference_text": "山﨑勇・高橋知音・金井美保子・榛葉清香・金子稔（2019）「工学部2年生以上におけるASD・ADHD関連の困り感」『CAMPUS HEALTH』56(2): 211-217."
+  },
+  {
+    "example_id": "6907181476e32cb9060acd04:ipsj",
+    "source_id": "6907181476e32cb9060acd04",
+    "label": "positive",
+    "doi": "10.11404/jsgcs.46.253",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宇都宮尚",
+        "北川晋二",
+        "増成暁",
+        "上田真信",
+        "平賀聖久",
+        "高野平八郎",
+        "八尾隆史"
+      ],
+      "title": "検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌",
+      "journal": "日本消化器集団検診学会雑誌",
+      "year": "2008",
+      "volume": "46",
+      "issue": "2",
+      "page": "253-256"
+    },
+    "reference_text": "宇都宮尚, 北川晋二, 増成暁, 上田真信, 平賀聖久, 高野平八郎, 八尾隆史：検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌, 日本消化器集団検診学会雑誌, Vol. 46, No. 2, pp. 253-256, 2008"
+  },
+  {
+    "example_id": "6907181476e32cb9060acd04:jsai",
+    "source_id": "6907181476e32cb9060acd04",
+    "label": "positive",
+    "doi": "10.11404/jsgcs.46.253",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宇都宮尚",
+        "北川晋二",
+        "増成暁",
+        "上田真信",
+        "平賀聖久",
+        "高野平八郎",
+        "八尾隆史"
+      ],
+      "title": "検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌",
+      "journal": "日本消化器集団検診学会雑誌",
+      "year": "2008",
+      "volume": "46",
+      "issue": "2",
+      "page": "253-256"
+    },
+    "reference_text": "宇都宮尚, 北川晋二, 増成暁, 上田真信, 平賀聖久, 高野平八郎, 八尾隆史：検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌, 日本消化器集団検診学会雑誌, Vol. 46, No. 2, pp. 253-256 (2008)"
+  },
+  {
+    "example_id": "6907181476e32cb9060acd04:lsj",
+    "source_id": "6907181476e32cb9060acd04",
+    "label": "positive",
+    "doi": "10.11404/jsgcs.46.253",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宇都宮尚",
+        "北川晋二",
+        "増成暁",
+        "上田真信",
+        "平賀聖久",
+        "高野平八郎",
+        "八尾隆史"
+      ],
+      "title": "検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌",
+      "journal": "日本消化器集団検診学会雑誌",
+      "year": "2008",
+      "volume": "46",
+      "issue": "2",
+      "page": "253-256"
+    },
+    "reference_text": "宇都宮尚・北川晋二・増成暁・上田真信・平賀聖久・高野平八郎・八尾隆史（2008）「検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌」『日本消化器集団検診学会雑誌』46(2): 253-256."
+  },
+  {
+    "example_id": "6907138476e32cb9065f7770:ipsj",
+    "source_id": "6907138476e32cb9065f7770",
+    "label": "positive",
+    "doi": "10.3412/jsb.41.535",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎修一",
+        "辻明良",
+        "石井哲夫",
+        "北矢進",
+        "金子康子",
+        "五島瑳智子"
+      ],
+      "title": "Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.",
+      "journal": "Nippon Saikingaku Zasshi",
+      "year": "1986",
+      "volume": "41",
+      "issue": "2",
+      "page": "535-539"
+    },
+    "reference_text": "宮崎修一, 辻明良, 石井哲夫, 北矢進, 金子康子, 五島瑳智子：Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes., Nippon Saikingaku Zasshi, Vol. 41, No. 2, pp. 535-539, 1986"
+  },
+  {
+    "example_id": "6907138476e32cb9065f7770:jsai",
+    "source_id": "6907138476e32cb9065f7770",
+    "label": "positive",
+    "doi": "10.3412/jsb.41.535",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎修一",
+        "辻明良",
+        "石井哲夫",
+        "北矢進",
+        "金子康子",
+        "五島瑳智子"
+      ],
+      "title": "Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.",
+      "journal": "Nippon Saikingaku Zasshi",
+      "year": "1986",
+      "volume": "41",
+      "issue": "2",
+      "page": "535-539"
+    },
+    "reference_text": "宮崎修一, 辻明良, 石井哲夫, 北矢進, 金子康子, 五島瑳智子：Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes., Nippon Saikingaku Zasshi, Vol. 41, No. 2, pp. 535-539 (1986)"
+  },
+  {
+    "example_id": "6907138476e32cb9065f7770:lsj",
+    "source_id": "6907138476e32cb9065f7770",
+    "label": "positive",
+    "doi": "10.3412/jsb.41.535",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎修一",
+        "辻明良",
+        "石井哲夫",
+        "北矢進",
+        "金子康子",
+        "五島瑳智子"
+      ],
+      "title": "Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.",
+      "journal": "Nippon Saikingaku Zasshi",
+      "year": "1986",
+      "volume": "41",
+      "issue": "2",
+      "page": "535-539"
+    },
+    "reference_text": "宮崎修一・辻明良・石井哲夫・北矢進・金子康子・五島瑳智子（1986）「Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.」『Nippon Saikingaku Zasshi』41(2): 535-539."
+  },
+  {
+    "example_id": "6907137376e32cb9065d44a2:ipsj",
+    "source_id": "6907137376e32cb9065d44a2",
+    "label": "positive",
+    "doi": "10.2336/nishinihonhifu.49.919",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "「間宮」アロエ軟膏臨床評価研究班"
+      ],
+      "title": "各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験",
+      "journal": "西日本皮膚科",
+      "year": "1987",
+      "volume": "49",
+      "issue": "5",
+      "page": "919-926"
+    },
+    "reference_text": "「間宮」アロエ軟膏臨床評価研究班：各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験, 西日本皮膚科, Vol. 49, No. 5, pp. 919-926, 1987"
+  },
+  {
+    "example_id": "6907137376e32cb9065d44a2:jsai",
+    "source_id": "6907137376e32cb9065d44a2",
+    "label": "positive",
+    "doi": "10.2336/nishinihonhifu.49.919",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "「間宮」アロエ軟膏臨床評価研究班"
+      ],
+      "title": "各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験",
+      "journal": "西日本皮膚科",
+      "year": "1987",
+      "volume": "49",
+      "issue": "5",
+      "page": "919-926"
+    },
+    "reference_text": "「間宮」アロエ軟膏臨床評価研究班：各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験, 西日本皮膚科, Vol. 49, No. 5, pp. 919-926 (1987)"
+  },
+  {
+    "example_id": "6907137376e32cb9065d44a2:lsj",
+    "source_id": "6907137376e32cb9065d44a2",
+    "label": "positive",
+    "doi": "10.2336/nishinihonhifu.49.919",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "「間宮」アロエ軟膏臨床評価研究班"
+      ],
+      "title": "各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験",
+      "journal": "西日本皮膚科",
+      "year": "1987",
+      "volume": "49",
+      "issue": "5",
+      "page": "919-926"
+    },
+    "reference_text": "「間宮」アロエ軟膏臨床評価研究班（1987）「各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験」『西日本皮膚科』49(5): 919-926."
+  },
+  {
+    "example_id": "6907143d76e32cb9067a7cce:ipsj",
+    "source_id": "6907143d76e32cb9067a7cce",
+    "label": "positive",
+    "doi": "10.11419/senshoshi.58.2_185",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "龍村光峯"
+      ],
+      "title": "４．伝統織物の復元",
+      "journal": "j.jpn.res.assn.text.end-uses",
+      "year": "2017",
+      "volume": "58",
+      "issue": "2",
+      "page": "185-188"
+    },
+    "reference_text": "龍村光峯：４．伝統織物の復元, j.jpn.res.assn.text.end-uses, Vol. 58, No. 2, pp. 185-188, 2017"
+  },
+  {
+    "example_id": "6907143d76e32cb9067a7cce:jsai",
+    "source_id": "6907143d76e32cb9067a7cce",
+    "label": "positive",
+    "doi": "10.11419/senshoshi.58.2_185",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "龍村光峯"
+      ],
+      "title": "４．伝統織物の復元",
+      "journal": "j.jpn.res.assn.text.end-uses",
+      "year": "2017",
+      "volume": "58",
+      "issue": "2",
+      "page": "185-188"
+    },
+    "reference_text": "龍村光峯：４．伝統織物の復元, j.jpn.res.assn.text.end-uses, Vol. 58, No. 2, pp. 185-188 (2017)"
+  },
+  {
+    "example_id": "6907143d76e32cb9067a7cce:lsj",
+    "source_id": "6907143d76e32cb9067a7cce",
+    "label": "positive",
+    "doi": "10.11419/senshoshi.58.2_185",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "龍村光峯"
+      ],
+      "title": "４．伝統織物の復元",
+      "journal": "j.jpn.res.assn.text.end-uses",
+      "year": "2017",
+      "volume": "58",
+      "issue": "2",
+      "page": "185-188"
+    },
+    "reference_text": "龍村光峯（2017）「４．伝統織物の復元」『j.jpn.res.assn.text.end-uses』58(2): 185-188."
+  },
+  {
+    "example_id": "6906eed6f54a306c79b059d0:ipsj",
+    "source_id": "6906eed6f54a306c79b059d0",
+    "label": "positive",
+    "doi": "10.1587/transele.2019MMP0009",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "NAKAGAWA Yuta",
+        "MICHISHITA Naobumi",
+        "MORISHITA Hisashi"
+      ],
+      "title": "A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls",
+      "journal": "IEICE Transactions on Electronics",
+      "year": "2019",
+      "volume": "E102.C",
+      "issue": "10",
+      "page": "732-739"
+    },
+    "reference_text": "NAKAGAWA Yuta, MICHISHITA Naobumi, MORISHITA Hisashi：A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls, IEICE Transactions on Electronics, Vol. E102.C, No. 10, pp. 732-739, 2019"
+  },
+  {
+    "example_id": "6906eed6f54a306c79b059d0:jsai",
+    "source_id": "6906eed6f54a306c79b059d0",
+    "label": "positive",
+    "doi": "10.1587/transele.2019MMP0009",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "NAKAGAWA Yuta",
+        "MICHISHITA Naobumi",
+        "MORISHITA Hisashi"
+      ],
+      "title": "A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls",
+      "journal": "IEICE Transactions on Electronics",
+      "year": "2019",
+      "volume": "E102.C",
+      "issue": "10",
+      "page": "732-739"
+    },
+    "reference_text": "NAKAGAWA Yuta, MICHISHITA Naobumi, MORISHITA Hisashi：A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls, IEICE Transactions on Electronics, Vol. E102.C, No. 10, pp. 732-739 (2019)"
+  },
+  {
+    "example_id": "6906eed6f54a306c79b059d0:lsj",
+    "source_id": "6906eed6f54a306c79b059d0",
+    "label": "positive",
+    "doi": "10.1587/transele.2019MMP0009",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "NAKAGAWA Yuta",
+        "MICHISHITA Naobumi",
+        "MORISHITA Hisashi"
+      ],
+      "title": "A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls",
+      "journal": "IEICE Transactions on Electronics",
+      "year": "2019",
+      "volume": "E102.C",
+      "issue": "10",
+      "page": "732-739"
+    },
+    "reference_text": "NAKAGAWA Yuta・MICHISHITA Naobumi・MORISHITA Hisashi（2019）「A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls」『IEICE Transactions on Electronics』E102.C(10): 732-739."
+  },
+  {
+    "example_id": "6906ee23f54a306c7999541b:ipsj",
+    "source_id": "6906ee23f54a306c7999541b",
+    "label": "positive",
+    "doi": "10.1539/joh1959.23.260",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山田裕一",
+        "城戸照彦",
+        "岡田晃",
+        "能川浩二",
+        "小林悦子"
+      ],
+      "title": "低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価",
+      "journal": "Sangyo Igaku",
+      "year": "1981",
+      "volume": "23",
+      "issue": "3",
+      "page": "260-269"
+    },
+    "reference_text": "山田裕一, 城戸照彦, 岡田晃, 能川浩二, 小林悦子：低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価, Sangyo Igaku, Vol. 23, No. 3, pp. 260-269, 1981"
+  },
+  {
+    "example_id": "6906ee23f54a306c7999541b:jsai",
+    "source_id": "6906ee23f54a306c7999541b",
+    "label": "positive",
+    "doi": "10.1539/joh1959.23.260",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山田裕一",
+        "城戸照彦",
+        "岡田晃",
+        "能川浩二",
+        "小林悦子"
+      ],
+      "title": "低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価",
+      "journal": "Sangyo Igaku",
+      "year": "1981",
+      "volume": "23",
+      "issue": "3",
+      "page": "260-269"
+    },
+    "reference_text": "山田裕一, 城戸照彦, 岡田晃, 能川浩二, 小林悦子：低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価, Sangyo Igaku, Vol. 23, No. 3, pp. 260-269 (1981)"
+  },
+  {
+    "example_id": "6906ee23f54a306c7999541b:lsj",
+    "source_id": "6906ee23f54a306c7999541b",
+    "label": "positive",
+    "doi": "10.1539/joh1959.23.260",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "山田裕一",
+        "城戸照彦",
+        "岡田晃",
+        "能川浩二",
+        "小林悦子"
+      ],
+      "title": "低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価",
+      "journal": "Sangyo Igaku",
+      "year": "1981",
+      "volume": "23",
+      "issue": "3",
+      "page": "260-269"
+    },
+    "reference_text": "山田裕一・城戸照彦・岡田晃・能川浩二・小林悦子（1981）「低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価」『Sangyo Igaku』23(3): 260-269."
+  },
+  {
+    "example_id": "690713c076e32cb906673070:ipsj",
+    "source_id": "690713c076e32cb906673070",
+    "label": "positive",
+    "doi": "10.5687/iscie.30.135",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "佐保賢志",
+        "高橋悠祐",
+        "馬杉正男"
+      ],
+      "title": "距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析",
+      "journal": "Transactions of the Institute of Systems, Control and Information Engineers",
+      "year": "2017",
+      "volume": "30",
+      "issue": "4",
+      "page": "135-142"
+    },
+    "reference_text": "佐保賢志, 高橋悠祐, 馬杉正男：距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析, Transactions of the Institute of Systems, Control and Information Engineers, Vol. 30, No. 4, pp. 135-142, 2017"
+  },
+  {
+    "example_id": "690713c076e32cb906673070:jsai",
+    "source_id": "690713c076e32cb906673070",
+    "label": "positive",
+    "doi": "10.5687/iscie.30.135",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "佐保賢志",
+        "高橋悠祐",
+        "馬杉正男"
+      ],
+      "title": "距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析",
+      "journal": "Transactions of the Institute of Systems, Control and Information Engineers",
+      "year": "2017",
+      "volume": "30",
+      "issue": "4",
+      "page": "135-142"
+    },
+    "reference_text": "佐保賢志, 高橋悠祐, 馬杉正男：距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析, Transactions of the Institute of Systems, Control and Information Engineers, Vol. 30, No. 4, pp. 135-142 (2017)"
+  },
+  {
+    "example_id": "690713c076e32cb906673070:lsj",
+    "source_id": "690713c076e32cb906673070",
+    "label": "positive",
+    "doi": "10.5687/iscie.30.135",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "佐保賢志",
+        "高橋悠祐",
+        "馬杉正男"
+      ],
+      "title": "距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析",
+      "journal": "Transactions of the Institute of Systems, Control and Information Engineers",
+      "year": "2017",
+      "volume": "30",
+      "issue": "4",
+      "page": "135-142"
+    },
+    "reference_text": "佐保賢志・高橋悠祐・馬杉正男（2017）「距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析」『Transactions of the Institute of Systems, Control and Information Engineers』30(4): 135-142."
+  },
+  {
+    "example_id": "690713c376e32cb9066782d0:ipsj",
+    "source_id": "690713c376e32cb9066782d0",
+    "label": "positive",
+    "doi": "10.2170/jjphysiol.12.186",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "鈴木啓司"
+      ],
+      "title": "STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE",
+      "journal": "The Japanese Journal of Physiology",
+      "year": "1962",
+      "volume": "12",
+      "issue": "2",
+      "page": "186-199"
+    },
+    "reference_text": "鈴木啓司：STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE, The Japanese Journal of Physiology, Vol. 12, No. 2, pp. 186-199, 1962"
+  },
+  {
+    "example_id": "690713c376e32cb9066782d0:jsai",
+    "source_id": "690713c376e32cb9066782d0",
+    "label": "positive",
+    "doi": "10.2170/jjphysiol.12.186",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "鈴木啓司"
+      ],
+      "title": "STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE",
+      "journal": "The Japanese Journal of Physiology",
+      "year": "1962",
+      "volume": "12",
+      "issue": "2",
+      "page": "186-199"
+    },
+    "reference_text": "鈴木啓司：STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE, The Japanese Journal of Physiology, Vol. 12, No. 2, pp. 186-199 (1962)"
+  },
+  {
+    "example_id": "690713c376e32cb9066782d0:lsj",
+    "source_id": "690713c376e32cb9066782d0",
+    "label": "positive",
+    "doi": "10.2170/jjphysiol.12.186",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "鈴木啓司"
+      ],
+      "title": "STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE",
+      "journal": "The Japanese Journal of Physiology",
+      "year": "1962",
+      "volume": "12",
+      "issue": "2",
+      "page": "186-199"
+    },
+    "reference_text": "鈴木啓司（1962）「STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE」『The Japanese Journal of Physiology』12(2): 186-199."
+  },
+  {
+    "example_id": "6907142f76e32cb90677a871:ipsj",
+    "source_id": "6907142f76e32cb90677a871",
+    "label": "positive",
+    "doi": "10.24729/00006985",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Karlsen Dagfinn Sjaastad"
+      ],
+      "title": "Is God Our Benefactor? : An Argument from Suffering",
+      "journal": "Journal of Philosophy of Life",
+      "year": "2013",
+      "volume": "3",
+      "issue": "",
+      "page": "145-167"
+    },
+    "reference_text": "Karlsen Dagfinn Sjaastad：Is God Our Benefactor? : An Argument from Suffering, Journal of Philosophy of Life, Vol. 3, pp. 145-167, 2013"
+  },
+  {
+    "example_id": "6907142f76e32cb90677a871:jsai",
+    "source_id": "6907142f76e32cb90677a871",
+    "label": "positive",
+    "doi": "10.24729/00006985",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Karlsen Dagfinn Sjaastad"
+      ],
+      "title": "Is God Our Benefactor? : An Argument from Suffering",
+      "journal": "Journal of Philosophy of Life",
+      "year": "2013",
+      "volume": "3",
+      "issue": "",
+      "page": "145-167"
+    },
+    "reference_text": "Karlsen Dagfinn Sjaastad：Is God Our Benefactor? : An Argument from Suffering, Journal of Philosophy of Life, Vol. 3, pp. 145-167 (2013)"
+  },
+  {
+    "example_id": "6907142f76e32cb90677a871:lsj",
+    "source_id": "6907142f76e32cb90677a871",
+    "label": "positive",
+    "doi": "10.24729/00006985",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Karlsen Dagfinn Sjaastad"
+      ],
+      "title": "Is God Our Benefactor? : An Argument from Suffering",
+      "journal": "Journal of Philosophy of Life",
+      "year": "2013",
+      "volume": "3",
+      "issue": "",
+      "page": "145-167"
+    },
+    "reference_text": "Karlsen Dagfinn Sjaastad（2013）「Is God Our Benefactor? : An Argument from Suffering」『Journal of Philosophy of Life』3: 145-167."
+  },
+  {
+    "example_id": "6907142776e32cb9067617f2:ipsj",
+    "source_id": "6907142776e32cb9067617f2",
+    "label": "positive",
+    "doi": "10.14822/kjsass.66.12_381",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "左近樹",
+        "遠藤いずみ",
+        "池内綾人",
+        "尾中敬",
+        "木村勇気",
+        "木村誠二",
+        "和田節子",
+        "中村正人",
+        "市村淳",
+        "小川奈々子",
+        "大河内直彦",
+        "稲富裕光"
+      ],
+      "title": "炭素質ダストの宇宙曝露実験",
+      "journal": "Journal of the Japan Society for Aeronautical and Space Sciences",
+      "year": "2018",
+      "volume": "66",
+      "issue": "12",
+      "page": "381-387"
+    },
+    "reference_text": "左近樹, 遠藤いずみ, 池内綾人, 尾中敬, 木村勇気, 木村誠二, 和田節子, 中村正人, 市村淳, 小川奈々子, 大河内直彦, 稲富裕光：炭素質ダストの宇宙曝露実験, Journal of the Japan Society for Aeronautical and Space Sciences, Vol. 66, No. 12, pp. 381-387, 2018"
+  },
+  {
+    "example_id": "6907142776e32cb9067617f2:jsai",
+    "source_id": "6907142776e32cb9067617f2",
+    "label": "positive",
+    "doi": "10.14822/kjsass.66.12_381",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "左近樹",
+        "遠藤いずみ",
+        "池内綾人",
+        "尾中敬",
+        "木村勇気",
+        "木村誠二",
+        "和田節子",
+        "中村正人",
+        "市村淳",
+        "小川奈々子",
+        "大河内直彦",
+        "稲富裕光"
+      ],
+      "title": "炭素質ダストの宇宙曝露実験",
+      "journal": "Journal of the Japan Society for Aeronautical and Space Sciences",
+      "year": "2018",
+      "volume": "66",
+      "issue": "12",
+      "page": "381-387"
+    },
+    "reference_text": "左近樹, 遠藤いずみ, 池内綾人, 尾中敬, 木村勇気, 木村誠二, 和田節子, 中村正人, 市村淳, 小川奈々子, 大河内直彦, 稲富裕光：炭素質ダストの宇宙曝露実験, Journal of the Japan Society for Aeronautical and Space Sciences, Vol. 66, No. 12, pp. 381-387 (2018)"
+  },
+  {
+    "example_id": "6907142776e32cb9067617f2:lsj",
+    "source_id": "6907142776e32cb9067617f2",
+    "label": "positive",
+    "doi": "10.14822/kjsass.66.12_381",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "左近樹",
+        "遠藤いずみ",
+        "池内綾人",
+        "尾中敬",
+        "木村勇気",
+        "木村誠二",
+        "和田節子",
+        "中村正人",
+        "市村淳",
+        "小川奈々子",
+        "大河内直彦",
+        "稲富裕光"
+      ],
+      "title": "炭素質ダストの宇宙曝露実験",
+      "journal": "Journal of the Japan Society for Aeronautical and Space Sciences",
+      "year": "2018",
+      "volume": "66",
+      "issue": "12",
+      "page": "381-387"
+    },
+    "reference_text": "左近樹・遠藤いずみ・池内綾人・尾中敬・木村勇気・木村誠二・和田節子・中村正人・市村淳・小川奈々子・大河内直彦・稲富裕光（2018）「炭素質ダストの宇宙曝露実験」『Journal of the Japan Society for Aeronautical and Space Sciences』66(12): 381-387."
+  },
+  {
+    "example_id": "6907137576e32cb9065d8c6f:ipsj",
+    "source_id": "6907137576e32cb9065d8c6f",
+    "label": "positive",
+    "doi": "10.2493/jjspe.55.508",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎俊行",
+        "田中義弘"
+      ],
+      "title": "Sound generation in Q-switched YAG laser drilling.",
+      "journal": "Journal of the Japan Society for Precision Engineering",
+      "year": "1989",
+      "volume": "55",
+      "issue": "3",
+      "page": "508-513"
+    },
+    "reference_text": "宮崎俊行, 田中義弘：Sound generation in Q-switched YAG laser drilling., Journal of the Japan Society for Precision Engineering, Vol. 55, No. 3, pp. 508-513, 1989"
+  },
+  {
+    "example_id": "6907137576e32cb9065d8c6f:jsai",
+    "source_id": "6907137576e32cb9065d8c6f",
+    "label": "positive",
+    "doi": "10.2493/jjspe.55.508",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎俊行",
+        "田中義弘"
+      ],
+      "title": "Sound generation in Q-switched YAG laser drilling.",
+      "journal": "Journal of the Japan Society for Precision Engineering",
+      "year": "1989",
+      "volume": "55",
+      "issue": "3",
+      "page": "508-513"
+    },
+    "reference_text": "宮崎俊行, 田中義弘：Sound generation in Q-switched YAG laser drilling., Journal of the Japan Society for Precision Engineering, Vol. 55, No. 3, pp. 508-513 (1989)"
+  },
+  {
+    "example_id": "6907137576e32cb9065d8c6f:lsj",
+    "source_id": "6907137576e32cb9065d8c6f",
+    "label": "positive",
+    "doi": "10.2493/jjspe.55.508",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "宮崎俊行",
+        "田中義弘"
+      ],
+      "title": "Sound generation in Q-switched YAG laser drilling.",
+      "journal": "Journal of the Japan Society for Precision Engineering",
+      "year": "1989",
+      "volume": "55",
+      "issue": "3",
+      "page": "508-513"
+    },
+    "reference_text": "宮崎俊行・田中義弘（1989）「Sound generation in Q-switched YAG laser drilling.」『Journal of the Japan Society for Precision Engineering』55(3): 508-513."
+  },
+  {
+    "example_id": "690716b276e32cb906e70516:ipsj",
+    "source_id": "690716b276e32cb906e70516",
+    "label": "positive",
+    "doi": "10.11261/iryo1946.33.90",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "榎本尚美",
+        "黒沢輝司",
+        "側見涼子"
+      ],
+      "title": "小児麻酔前投薬の考察 エスタゾラムの応用",
+      "journal": "Japanese Journal of National Medical Services",
+      "year": "1979",
+      "volume": "33",
+      "issue": "1",
+      "page": "90-95"
+    },
+    "reference_text": "榎本尚美, 黒沢輝司, 側見涼子：小児麻酔前投薬の考察 エスタゾラムの応用, Japanese Journal of National Medical Services, Vol. 33, No. 1, pp. 90-95, 1979"
+  },
+  {
+    "example_id": "690716b276e32cb906e70516:jsai",
+    "source_id": "690716b276e32cb906e70516",
+    "label": "positive",
+    "doi": "10.11261/iryo1946.33.90",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "榎本尚美",
+        "黒沢輝司",
+        "側見涼子"
+      ],
+      "title": "小児麻酔前投薬の考察 エスタゾラムの応用",
+      "journal": "Japanese Journal of National Medical Services",
+      "year": "1979",
+      "volume": "33",
+      "issue": "1",
+      "page": "90-95"
+    },
+    "reference_text": "榎本尚美, 黒沢輝司, 側見涼子：小児麻酔前投薬の考察 エスタゾラムの応用, Japanese Journal of National Medical Services, Vol. 33, No. 1, pp. 90-95 (1979)"
+  },
+  {
+    "example_id": "690716b276e32cb906e70516:lsj",
+    "source_id": "690716b276e32cb906e70516",
+    "label": "positive",
+    "doi": "10.11261/iryo1946.33.90",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "榎本尚美",
+        "黒沢輝司",
+        "側見涼子"
+      ],
+      "title": "小児麻酔前投薬の考察 エスタゾラムの応用",
+      "journal": "Japanese Journal of National Medical Services",
+      "year": "1979",
+      "volume": "33",
+      "issue": "1",
+      "page": "90-95"
+    },
+    "reference_text": "榎本尚美・黒沢輝司・側見涼子（1979）「小児麻酔前投薬の考察 エスタゾラムの応用」『Japanese Journal of National Medical Services』33(1): 90-95."
+  },
+  {
+    "example_id": "690716e076e32cb906f084ab:ipsj",
+    "source_id": "690716e076e32cb906f084ab",
+    "label": "positive",
+    "doi": "10.51027/diltheygsj.1998.10_16",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "伊藤直樹"
+      ],
+      "title": "ディルタイにおける生の美学の構成",
+      "journal": "Dilthey-forschung",
+      "year": "1998",
+      "volume": "1998",
+      "issue": "10",
+      "page": "16-29"
+    },
+    "reference_text": "伊藤直樹：ディルタイにおける生の美学の構成, Dilthey-forschung, Vol. 1998, No. 10, pp. 16-29, 1998"
+  },
+  {
+    "example_id": "690716e076e32cb906f084ab:jsai",
+    "source_id": "690716e076e32cb906f084ab",
+    "label": "positive",
+    "doi": "10.51027/diltheygsj.1998.10_16",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "伊藤直樹"
+      ],
+      "title": "ディルタイにおける生の美学の構成",
+      "journal": "Dilthey-forschung",
+      "year": "1998",
+      "volume": "1998",
+      "issue": "10",
+      "page": "16-29"
+    },
+    "reference_text": "伊藤直樹：ディルタイにおける生の美学の構成, Dilthey-forschung, Vol. 1998, No. 10, pp. 16-29 (1998)"
+  },
+  {
+    "example_id": "690716e076e32cb906f084ab:lsj",
+    "source_id": "690716e076e32cb906f084ab",
+    "label": "positive",
+    "doi": "10.51027/diltheygsj.1998.10_16",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "伊藤直樹"
+      ],
+      "title": "ディルタイにおける生の美学の構成",
+      "journal": "Dilthey-forschung",
+      "year": "1998",
+      "volume": "1998",
+      "issue": "10",
+      "page": "16-29"
+    },
+    "reference_text": "伊藤直樹（1998）「ディルタイにおける生の美学の構成」『Dilthey-forschung』1998(10): 16-29."
+  },
+  {
+    "example_id": "6906ee20f54a306c7998ed15:ipsj",
+    "source_id": "6906ee20f54a306c7998ed15",
+    "label": "positive",
+    "doi": "10.3313/jls1964.11.2_43a",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "洒井淳行"
+      ],
+      "title": "平丸地区の地すべり集中発生について",
+      "journal": "Landslides",
+      "year": "1974",
+      "volume": "11",
+      "issue": "2",
+      "page": "43a-45"
+    },
+    "reference_text": "洒井淳行：平丸地区の地すべり集中発生について, Landslides, Vol. 11, No. 2, pp. 43a-45, 1974"
+  },
+  {
+    "example_id": "6906ee20f54a306c7998ed15:jsai",
+    "source_id": "6906ee20f54a306c7998ed15",
+    "label": "positive",
+    "doi": "10.3313/jls1964.11.2_43a",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "洒井淳行"
+      ],
+      "title": "平丸地区の地すべり集中発生について",
+      "journal": "Landslides",
+      "year": "1974",
+      "volume": "11",
+      "issue": "2",
+      "page": "43a-45"
+    },
+    "reference_text": "洒井淳行：平丸地区の地すべり集中発生について, Landslides, Vol. 11, No. 2, pp. 43a-45 (1974)"
+  },
+  {
+    "example_id": "6906ee20f54a306c7998ed15:lsj",
+    "source_id": "6906ee20f54a306c7998ed15",
+    "label": "positive",
+    "doi": "10.3313/jls1964.11.2_43a",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "洒井淳行"
+      ],
+      "title": "平丸地区の地すべり集中発生について",
+      "journal": "Landslides",
+      "year": "1974",
+      "volume": "11",
+      "issue": "2",
+      "page": "43a-45"
+    },
+    "reference_text": "洒井淳行（1974）「平丸地区の地すべり集中発生について」『Landslides』11(2): 43a-45."
+  },
+  {
+    "example_id": "6907133976e32cb906559531:ipsj",
+    "source_id": "6907133976e32cb906559531",
+    "label": "positive",
+    "doi": "10.1299/jsmecmd.2018.31.177",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "瀬戸口慶樹",
+        "宍戸信之",
+        "小金丸正明",
+        "池田徹",
+        "葉山裕",
+        "宮崎則幸"
+      ],
+      "title": "遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析",
+      "journal": "計算力学講演会講演論文集",
+      "year": "2018",
+      "volume": "2018.31",
+      "issue": "0",
+      "page": "177"
+    },
+    "reference_text": "瀬戸口慶樹, 宍戸信之, 小金丸正明, 池田徹, 葉山裕, 宮崎則幸：遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析, 計算力学講演会講演論文集, Vol. 2018.31, No. 0, pp. 177, 2018"
+  },
+  {
+    "example_id": "6907133976e32cb906559531:jsai",
+    "source_id": "6907133976e32cb906559531",
+    "label": "positive",
+    "doi": "10.1299/jsmecmd.2018.31.177",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "瀬戸口慶樹",
+        "宍戸信之",
+        "小金丸正明",
+        "池田徹",
+        "葉山裕",
+        "宮崎則幸"
+      ],
+      "title": "遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析",
+      "journal": "計算力学講演会講演論文集",
+      "year": "2018",
+      "volume": "2018.31",
+      "issue": "0",
+      "page": "177"
+    },
+    "reference_text": "瀬戸口慶樹, 宍戸信之, 小金丸正明, 池田徹, 葉山裕, 宮崎則幸：遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析, 計算力学講演会講演論文集, Vol. 2018.31, No. 0, pp. 177 (2018)"
+  },
+  {
+    "example_id": "6907133976e32cb906559531:lsj",
+    "source_id": "6907133976e32cb906559531",
+    "label": "positive",
+    "doi": "10.1299/jsmecmd.2018.31.177",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "瀬戸口慶樹",
+        "宍戸信之",
+        "小金丸正明",
+        "池田徹",
+        "葉山裕",
+        "宮崎則幸"
+      ],
+      "title": "遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析",
+      "journal": "計算力学講演会講演論文集",
+      "year": "2018",
+      "volume": "2018.31",
+      "issue": "0",
+      "page": "177"
+    },
+    "reference_text": "瀬戸口慶樹・宍戸信之・小金丸正明・池田徹・葉山裕・宮崎則幸（2018）「遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析」『計算力学講演会講演論文集』2018.31(0): 177."
+  },
+  {
+    "example_id": "6906efaaf54a306c79cfc579:ipsj",
+    "source_id": "6906efaaf54a306c79cfc579",
+    "label": "positive",
+    "doi": "10.11281/shinzo.54.261",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹藤幹人"
+      ],
+      "title": "心不全におけるGタンパク質シグナル",
+      "journal": "Shinzo",
+      "year": "2022",
+      "volume": "54",
+      "issue": "2",
+      "page": "261-267"
+    },
+    "reference_text": "竹藤幹人：心不全におけるGタンパク質シグナル, Shinzo, Vol. 54, No. 2, pp. 261-267, 2022"
+  },
+  {
+    "example_id": "6906efaaf54a306c79cfc579:jsai",
+    "source_id": "6906efaaf54a306c79cfc579",
+    "label": "positive",
+    "doi": "10.11281/shinzo.54.261",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹藤幹人"
+      ],
+      "title": "心不全におけるGタンパク質シグナル",
+      "journal": "Shinzo",
+      "year": "2022",
+      "volume": "54",
+      "issue": "2",
+      "page": "261-267"
+    },
+    "reference_text": "竹藤幹人：心不全におけるGタンパク質シグナル, Shinzo, Vol. 54, No. 2, pp. 261-267 (2022)"
+  },
+  {
+    "example_id": "6906efaaf54a306c79cfc579:lsj",
+    "source_id": "6906efaaf54a306c79cfc579",
+    "label": "positive",
+    "doi": "10.11281/shinzo.54.261",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹藤幹人"
+      ],
+      "title": "心不全におけるGタンパク質シグナル",
+      "journal": "Shinzo",
+      "year": "2022",
+      "volume": "54",
+      "issue": "2",
+      "page": "261-267"
+    },
+    "reference_text": "竹藤幹人（2022）「心不全におけるGタンパク質シグナル」『Shinzo』54(2): 261-267."
+  },
+  {
+    "example_id": "6907166976e32cb906d66a9b:ipsj",
+    "source_id": "6907166976e32cb906d66a9b",
+    "label": "positive",
+    "doi": "10.11316/jpsgaiyo.64.2.3.0_435_2",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "眞田直幸",
+        "綿貫竜太",
+        "鈴木和也",
+        "赤津光洋",
+        "根本祐一",
+        "後藤輝孝"
+      ],
+      "title": "25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+      "journal": "日本物理学会講演概要集",
+      "year": "2009",
+      "volume": "64.2.3",
+      "issue": "0",
+      "page": "435"
+    },
+    "reference_text": "眞田直幸, 綿貫竜太, 鈴木和也, 赤津光洋, 根本祐一, 後藤輝孝：25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など), 日本物理学会講演概要集, Vol. 64.2.3, No. 0, pp. 435, 2009"
+  },
+  {
+    "example_id": "6907166976e32cb906d66a9b:jsai",
+    "source_id": "6907166976e32cb906d66a9b",
+    "label": "positive",
+    "doi": "10.11316/jpsgaiyo.64.2.3.0_435_2",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "眞田直幸",
+        "綿貫竜太",
+        "鈴木和也",
+        "赤津光洋",
+        "根本祐一",
+        "後藤輝孝"
+      ],
+      "title": "25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+      "journal": "日本物理学会講演概要集",
+      "year": "2009",
+      "volume": "64.2.3",
+      "issue": "0",
+      "page": "435"
+    },
+    "reference_text": "眞田直幸, 綿貫竜太, 鈴木和也, 赤津光洋, 根本祐一, 後藤輝孝：25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など), 日本物理学会講演概要集, Vol. 64.2.3, No. 0, pp. 435 (2009)"
+  },
+  {
+    "example_id": "6907166976e32cb906d66a9b:lsj",
+    "source_id": "6907166976e32cb906d66a9b",
+    "label": "positive",
+    "doi": "10.11316/jpsgaiyo.64.2.3.0_435_2",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "眞田直幸",
+        "綿貫竜太",
+        "鈴木和也",
+        "赤津光洋",
+        "根本祐一",
+        "後藤輝孝"
+      ],
+      "title": "25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+      "journal": "日本物理学会講演概要集",
+      "year": "2009",
+      "volume": "64.2.3",
+      "issue": "0",
+      "page": "435"
+    },
+    "reference_text": "眞田直幸・綿貫竜太・鈴木和也・赤津光洋・根本祐一・後藤輝孝（2009）「25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)」『日本物理学会講演概要集』64.2.3(0): 435."
+  },
+  {
+    "example_id": "6906ee74f54a306c79a3902d:ipsj",
+    "source_id": "6906ee74f54a306c79a3902d",
+    "label": "positive",
+    "doi": "10.1299/jsmemecjo.2000.3.0_101",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小沢喜仁"
+      ],
+      "title": "609 有機複合材料の残留応力に及ぼす湿熱環境の影響",
+      "journal": "年次大会講演論文集",
+      "year": "2000",
+      "volume": "2000.3",
+      "issue": "0",
+      "page": "101-102"
+    },
+    "reference_text": "小沢喜仁：609 有機複合材料の残留応力に及ぼす湿熱環境の影響, 年次大会講演論文集, Vol. 2000.3, No. 0, pp. 101-102, 2000"
+  },
+  {
+    "example_id": "6906ee74f54a306c79a3902d:jsai",
+    "source_id": "6906ee74f54a306c79a3902d",
+    "label": "positive",
+    "doi": "10.1299/jsmemecjo.2000.3.0_101",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小沢喜仁"
+      ],
+      "title": "609 有機複合材料の残留応力に及ぼす湿熱環境の影響",
+      "journal": "年次大会講演論文集",
+      "year": "2000",
+      "volume": "2000.3",
+      "issue": "0",
+      "page": "101-102"
+    },
+    "reference_text": "小沢喜仁：609 有機複合材料の残留応力に及ぼす湿熱環境の影響, 年次大会講演論文集, Vol. 2000.3, No. 0, pp. 101-102 (2000)"
+  },
+  {
+    "example_id": "6906ee74f54a306c79a3902d:lsj",
+    "source_id": "6906ee74f54a306c79a3902d",
+    "label": "positive",
+    "doi": "10.1299/jsmemecjo.2000.3.0_101",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小沢喜仁"
+      ],
+      "title": "609 有機複合材料の残留応力に及ぼす湿熱環境の影響",
+      "journal": "年次大会講演論文集",
+      "year": "2000",
+      "volume": "2000.3",
+      "issue": "0",
+      "page": "101-102"
+    },
+    "reference_text": "小沢喜仁（2000）「609 有機複合材料の残留応力に及ぼす湿熱環境の影響」『年次大会講演論文集』2000.3(0): 101-102."
+  },
+  {
+    "example_id": "6907143676e32cb9067910a8:ipsj",
+    "source_id": "6907143676e32cb9067910a8",
+    "label": "positive",
+    "doi": "10.15052/00003904",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲井勝巳"
+      ],
+      "title": "新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から",
+      "journal": "聖学院大学論叢 = The Journal of Seigakuin University",
+      "year": "2021",
+      "volume": "第34巻",
+      "issue": "第1号",
+      "page": "17-31"
+    },
+    "reference_text": "仲井勝巳：新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から, 聖学院大学論叢 = The Journal of Seigakuin University, Vol. 第34巻, No. 第1号, pp. 17-31, 2021"
+  },
+  {
+    "example_id": "6907143676e32cb9067910a8:jsai",
+    "source_id": "6907143676e32cb9067910a8",
+    "label": "positive",
+    "doi": "10.15052/00003904",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲井勝巳"
+      ],
+      "title": "新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から",
+      "journal": "聖学院大学論叢 = The Journal of Seigakuin University",
+      "year": "2021",
+      "volume": "第34巻",
+      "issue": "第1号",
+      "page": "17-31"
+    },
+    "reference_text": "仲井勝巳：新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から, 聖学院大学論叢 = The Journal of Seigakuin University, Vol. 第34巻, No. 第1号, pp. 17-31 (2021)"
+  },
+  {
+    "example_id": "6907143676e32cb9067910a8:lsj",
+    "source_id": "6907143676e32cb9067910a8",
+    "label": "positive",
+    "doi": "10.15052/00003904",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲井勝巳"
+      ],
+      "title": "新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から",
+      "journal": "聖学院大学論叢 = The Journal of Seigakuin University",
+      "year": "2021",
+      "volume": "第34巻",
+      "issue": "第1号",
+      "page": "17-31"
+    },
+    "reference_text": "仲井勝巳（2021）「新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から」『聖学院大学論叢 = The Journal of Seigakuin University』第34巻(第1号): 17-31."
+  },
+  {
+    "example_id": "690712f376e32cb9064ce7dc:ipsj",
+    "source_id": "690712f376e32cb9064ce7dc",
+    "label": "positive",
+    "doi": "10.1248/cpb.48.1634",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "PETIT Catherine",
+        "BERNARDES-GENISSON Vania",
+        "HOFFMANN Pascal",
+        "SOUCHARD Jean-Pierre",
+        "LABIDALLE Serge"
+      ],
+      "title": "NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.",
+      "journal": "Chem. Pharm. Bull.",
+      "year": "2000",
+      "volume": "48",
+      "issue": "11",
+      "page": "1634-1638"
+    },
+    "reference_text": "PETIT Catherine, BERNARDES-GENISSON Vania, HOFFMANN Pascal, SOUCHARD Jean-Pierre, LABIDALLE Serge：NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium., Chem. Pharm. Bull., Vol. 48, No. 11, pp. 1634-1638, 2000"
+  },
+  {
+    "example_id": "690712f376e32cb9064ce7dc:jsai",
+    "source_id": "690712f376e32cb9064ce7dc",
+    "label": "positive",
+    "doi": "10.1248/cpb.48.1634",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "PETIT Catherine",
+        "BERNARDES-GENISSON Vania",
+        "HOFFMANN Pascal",
+        "SOUCHARD Jean-Pierre",
+        "LABIDALLE Serge"
+      ],
+      "title": "NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.",
+      "journal": "Chem. Pharm. Bull.",
+      "year": "2000",
+      "volume": "48",
+      "issue": "11",
+      "page": "1634-1638"
+    },
+    "reference_text": "PETIT Catherine, BERNARDES-GENISSON Vania, HOFFMANN Pascal, SOUCHARD Jean-Pierre, LABIDALLE Serge：NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium., Chem. Pharm. Bull., Vol. 48, No. 11, pp. 1634-1638 (2000)"
+  },
+  {
+    "example_id": "690712f376e32cb9064ce7dc:lsj",
+    "source_id": "690712f376e32cb9064ce7dc",
+    "label": "positive",
+    "doi": "10.1248/cpb.48.1634",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "PETIT Catherine",
+        "BERNARDES-GENISSON Vania",
+        "HOFFMANN Pascal",
+        "SOUCHARD Jean-Pierre",
+        "LABIDALLE Serge"
+      ],
+      "title": "NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.",
+      "journal": "Chem. Pharm. Bull.",
+      "year": "2000",
+      "volume": "48",
+      "issue": "11",
+      "page": "1634-1638"
+    },
+    "reference_text": "PETIT Catherine・BERNARDES-GENISSON Vania・HOFFMANN Pascal・SOUCHARD Jean-Pierre・LABIDALLE Serge（2000）「NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.」『Chem. Pharm. Bull.』48(11): 1634-1638."
+  },
+  {
+    "example_id": "6906ee7af54a306c79a4631d:ipsj",
+    "source_id": "6906ee7af54a306c79a4631d",
+    "label": "positive",
+    "doi": "10.1299/jsmemag.66.538_1541",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "赤岡純"
+      ],
+      "title": "潤滑法(&lt;小特集&gt;摩擦と潤滑)",
+      "journal": "日本機械学会誌",
+      "year": "1963",
+      "volume": "66",
+      "issue": "538",
+      "page": "1541-1550"
+    },
+    "reference_text": "赤岡純：潤滑法(&lt;小特集&gt;摩擦と潤滑), 日本機械学会誌, Vol. 66, No. 538, pp. 1541-1550, 1963"
+  },
+  {
+    "example_id": "6906ee7af54a306c79a4631d:jsai",
+    "source_id": "6906ee7af54a306c79a4631d",
+    "label": "positive",
+    "doi": "10.1299/jsmemag.66.538_1541",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "赤岡純"
+      ],
+      "title": "潤滑法(&lt;小特集&gt;摩擦と潤滑)",
+      "journal": "日本機械学会誌",
+      "year": "1963",
+      "volume": "66",
+      "issue": "538",
+      "page": "1541-1550"
+    },
+    "reference_text": "赤岡純：潤滑法(&lt;小特集&gt;摩擦と潤滑), 日本機械学会誌, Vol. 66, No. 538, pp. 1541-1550 (1963)"
+  },
+  {
+    "example_id": "6906ee7af54a306c79a4631d:lsj",
+    "source_id": "6906ee7af54a306c79a4631d",
+    "label": "positive",
+    "doi": "10.1299/jsmemag.66.538_1541",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "赤岡純"
+      ],
+      "title": "潤滑法(&lt;小特集&gt;摩擦と潤滑)",
+      "journal": "日本機械学会誌",
+      "year": "1963",
+      "volume": "66",
+      "issue": "538",
+      "page": "1541-1550"
+    },
+    "reference_text": "赤岡純（1963）「潤滑法(&lt;小特集&gt;摩擦と潤滑)」『日本機械学会誌』66(538): 1541-1550."
+  },
+  {
+    "example_id": "6907132376e32cb9065219bc:ipsj",
+    "source_id": "6907132376e32cb9065219bc",
+    "label": "positive",
+    "doi": "10.9773/sosei.53.346",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "梶野智史",
+        "田中智也",
+        "浅川基男"
+      ],
+      "title": "Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+      "journal": "Journal of the Japan Society for Technology of Plasticity",
+      "year": "2012",
+      "volume": "53",
+      "issue": "615",
+      "page": "346-350"
+    },
+    "reference_text": "梶野智史, 田中智也, 浅川基男：Development of Shearing with Torsion for Restricting Work Hardening by Torsion, Journal of the Japan Society for Technology of Plasticity, Vol. 53, No. 615, pp. 346-350, 2012"
+  },
+  {
+    "example_id": "6907132376e32cb9065219bc:jsai",
+    "source_id": "6907132376e32cb9065219bc",
+    "label": "positive",
+    "doi": "10.9773/sosei.53.346",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "梶野智史",
+        "田中智也",
+        "浅川基男"
+      ],
+      "title": "Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+      "journal": "Journal of the Japan Society for Technology of Plasticity",
+      "year": "2012",
+      "volume": "53",
+      "issue": "615",
+      "page": "346-350"
+    },
+    "reference_text": "梶野智史, 田中智也, 浅川基男：Development of Shearing with Torsion for Restricting Work Hardening by Torsion, Journal of the Japan Society for Technology of Plasticity, Vol. 53, No. 615, pp. 346-350 (2012)"
+  },
+  {
+    "example_id": "6907132376e32cb9065219bc:lsj",
+    "source_id": "6907132376e32cb9065219bc",
+    "label": "positive",
+    "doi": "10.9773/sosei.53.346",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "梶野智史",
+        "田中智也",
+        "浅川基男"
+      ],
+      "title": "Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+      "journal": "Journal of the Japan Society for Technology of Plasticity",
+      "year": "2012",
+      "volume": "53",
+      "issue": "615",
+      "page": "346-350"
+    },
+    "reference_text": "梶野智史・田中智也・浅川基男（2012）「Development of Shearing with Torsion for Restricting Work Hardening by Torsion」『Journal of the Japan Society for Technology of Plasticity』53(615): 346-350."
+  },
+  {
+    "example_id": "6906eee9f54a306c79b2ca0d:ipsj",
+    "source_id": "6906eee9f54a306c79b2ca0d",
+    "label": "positive",
+    "doi": "10.1541/ieejias.127.1050",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "飯山法子",
+        "名取賢二",
+        "大西公平"
+      ],
+      "title": "Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "2007",
+      "volume": "127",
+      "issue": "10",
+      "page": "1050-1056"
+    },
+    "reference_text": "飯山法子, 名取賢二, 大西公平：Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment, IEEJ Transactions on Industry Applications, Vol. 127, No. 10, pp. 1050-1056, 2007"
+  },
+  {
+    "example_id": "6906eee9f54a306c79b2ca0d:jsai",
+    "source_id": "6906eee9f54a306c79b2ca0d",
+    "label": "positive",
+    "doi": "10.1541/ieejias.127.1050",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "飯山法子",
+        "名取賢二",
+        "大西公平"
+      ],
+      "title": "Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "2007",
+      "volume": "127",
+      "issue": "10",
+      "page": "1050-1056"
+    },
+    "reference_text": "飯山法子, 名取賢二, 大西公平：Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment, IEEJ Transactions on Industry Applications, Vol. 127, No. 10, pp. 1050-1056 (2007)"
+  },
+  {
+    "example_id": "6906eee9f54a306c79b2ca0d:lsj",
+    "source_id": "6906eee9f54a306c79b2ca0d",
+    "label": "positive",
+    "doi": "10.1541/ieejias.127.1050",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "飯山法子",
+        "名取賢二",
+        "大西公平"
+      ],
+      "title": "Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "2007",
+      "volume": "127",
+      "issue": "10",
+      "page": "1050-1056"
+    },
+    "reference_text": "飯山法子・名取賢二・大西公平（2007）「Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment」『IEEJ Transactions on Industry Applications』127(10): 1050-1056."
+  },
+  {
+    "example_id": "690716c776e32cb906eabb8e:ipsj",
+    "source_id": "690716c776e32cb906eabb8e",
+    "label": "positive",
+    "doi": "10.11213/tonyobyo.57.329",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "松村美穂子",
+        "中谷祐己",
+        "百目木希実",
+        "柳一徳",
+        "池田志織",
+        "伴場信之",
+        "森山俊男",
+        "麻生好正"
+      ],
+      "title": "Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile",
+      "journal": "糖尿病",
+      "year": "2014",
+      "volume": "57",
+      "issue": "5",
+      "page": "329-336"
+    },
+    "reference_text": "松村美穂子, 中谷祐己, 百目木希実, 柳一徳, 池田志織, 伴場信之, 森山俊男, 麻生好正：Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile, 糖尿病, Vol. 57, No. 5, pp. 329-336, 2014"
+  },
+  {
+    "example_id": "690716c776e32cb906eabb8e:jsai",
+    "source_id": "690716c776e32cb906eabb8e",
+    "label": "positive",
+    "doi": "10.11213/tonyobyo.57.329",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "松村美穂子",
+        "中谷祐己",
+        "百目木希実",
+        "柳一徳",
+        "池田志織",
+        "伴場信之",
+        "森山俊男",
+        "麻生好正"
+      ],
+      "title": "Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile",
+      "journal": "糖尿病",
+      "year": "2014",
+      "volume": "57",
+      "issue": "5",
+      "page": "329-336"
+    },
+    "reference_text": "松村美穂子, 中谷祐己, 百目木希実, 柳一徳, 池田志織, 伴場信之, 森山俊男, 麻生好正：Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile, 糖尿病, Vol. 57, No. 5, pp. 329-336 (2014)"
+  },
+  {
+    "example_id": "690716c776e32cb906eabb8e:lsj",
+    "source_id": "690716c776e32cb906eabb8e",
+    "label": "positive",
+    "doi": "10.11213/tonyobyo.57.329",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "松村美穂子",
+        "中谷祐己",
+        "百目木希実",
+        "柳一徳",
+        "池田志織",
+        "伴場信之",
+        "森山俊男",
+        "麻生好正"
+      ],
+      "title": "Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile",
+      "journal": "糖尿病",
+      "year": "2014",
+      "volume": "57",
+      "issue": "5",
+      "page": "329-336"
+    },
+    "reference_text": "松村美穂子・中谷祐己・百目木希実・柳一徳・池田志織・伴場信之・森山俊男・麻生好正（2014）「Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile」『糖尿病』57(5): 329-336."
+  },
+  {
+    "example_id": "6906eec0f54a306c79ae25c3:ipsj",
+    "source_id": "6906eec0f54a306c79ae25c3",
+    "label": "positive",
+    "doi": "10.3412/jsb1928.29.721",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田部井和"
+      ],
+      "title": "交叉免疫ニ關スル實驗的研究",
+      "journal": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+      "year": "1935",
+      "volume": "29",
+      "issue": "6",
+      "page": "721-744"
+    },
+    "reference_text": "田部井和：交叉免疫ニ關スル實驗的研究, Zeitschrift der Japanischen Mikrobiologische Gesellschaft, Vol. 29, No. 6, pp. 721-744, 1935"
+  },
+  {
+    "example_id": "6906eec0f54a306c79ae25c3:jsai",
+    "source_id": "6906eec0f54a306c79ae25c3",
+    "label": "positive",
+    "doi": "10.3412/jsb1928.29.721",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田部井和"
+      ],
+      "title": "交叉免疫ニ關スル實驗的研究",
+      "journal": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+      "year": "1935",
+      "volume": "29",
+      "issue": "6",
+      "page": "721-744"
+    },
+    "reference_text": "田部井和：交叉免疫ニ關スル實驗的研究, Zeitschrift der Japanischen Mikrobiologische Gesellschaft, Vol. 29, No. 6, pp. 721-744 (1935)"
+  },
+  {
+    "example_id": "6906eec0f54a306c79ae25c3:lsj",
+    "source_id": "6906eec0f54a306c79ae25c3",
+    "label": "positive",
+    "doi": "10.3412/jsb1928.29.721",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "田部井和"
+      ],
+      "title": "交叉免疫ニ關スル實驗的研究",
+      "journal": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+      "year": "1935",
+      "volume": "29",
+      "issue": "6",
+      "page": "721-744"
+    },
+    "reference_text": "田部井和（1935）「交叉免疫ニ關スル實驗的研究」『Zeitschrift der Japanischen Mikrobiologische Gesellschaft』29(6): 721-744."
+  },
+  {
+    "example_id": "690713d676e32cb90669e4f2:ipsj",
+    "source_id": "690713d676e32cb90669e4f2",
+    "label": "positive",
+    "doi": "10.2207/qjjws1943.46.7_470",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲田周次",
+        "西川雅弘",
+        "末松孝規",
+        "水谷二郎",
+        "兼田武芳"
+      ],
+      "title": "プロジェクション溶接現象についての研究 Ｉ",
+      "journal": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "1977",
+      "volume": "46",
+      "issue": "7",
+      "page": "470-477"
+    },
+    "reference_text": "仲田周次, 西川雅弘, 末松孝規, 水谷二郎, 兼田武芳：プロジェクション溶接現象についての研究 Ｉ, JOURNAL OF THE JAPAN WELDING SOCIETY, Vol. 46, No. 7, pp. 470-477, 1977"
+  },
+  {
+    "example_id": "690713d676e32cb90669e4f2:jsai",
+    "source_id": "690713d676e32cb90669e4f2",
+    "label": "positive",
+    "doi": "10.2207/qjjws1943.46.7_470",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲田周次",
+        "西川雅弘",
+        "末松孝規",
+        "水谷二郎",
+        "兼田武芳"
+      ],
+      "title": "プロジェクション溶接現象についての研究 Ｉ",
+      "journal": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "1977",
+      "volume": "46",
+      "issue": "7",
+      "page": "470-477"
+    },
+    "reference_text": "仲田周次, 西川雅弘, 末松孝規, 水谷二郎, 兼田武芳：プロジェクション溶接現象についての研究 Ｉ, JOURNAL OF THE JAPAN WELDING SOCIETY, Vol. 46, No. 7, pp. 470-477 (1977)"
+  },
+  {
+    "example_id": "690713d676e32cb90669e4f2:lsj",
+    "source_id": "690713d676e32cb90669e4f2",
+    "label": "positive",
+    "doi": "10.2207/qjjws1943.46.7_470",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "仲田周次",
+        "西川雅弘",
+        "末松孝規",
+        "水谷二郎",
+        "兼田武芳"
+      ],
+      "title": "プロジェクション溶接現象についての研究 Ｉ",
+      "journal": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "1977",
+      "volume": "46",
+      "issue": "7",
+      "page": "470-477"
+    },
+    "reference_text": "仲田周次・西川雅弘・末松孝規・水谷二郎・兼田武芳（1977）「プロジェクション溶接現象についての研究 Ｉ」『JOURNAL OF THE JAPAN WELDING SOCIETY』46(7): 470-477."
+  },
+  {
+    "example_id": "6906ef01f54a306c79b5b46e:ipsj",
+    "source_id": "6906ef01f54a306c79b5b46e",
+    "label": "positive",
+    "doi": "10.4200/jjhg1948.18.97",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小林健太郎"
+      ],
+      "title": "Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円",
+      "journal": "人文地理",
+      "year": "1966",
+      "volume": "18",
+      "issue": "1",
+      "page": "97-98"
+    },
+    "reference_text": "小林健太郎：Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円, 人文地理, Vol. 18, No. 1, pp. 97-98, 1966"
+  },
+  {
+    "example_id": "6906ef01f54a306c79b5b46e:jsai",
+    "source_id": "6906ef01f54a306c79b5b46e",
+    "label": "positive",
+    "doi": "10.4200/jjhg1948.18.97",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小林健太郎"
+      ],
+      "title": "Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円",
+      "journal": "人文地理",
+      "year": "1966",
+      "volume": "18",
+      "issue": "1",
+      "page": "97-98"
+    },
+    "reference_text": "小林健太郎：Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円, 人文地理, Vol. 18, No. 1, pp. 97-98 (1966)"
+  },
+  {
+    "example_id": "6906ef01f54a306c79b5b46e:lsj",
+    "source_id": "6906ef01f54a306c79b5b46e",
+    "label": "positive",
+    "doi": "10.4200/jjhg1948.18.97",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "小林健太郎"
+      ],
+      "title": "Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円",
+      "journal": "人文地理",
+      "year": "1966",
+      "volume": "18",
+      "issue": "1",
+      "page": "97-98"
+    },
+    "reference_text": "小林健太郎（1966）「Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円」『人文地理』18(1): 97-98."
+  },
+  {
+    "example_id": "6907130776e32cb9064ee977:ipsj",
+    "source_id": "6907130776e32cb9064ee977",
+    "label": "positive",
+    "doi": "10.2745/dds.9.345",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "金尾義治",
+        "小川享子",
+        "田中哲郎",
+        "藤原由美恵"
+      ],
+      "title": "Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.",
+      "journal": "Drug Delivery System",
+      "year": "1994",
+      "volume": "9",
+      "issue": "5",
+      "page": "345-350"
+    },
+    "reference_text": "金尾義治, 小川享子, 田中哲郎, 藤原由美恵：Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure., Drug Delivery System, Vol. 9, No. 5, pp. 345-350, 1994"
+  },
+  {
+    "example_id": "6907130776e32cb9064ee977:jsai",
+    "source_id": "6907130776e32cb9064ee977",
+    "label": "positive",
+    "doi": "10.2745/dds.9.345",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "金尾義治",
+        "小川享子",
+        "田中哲郎",
+        "藤原由美恵"
+      ],
+      "title": "Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.",
+      "journal": "Drug Delivery System",
+      "year": "1994",
+      "volume": "9",
+      "issue": "5",
+      "page": "345-350"
+    },
+    "reference_text": "金尾義治, 小川享子, 田中哲郎, 藤原由美恵：Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure., Drug Delivery System, Vol. 9, No. 5, pp. 345-350 (1994)"
+  },
+  {
+    "example_id": "6907130776e32cb9064ee977:lsj",
+    "source_id": "6907130776e32cb9064ee977",
+    "label": "positive",
+    "doi": "10.2745/dds.9.345",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "金尾義治",
+        "小川享子",
+        "田中哲郎",
+        "藤原由美恵"
+      ],
+      "title": "Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.",
+      "journal": "Drug Delivery System",
+      "year": "1994",
+      "volume": "9",
+      "issue": "5",
+      "page": "345-350"
+    },
+    "reference_text": "金尾義治・小川享子・田中哲郎・藤原由美恵（1994）「Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.」『Drug Delivery System』9(5): 345-350."
+  },
+  {
+    "example_id": "6907144176e32cb9067b5406:ipsj",
+    "source_id": "6907144176e32cb9067b5406",
+    "label": "positive",
+    "doi": "10.50900/jamdmicro.13.1_40",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Smith John D.",
+        "Nguyen Tuong Nguyen"
+      ],
+      "title": "Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT",
+      "journal": "The International Journal of Microdentistry",
+      "year": "2022",
+      "volume": "13",
+      "issue": "1",
+      "page": "40-44"
+    },
+    "reference_text": "Smith John D., Nguyen Tuong Nguyen：Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT, The International Journal of Microdentistry, Vol. 13, No. 1, pp. 40-44, 2022"
+  },
+  {
+    "example_id": "6907144176e32cb9067b5406:jsai",
+    "source_id": "6907144176e32cb9067b5406",
+    "label": "positive",
+    "doi": "10.50900/jamdmicro.13.1_40",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Smith John D.",
+        "Nguyen Tuong Nguyen"
+      ],
+      "title": "Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT",
+      "journal": "The International Journal of Microdentistry",
+      "year": "2022",
+      "volume": "13",
+      "issue": "1",
+      "page": "40-44"
+    },
+    "reference_text": "Smith John D., Nguyen Tuong Nguyen：Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT, The International Journal of Microdentistry, Vol. 13, No. 1, pp. 40-44 (2022)"
+  },
+  {
+    "example_id": "6907144176e32cb9067b5406:lsj",
+    "source_id": "6907144176e32cb9067b5406",
+    "label": "positive",
+    "doi": "10.50900/jamdmicro.13.1_40",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Smith John D.",
+        "Nguyen Tuong Nguyen"
+      ],
+      "title": "Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT",
+      "journal": "The International Journal of Microdentistry",
+      "year": "2022",
+      "volume": "13",
+      "issue": "1",
+      "page": "40-44"
+    },
+    "reference_text": "Smith John D.・Nguyen Tuong Nguyen（2022）「Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT」『The International Journal of Microdentistry』13(1): 40-44."
+  },
+  {
+    "example_id": "690713c576e32cb90667b2af:ipsj",
+    "source_id": "690713c576e32cb90667b2af",
+    "label": "positive",
+    "doi": "10.3130/aijsaxx.329.0_26",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "和泉正哲",
+        "伊藤敬一",
+        "勝倉裕",
+        "滝田貢"
+      ],
+      "title": "構造物の連成問題に対する部分モード法の応用に関する研究",
+      "journal": "日本建築学会論文報告集",
+      "year": "1983",
+      "volume": "329",
+      "issue": "0",
+      "page": "26-35"
+    },
+    "reference_text": "和泉正哲, 伊藤敬一, 勝倉裕, 滝田貢：構造物の連成問題に対する部分モード法の応用に関する研究, 日本建築学会論文報告集, Vol. 329, No. 0, pp. 26-35, 1983"
+  },
+  {
+    "example_id": "690713c576e32cb90667b2af:jsai",
+    "source_id": "690713c576e32cb90667b2af",
+    "label": "positive",
+    "doi": "10.3130/aijsaxx.329.0_26",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "和泉正哲",
+        "伊藤敬一",
+        "勝倉裕",
+        "滝田貢"
+      ],
+      "title": "構造物の連成問題に対する部分モード法の応用に関する研究",
+      "journal": "日本建築学会論文報告集",
+      "year": "1983",
+      "volume": "329",
+      "issue": "0",
+      "page": "26-35"
+    },
+    "reference_text": "和泉正哲, 伊藤敬一, 勝倉裕, 滝田貢：構造物の連成問題に対する部分モード法の応用に関する研究, 日本建築学会論文報告集, Vol. 329, No. 0, pp. 26-35 (1983)"
+  },
+  {
+    "example_id": "690713c576e32cb90667b2af:lsj",
+    "source_id": "690713c576e32cb90667b2af",
+    "label": "positive",
+    "doi": "10.3130/aijsaxx.329.0_26",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "和泉正哲",
+        "伊藤敬一",
+        "勝倉裕",
+        "滝田貢"
+      ],
+      "title": "構造物の連成問題に対する部分モード法の応用に関する研究",
+      "journal": "日本建築学会論文報告集",
+      "year": "1983",
+      "volume": "329",
+      "issue": "0",
+      "page": "26-35"
+    },
+    "reference_text": "和泉正哲・伊藤敬一・勝倉裕・滝田貢（1983）「構造物の連成問題に対する部分モード法の応用に関する研究」『日本建築学会論文報告集』329(0): 26-35."
+  },
+  {
+    "example_id": "690713da76e32cb9066a5869:ipsj",
+    "source_id": "690713da76e32cb9066a5869",
+    "label": "positive",
+    "doi": "10.1254/jjp.22.115",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "MIZUTANI Masahiro",
+        "IHARA Toshio",
+        "KAZIWARA Kyo"
+      ],
+      "title": "EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS",
+      "journal": "The Japanese Journal of Pharmacology",
+      "year": "1972",
+      "volume": "22",
+      "issue": "1",
+      "page": "115-124"
+    },
+    "reference_text": "MIZUTANI Masahiro, IHARA Toshio, KAZIWARA Kyo：EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS, The Japanese Journal of Pharmacology, Vol. 22, No. 1, pp. 115-124, 1972"
+  },
+  {
+    "example_id": "690713da76e32cb9066a5869:jsai",
+    "source_id": "690713da76e32cb9066a5869",
+    "label": "positive",
+    "doi": "10.1254/jjp.22.115",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "MIZUTANI Masahiro",
+        "IHARA Toshio",
+        "KAZIWARA Kyo"
+      ],
+      "title": "EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS",
+      "journal": "The Japanese Journal of Pharmacology",
+      "year": "1972",
+      "volume": "22",
+      "issue": "1",
+      "page": "115-124"
+    },
+    "reference_text": "MIZUTANI Masahiro, IHARA Toshio, KAZIWARA Kyo：EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS, The Japanese Journal of Pharmacology, Vol. 22, No. 1, pp. 115-124 (1972)"
+  },
+  {
+    "example_id": "690713da76e32cb9066a5869:lsj",
+    "source_id": "690713da76e32cb9066a5869",
+    "label": "positive",
+    "doi": "10.1254/jjp.22.115",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "MIZUTANI Masahiro",
+        "IHARA Toshio",
+        "KAZIWARA Kyo"
+      ],
+      "title": "EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS",
+      "journal": "The Japanese Journal of Pharmacology",
+      "year": "1972",
+      "volume": "22",
+      "issue": "1",
+      "page": "115-124"
+    },
+    "reference_text": "MIZUTANI Masahiro・IHARA Toshio・KAZIWARA Kyo（1972）「EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS」『The Japanese Journal of Pharmacology』22(1): 115-124."
+  },
+  {
+    "example_id": "6906eefaf54a306c79b4c713:ipsj",
+    "source_id": "6906eefaf54a306c79b4c713",
+    "label": "positive",
+    "doi": "10.14250/cement.75.356",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "西本つかさ",
+        "後藤優",
+        "上原匠"
+      ],
+      "title": "再生二水石膏粉を混和したエアモルタルの物性",
+      "journal": "Cement Science and Concrete Technology",
+      "year": "2022",
+      "volume": "75",
+      "issue": "1",
+      "page": "356-363"
+    },
+    "reference_text": "西本つかさ, 後藤優, 上原匠：再生二水石膏粉を混和したエアモルタルの物性, Cement Science and Concrete Technology, Vol. 75, No. 1, pp. 356-363, 2022"
+  },
+  {
+    "example_id": "6906eefaf54a306c79b4c713:jsai",
+    "source_id": "6906eefaf54a306c79b4c713",
+    "label": "positive",
+    "doi": "10.14250/cement.75.356",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "西本つかさ",
+        "後藤優",
+        "上原匠"
+      ],
+      "title": "再生二水石膏粉を混和したエアモルタルの物性",
+      "journal": "Cement Science and Concrete Technology",
+      "year": "2022",
+      "volume": "75",
+      "issue": "1",
+      "page": "356-363"
+    },
+    "reference_text": "西本つかさ, 後藤優, 上原匠：再生二水石膏粉を混和したエアモルタルの物性, Cement Science and Concrete Technology, Vol. 75, No. 1, pp. 356-363 (2022)"
+  },
+  {
+    "example_id": "6906eefaf54a306c79b4c713:lsj",
+    "source_id": "6906eefaf54a306c79b4c713",
+    "label": "positive",
+    "doi": "10.14250/cement.75.356",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "西本つかさ",
+        "後藤優",
+        "上原匠"
+      ],
+      "title": "再生二水石膏粉を混和したエアモルタルの物性",
+      "journal": "Cement Science and Concrete Technology",
+      "year": "2022",
+      "volume": "75",
+      "issue": "1",
+      "page": "356-363"
+    },
+    "reference_text": "西本つかさ・後藤優・上原匠（2022）「再生二水石膏粉を混和したエアモルタルの物性」『Cement Science and Concrete Technology』75(1): 356-363."
+  },
+  {
+    "example_id": "690713ab76e32cb9066469cb:ipsj",
+    "source_id": "690713ab76e32cb9066469cb",
+    "label": "positive",
+    "doi": "10.1541/ieejias.109.6",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "美坂佳助",
+        "高橋亮一"
+      ],
+      "title": "Progress of process control in the steel industry.",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "1989",
+      "volume": "109",
+      "issue": "1",
+      "page": "6-9"
+    },
+    "reference_text": "美坂佳助, 高橋亮一：Progress of process control in the steel industry., IEEJ Transactions on Industry Applications, Vol. 109, No. 1, pp. 6-9, 1989"
+  },
+  {
+    "example_id": "690713ab76e32cb9066469cb:jsai",
+    "source_id": "690713ab76e32cb9066469cb",
+    "label": "positive",
+    "doi": "10.1541/ieejias.109.6",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "美坂佳助",
+        "高橋亮一"
+      ],
+      "title": "Progress of process control in the steel industry.",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "1989",
+      "volume": "109",
+      "issue": "1",
+      "page": "6-9"
+    },
+    "reference_text": "美坂佳助, 高橋亮一：Progress of process control in the steel industry., IEEJ Transactions on Industry Applications, Vol. 109, No. 1, pp. 6-9 (1989)"
+  },
+  {
+    "example_id": "690713ab76e32cb9066469cb:lsj",
+    "source_id": "690713ab76e32cb9066469cb",
+    "label": "positive",
+    "doi": "10.1541/ieejias.109.6",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "美坂佳助",
+        "高橋亮一"
+      ],
+      "title": "Progress of process control in the steel industry.",
+      "journal": "IEEJ Transactions on Industry Applications",
+      "year": "1989",
+      "volume": "109",
+      "issue": "1",
+      "page": "6-9"
+    },
+    "reference_text": "美坂佳助・高橋亮一（1989）「Progress of process control in the steel industry.」『IEEJ Transactions on Industry Applications』109(1): 6-9."
+  },
+  {
+    "example_id": "6906ef15f54a306c79b8360a:ipsj",
+    "source_id": "6906ef15f54a306c79b8360a",
+    "label": "positive",
+    "doi": "10.2207/qjjws.37.68",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "廣畑幹人",
+        "竹田文哉",
+        "猪瀬幸太郎",
+        "松本直幸",
+        "阿部大輔"
+      ],
+      "title": "拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価",
+      "journal": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "2019",
+      "volume": "37",
+      "issue": "1",
+      "page": "68-80"
+    },
+    "reference_text": "廣畑幹人, 竹田文哉, 猪瀬幸太郎, 松本直幸, 阿部大輔：拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価, QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY, Vol. 37, No. 1, pp. 68-80, 2019"
+  },
+  {
+    "example_id": "6906ef15f54a306c79b8360a:jsai",
+    "source_id": "6906ef15f54a306c79b8360a",
+    "label": "positive",
+    "doi": "10.2207/qjjws.37.68",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "廣畑幹人",
+        "竹田文哉",
+        "猪瀬幸太郎",
+        "松本直幸",
+        "阿部大輔"
+      ],
+      "title": "拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価",
+      "journal": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "2019",
+      "volume": "37",
+      "issue": "1",
+      "page": "68-80"
+    },
+    "reference_text": "廣畑幹人, 竹田文哉, 猪瀬幸太郎, 松本直幸, 阿部大輔：拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価, QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY, Vol. 37, No. 1, pp. 68-80 (2019)"
+  },
+  {
+    "example_id": "6906ef15f54a306c79b8360a:lsj",
+    "source_id": "6906ef15f54a306c79b8360a",
+    "label": "positive",
+    "doi": "10.2207/qjjws.37.68",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "廣畑幹人",
+        "竹田文哉",
+        "猪瀬幸太郎",
+        "松本直幸",
+        "阿部大輔"
+      ],
+      "title": "拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価",
+      "journal": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+      "year": "2019",
+      "volume": "37",
+      "issue": "1",
+      "page": "68-80"
+    },
+    "reference_text": "廣畑幹人・竹田文哉・猪瀬幸太郎・松本直幸・阿部大輔（2019）「拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価」『QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY』37(1): 68-80."
+  },
+  {
+    "example_id": "6907169376e32cb906df72dc:ipsj",
+    "source_id": "6907169376e32cb906df72dc",
+    "label": "positive",
+    "doi": "10.34394/aquaticanimals.2022.0_AA2022-4",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹内宏行",
+        "今井正",
+        "森田哲男",
+        "崎山一孝"
+      ],
+      "title": "漁獲されたキジハタ天然魚の餌付け",
+      "journal": "水生動物",
+      "year": "2022",
+      "volume": "2022",
+      "issue": "0",
+      "page": "AA2022-4"
+    },
+    "reference_text": "竹内宏行, 今井正, 森田哲男, 崎山一孝：漁獲されたキジハタ天然魚の餌付け, 水生動物, Vol. 2022, No. 0, pp. AA2022-4, 2022"
+  },
+  {
+    "example_id": "6907169376e32cb906df72dc:jsai",
+    "source_id": "6907169376e32cb906df72dc",
+    "label": "positive",
+    "doi": "10.34394/aquaticanimals.2022.0_AA2022-4",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹内宏行",
+        "今井正",
+        "森田哲男",
+        "崎山一孝"
+      ],
+      "title": "漁獲されたキジハタ天然魚の餌付け",
+      "journal": "水生動物",
+      "year": "2022",
+      "volume": "2022",
+      "issue": "0",
+      "page": "AA2022-4"
+    },
+    "reference_text": "竹内宏行, 今井正, 森田哲男, 崎山一孝：漁獲されたキジハタ天然魚の餌付け, 水生動物, Vol. 2022, No. 0, pp. AA2022-4 (2022)"
+  },
+  {
+    "example_id": "6907169376e32cb906df72dc:lsj",
+    "source_id": "6907169376e32cb906df72dc",
+    "label": "positive",
+    "doi": "10.34394/aquaticanimals.2022.0_AA2022-4",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "竹内宏行",
+        "今井正",
+        "森田哲男",
+        "崎山一孝"
+      ],
+      "title": "漁獲されたキジハタ天然魚の餌付け",
+      "journal": "水生動物",
+      "year": "2022",
+      "volume": "2022",
+      "issue": "0",
+      "page": "AA2022-4"
+    },
+    "reference_text": "竹内宏行・今井正・森田哲男・崎山一孝（2022）「漁獲されたキジハタ天然魚の餌付け」『水生動物』2022(0): AA2022-4."
+  },
+  {
+    "example_id": "690716aa76e32cb906e5752e:ipsj",
+    "source_id": "690716aa76e32cb906e5752e",
+    "label": "positive",
+    "doi": "10.20693/jspeconf.55.0_84",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "賀川昌明"
+      ],
+      "title": "2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)",
+      "journal": "日本体育学会大会号",
+      "year": "2004",
+      "volume": "55",
+      "issue": "0",
+      "page": "84"
+    },
+    "reference_text": "賀川昌明：2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画), 日本体育学会大会号, Vol. 55, No. 0, pp. 84, 2004"
+  },
+  {
+    "example_id": "690716aa76e32cb906e5752e:jsai",
+    "source_id": "690716aa76e32cb906e5752e",
+    "label": "positive",
+    "doi": "10.20693/jspeconf.55.0_84",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "賀川昌明"
+      ],
+      "title": "2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)",
+      "journal": "日本体育学会大会号",
+      "year": "2004",
+      "volume": "55",
+      "issue": "0",
+      "page": "84"
+    },
+    "reference_text": "賀川昌明：2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画), 日本体育学会大会号, Vol. 55, No. 0, pp. 84 (2004)"
+  },
+  {
+    "example_id": "690716aa76e32cb906e5752e:lsj",
+    "source_id": "690716aa76e32cb906e5752e",
+    "label": "positive",
+    "doi": "10.20693/jspeconf.55.0_84",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "賀川昌明"
+      ],
+      "title": "2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)",
+      "journal": "日本体育学会大会号",
+      "year": "2004",
+      "volume": "55",
+      "issue": "0",
+      "page": "84"
+    },
+    "reference_text": "賀川昌明（2004）「2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)」『日本体育学会大会号』55(0): 84."
+  },
+  {
+    "example_id": "690713b576e32cb90665afc0:ipsj",
+    "source_id": "690713b576e32cb90665afc0",
+    "label": "positive",
+    "doi": "10.2116/bunsekikagaku.51.613",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "檀崎祐悦"
+      ],
+      "title": "Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.",
+      "journal": "BUNSEKI KAGAKU",
+      "year": "2002",
+      "volume": "51",
+      "issue": "8",
+      "page": "613-617"
+    },
+    "reference_text": "檀崎祐悦：Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method., BUNSEKI KAGAKU, Vol. 51, No. 8, pp. 613-617, 2002"
+  },
+  {
+    "example_id": "690713b576e32cb90665afc0:jsai",
+    "source_id": "690713b576e32cb90665afc0",
+    "label": "positive",
+    "doi": "10.2116/bunsekikagaku.51.613",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "檀崎祐悦"
+      ],
+      "title": "Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.",
+      "journal": "BUNSEKI KAGAKU",
+      "year": "2002",
+      "volume": "51",
+      "issue": "8",
+      "page": "613-617"
+    },
+    "reference_text": "檀崎祐悦：Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method., BUNSEKI KAGAKU, Vol. 51, No. 8, pp. 613-617 (2002)"
+  },
+  {
+    "example_id": "690713b576e32cb90665afc0:lsj",
+    "source_id": "690713b576e32cb90665afc0",
+    "label": "positive",
+    "doi": "10.2116/bunsekikagaku.51.613",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "檀崎祐悦"
+      ],
+      "title": "Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.",
+      "journal": "BUNSEKI KAGAKU",
+      "year": "2002",
+      "volume": "51",
+      "issue": "8",
+      "page": "613-617"
+    },
+    "reference_text": "檀崎祐悦（2002）「Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.」『BUNSEKI KAGAKU』51(8): 613-617."
+  },
+  {
+    "example_id": "690716d876e32cb906edea28:ipsj",
+    "source_id": "690716d876e32cb906edea28",
+    "label": "positive",
+    "doi": "10.24484/sitereports.10052-2672",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "柳澤,和明"
+      ],
+      "title": "三重小塔",
+      "journal": "宮城県文化財調査報告書 : 新田東遺跡",
+      "year": "2003",
+      "volume": "191",
+      "issue": "",
+      "page": "223-227"
+    },
+    "reference_text": "柳澤,和明：三重小塔, 宮城県文化財調査報告書 : 新田東遺跡, Vol. 191, pp. 223-227, 2003"
+  },
+  {
+    "example_id": "690716d876e32cb906edea28:jsai",
+    "source_id": "690716d876e32cb906edea28",
+    "label": "positive",
+    "doi": "10.24484/sitereports.10052-2672",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "柳澤,和明"
+      ],
+      "title": "三重小塔",
+      "journal": "宮城県文化財調査報告書 : 新田東遺跡",
+      "year": "2003",
+      "volume": "191",
+      "issue": "",
+      "page": "223-227"
+    },
+    "reference_text": "柳澤,和明：三重小塔, 宮城県文化財調査報告書 : 新田東遺跡, Vol. 191, pp. 223-227 (2003)"
+  },
+  {
+    "example_id": "690716d876e32cb906edea28:lsj",
+    "source_id": "690716d876e32cb906edea28",
+    "label": "positive",
+    "doi": "10.24484/sitereports.10052-2672",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "柳澤,和明"
+      ],
+      "title": "三重小塔",
+      "journal": "宮城県文化財調査報告書 : 新田東遺跡",
+      "year": "2003",
+      "volume": "191",
+      "issue": "",
+      "page": "223-227"
+    },
+    "reference_text": "柳澤,和明（2003）「三重小塔」『宮城県文化財調査報告書 : 新田東遺跡』191: 223-227."
+  },
+  {
+    "example_id": "6907164f76e32cb906d2abc7:ipsj",
+    "source_id": "6907164f76e32cb906d2abc7",
+    "label": "positive",
+    "doi": "10.20684/quality.21.1_26",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "須山益男"
+      ],
+      "title": "小松製作所におけるSQC教育",
+      "journal": "品質",
+      "year": "1991",
+      "volume": "21",
+      "issue": "1",
+      "page": "26-34"
+    },
+    "reference_text": "須山益男：小松製作所におけるSQC教育, 品質, Vol. 21, No. 1, pp. 26-34, 1991"
+  },
+  {
+    "example_id": "6907164f76e32cb906d2abc7:jsai",
+    "source_id": "6907164f76e32cb906d2abc7",
+    "label": "positive",
+    "doi": "10.20684/quality.21.1_26",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "須山益男"
+      ],
+      "title": "小松製作所におけるSQC教育",
+      "journal": "品質",
+      "year": "1991",
+      "volume": "21",
+      "issue": "1",
+      "page": "26-34"
+    },
+    "reference_text": "須山益男：小松製作所におけるSQC教育, 品質, Vol. 21, No. 1, pp. 26-34 (1991)"
+  },
+  {
+    "example_id": "6907164f76e32cb906d2abc7:lsj",
+    "source_id": "6907164f76e32cb906d2abc7",
+    "label": "positive",
+    "doi": "10.20684/quality.21.1_26",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "須山益男"
+      ],
+      "title": "小松製作所におけるSQC教育",
+      "journal": "品質",
+      "year": "1991",
+      "volume": "21",
+      "issue": "1",
+      "page": "26-34"
+    },
+    "reference_text": "須山益男（1991）「小松製作所におけるSQC教育」『品質』21(1): 26-34."
+  },
+  {
+    "example_id": "6907138376e32cb9065f5535:ipsj",
+    "source_id": "6907138376e32cb9065f5535",
+    "label": "positive",
+    "doi": "10.1589/jpts.27.1303",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Yun Soo",
+        "Kim You Lim",
+        "Lee Suk Min"
+      ],
+      "title": "The effect of neurac training in patients with chronic neck pain",
+      "journal": "Journal of Physical Therapy Science",
+      "year": "2015",
+      "volume": "27",
+      "issue": "5",
+      "page": "1303-1307"
+    },
+    "reference_text": "Yun Soo, Kim You Lim, Lee Suk Min：The effect of neurac training in patients with chronic neck pain, Journal of Physical Therapy Science, Vol. 27, No. 5, pp. 1303-1307, 2015"
+  },
+  {
+    "example_id": "6907138376e32cb9065f5535:jsai",
+    "source_id": "6907138376e32cb9065f5535",
+    "label": "positive",
+    "doi": "10.1589/jpts.27.1303",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Yun Soo",
+        "Kim You Lim",
+        "Lee Suk Min"
+      ],
+      "title": "The effect of neurac training in patients with chronic neck pain",
+      "journal": "Journal of Physical Therapy Science",
+      "year": "2015",
+      "volume": "27",
+      "issue": "5",
+      "page": "1303-1307"
+    },
+    "reference_text": "Yun Soo, Kim You Lim, Lee Suk Min：The effect of neurac training in patients with chronic neck pain, Journal of Physical Therapy Science, Vol. 27, No. 5, pp. 1303-1307 (2015)"
+  },
+  {
+    "example_id": "6907138376e32cb9065f5535:lsj",
+    "source_id": "6907138376e32cb9065f5535",
+    "label": "positive",
+    "doi": "10.1589/jpts.27.1303",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "Yun Soo",
+        "Kim You Lim",
+        "Lee Suk Min"
+      ],
+      "title": "The effect of neurac training in patients with chronic neck pain",
+      "journal": "Journal of Physical Therapy Science",
+      "year": "2015",
+      "volume": "27",
+      "issue": "5",
+      "page": "1303-1307"
+    },
+    "reference_text": "Yun Soo・Kim You Lim・Lee Suk Min（2015）「The effect of neurac training in patients with chronic neck pain」『Journal of Physical Therapy Science』27(5): 1303-1307."
+  },
+  {
+    "example_id": "690716f876e32cb906f53011:ipsj",
+    "source_id": "690716f876e32cb906f53011",
+    "label": "positive",
+    "doi": "10.14966/jssp.KJ00003724879",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "奥田秀宇"
+      ],
+      "title": "希釈効果の規定因としての無関連性, 中立性, および両価性",
+      "journal": "社会心理学研究",
+      "year": "2003",
+      "volume": "19",
+      "issue": "1",
+      "page": "11-17"
+    },
+    "reference_text": "奥田秀宇：希釈効果の規定因としての無関連性, 中立性, および両価性, 社会心理学研究, Vol. 19, No. 1, pp. 11-17, 2003"
+  },
+  {
+    "example_id": "690716f876e32cb906f53011:jsai",
+    "source_id": "690716f876e32cb906f53011",
+    "label": "positive",
+    "doi": "10.14966/jssp.KJ00003724879",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "奥田秀宇"
+      ],
+      "title": "希釈効果の規定因としての無関連性, 中立性, および両価性",
+      "journal": "社会心理学研究",
+      "year": "2003",
+      "volume": "19",
+      "issue": "1",
+      "page": "11-17"
+    },
+    "reference_text": "奥田秀宇：希釈効果の規定因としての無関連性, 中立性, および両価性, 社会心理学研究, Vol. 19, No. 1, pp. 11-17 (2003)"
+  },
+  {
+    "example_id": "690716f876e32cb906f53011:lsj",
+    "source_id": "690716f876e32cb906f53011",
+    "label": "positive",
+    "doi": "10.14966/jssp.KJ00003724879",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "奥田秀宇"
+      ],
+      "title": "希釈効果の規定因としての無関連性, 中立性, および両価性",
+      "journal": "社会心理学研究",
+      "year": "2003",
+      "volume": "19",
+      "issue": "1",
+      "page": "11-17"
+    },
+    "reference_text": "奥田秀宇（2003）「希釈効果の規定因としての無関連性, 中立性, および両価性」『社会心理学研究』19(1): 11-17."
+  },
+  {
+    "example_id": "690716c476e32cb906ea3037:ipsj",
+    "source_id": "690716c476e32cb906ea3037",
+    "label": "positive",
+    "doi": "10.18974/jvrsj.10.3_52",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "中谷正明",
+        "木島竜吾",
+        "白井暁彦"
+      ],
+      "title": "ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―",
+      "journal": "日本バーチャルリアリティ学会誌",
+      "year": "2005",
+      "volume": "10",
+      "issue": "3",
+      "page": "52-53"
+    },
+    "reference_text": "中谷正明, 木島竜吾, 白井暁彦：ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―, 日本バーチャルリアリティ学会誌, Vol. 10, No. 3, pp. 52-53, 2005"
+  },
+  {
+    "example_id": "690716c476e32cb906ea3037:jsai",
+    "source_id": "690716c476e32cb906ea3037",
+    "label": "positive",
+    "doi": "10.18974/jvrsj.10.3_52",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "中谷正明",
+        "木島竜吾",
+        "白井暁彦"
+      ],
+      "title": "ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―",
+      "journal": "日本バーチャルリアリティ学会誌",
+      "year": "2005",
+      "volume": "10",
+      "issue": "3",
+      "page": "52-53"
+    },
+    "reference_text": "中谷正明, 木島竜吾, 白井暁彦：ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―, 日本バーチャルリアリティ学会誌, Vol. 10, No. 3, pp. 52-53 (2005)"
+  },
+  {
+    "example_id": "690716c476e32cb906ea3037:lsj",
+    "source_id": "690716c476e32cb906ea3037",
+    "label": "positive",
+    "doi": "10.18974/jvrsj.10.3_52",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "中谷正明",
+        "木島竜吾",
+        "白井暁彦"
+      ],
+      "title": "ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―",
+      "journal": "日本バーチャルリアリティ学会誌",
+      "year": "2005",
+      "volume": "10",
+      "issue": "3",
+      "page": "52-53"
+    },
+    "reference_text": "中谷正明・木島竜吾・白井暁彦（2005）「ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―」『日本バーチャルリアリティ学会誌』10(3): 52-53."
+  },
+  {
+    "example_id": "6907145276e32cb9067e1dff:ipsj",
+    "source_id": "6907145276e32cb9067e1dff",
+    "label": "positive",
+    "doi": "10.19022/jlem.29.1_38",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "畠山理恵"
+      ],
+      "title": "オンライン授業期間における授業観・授業運営の移り変わり",
+      "journal": "日本語教育方法研究会誌",
+      "year": "2022",
+      "volume": "29",
+      "issue": "1",
+      "page": "38-39"
+    },
+    "reference_text": "畠山理恵：オンライン授業期間における授業観・授業運営の移り変わり, 日本語教育方法研究会誌, Vol. 29, No. 1, pp. 38-39, 2022"
+  },
+  {
+    "example_id": "6907145276e32cb9067e1dff:jsai",
+    "source_id": "6907145276e32cb9067e1dff",
+    "label": "positive",
+    "doi": "10.19022/jlem.29.1_38",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "畠山理恵"
+      ],
+      "title": "オンライン授業期間における授業観・授業運営の移り変わり",
+      "journal": "日本語教育方法研究会誌",
+      "year": "2022",
+      "volume": "29",
+      "issue": "1",
+      "page": "38-39"
+    },
+    "reference_text": "畠山理恵：オンライン授業期間における授業観・授業運営の移り変わり, 日本語教育方法研究会誌, Vol. 29, No. 1, pp. 38-39 (2022)"
+  },
+  {
+    "example_id": "6907145276e32cb9067e1dff:lsj",
+    "source_id": "6907145276e32cb9067e1dff",
+    "label": "positive",
+    "doi": "10.19022/jlem.29.1_38",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "畠山理恵"
+      ],
+      "title": "オンライン授業期間における授業観・授業運営の移り変わり",
+      "journal": "日本語教育方法研究会誌",
+      "year": "2022",
+      "volume": "29",
+      "issue": "1",
+      "page": "38-39"
+    },
+    "reference_text": "畠山理恵（2022）「オンライン授業期間における授業観・授業運営の移り変わり」『日本語教育方法研究会誌』29(1): 38-39."
+  },
+  {
+    "example_id": "6907143f76e32cb9067ad945:ipsj",
+    "source_id": "6907143f76e32cb9067ad945",
+    "label": "positive",
+    "doi": "10.11357/jsam1937.65.78",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "朴宗洙",
+        "寺尾日出男",
+        "石井耕太"
+      ],
+      "title": "Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+      "journal": "JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY",
+      "year": "2003",
+      "volume": "65",
+      "issue": "1",
+      "page": "78-84"
+    },
+    "reference_text": "朴宗洙, 寺尾日出男, 石井耕太：Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model., JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY, Vol. 65, No. 1, pp. 78-84, 2003"
+  },
+  {
+    "example_id": "6907143f76e32cb9067ad945:jsai",
+    "source_id": "6907143f76e32cb9067ad945",
+    "label": "positive",
+    "doi": "10.11357/jsam1937.65.78",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "朴宗洙",
+        "寺尾日出男",
+        "石井耕太"
+      ],
+      "title": "Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+      "journal": "JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY",
+      "year": "2003",
+      "volume": "65",
+      "issue": "1",
+      "page": "78-84"
+    },
+    "reference_text": "朴宗洙, 寺尾日出男, 石井耕太：Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model., JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY, Vol. 65, No. 1, pp. 78-84 (2003)"
+  },
+  {
+    "example_id": "6907143f76e32cb9067ad945:lsj",
+    "source_id": "6907143f76e32cb9067ad945",
+    "label": "positive",
+    "doi": "10.11357/jsam1937.65.78",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "朴宗洙",
+        "寺尾日出男",
+        "石井耕太"
+      ],
+      "title": "Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+      "journal": "JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY",
+      "year": "2003",
+      "volume": "65",
+      "issue": "1",
+      "page": "78-84"
+    },
+    "reference_text": "朴宗洙・寺尾日出男・石井耕太（2003）「Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.」『JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY』65(1): 78-84."
+  },
+  {
+    "example_id": "6906efc0f54a306c79d35633:ipsj",
+    "source_id": "6906efc0f54a306c79d35633",
+    "label": "positive",
+    "doi": "10.11453/orltokyo1958.43.470",
+    "style": "ipsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "橋本透",
+        "木村雅子",
+        "尾尻博也",
+        "多田信平"
+      ],
+      "title": "口腔・口腔低病変",
+      "journal": "耳展",
+      "year": "2000",
+      "volume": "43",
+      "issue": "5",
+      "page": "470-471"
+    },
+    "reference_text": "橋本透, 木村雅子, 尾尻博也, 多田信平：口腔・口腔低病変, 耳展, Vol. 43, No. 5, pp. 470-471, 2000"
+  },
+  {
+    "example_id": "6906efc0f54a306c79d35633:jsai",
+    "source_id": "6906efc0f54a306c79d35633",
+    "label": "positive",
+    "doi": "10.11453/orltokyo1958.43.470",
+    "style": "jsai",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "橋本透",
+        "木村雅子",
+        "尾尻博也",
+        "多田信平"
+      ],
+      "title": "口腔・口腔低病変",
+      "journal": "耳展",
+      "year": "2000",
+      "volume": "43",
+      "issue": "5",
+      "page": "470-471"
+    },
+    "reference_text": "橋本透, 木村雅子, 尾尻博也, 多田信平：口腔・口腔低病変, 耳展, Vol. 43, No. 5, pp. 470-471 (2000)"
+  },
+  {
+    "example_id": "6906efc0f54a306c79d35633:lsj",
+    "source_id": "6906efc0f54a306c79d35633",
+    "label": "positive",
+    "doi": "10.11453/orltokyo1958.43.470",
+    "style": "lsj",
+    "field_names": [
+      "authors",
+      "title",
+      "journal",
+      "year",
+      "volume",
+      "page"
+    ],
+    "has_typos": false,
+    "reference_fields": {
+      "authors": [
+        "橋本透",
+        "木村雅子",
+        "尾尻博也",
+        "多田信平"
+      ],
+      "title": "口腔・口腔低病変",
+      "journal": "耳展",
+      "year": "2000",
+      "volume": "43",
+      "issue": "5",
+      "page": "470-471"
+    },
+    "reference_text": "橋本透・木村雅子・尾尻博也・多田信平（2000）「口腔・口腔低病変」『耳展』43(5): 470-471."
+  }
+]
