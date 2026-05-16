@@ -92,13 +92,15 @@ C = ⋃_{f ∈ F} C_f
 ```python
 reference_values = split_reference_values(reference_string)
 tokens = tokenize_values(reference_values)
-query_str = " ".join(tokens)
+query_str = build_query_string(tokens)
 
 params = {
     "q": query_str,
     "df": "all_tokens"
 }
 ```
+
+`build_query_string()` では、空白を含む token だけを `"` で囲って Solr の `q` へ渡す。
 
 ---
 

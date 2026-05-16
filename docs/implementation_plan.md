@@ -40,6 +40,8 @@ tanigawa_shoshi/
       solr_schema.py
       solr_indexer.py
       search.py
+      evaluation_data.py
+      scoring.py
 
   notebooks/
     01_check_tokenizer.ipynb
@@ -48,6 +50,10 @@ tanigawa_shoshi/
     04_index_sample_to_solr.ipynb
     05_search_sample.ipynb
     06_index_all_to_solr.ipynb
+    07_sample_source_docs.ipynb
+    08_build_evaluation_data.ipynb
+    09_check_scoring.ipynb
+    10_run_evaluation.ipynb
 ```
 
 `notebooks/` をメインの実行場所とする。
@@ -175,6 +181,31 @@ all_tokens
 ```
 
 `first_author` は登録するが、`all_tokens` の生成元には含めず、今回の検索対象にはしない。
+
+### `evaluation_data.py`
+
+評価用の元メタデータ、無加工正例、正例、負例の生成と保存を担当する。
+
+想定内容：
+
+* MongoDB からの評価対象サンプリング
+* `base_positive_examples.json` の生成
+* `positive_examples.json` の生成
+* `negative_examples.json` の生成
+* タイトル書換え依頼結果の反映
+
+### `scoring.py`
+
+候補 1 件に対する RC / CC / MC 計算を担当する。
+
+想定内容：
+
+* `R` の生成
+* `Cf` の生成
+* `Cvf` の生成
+* `compute_rc()`
+* `compute_cc()`
+* `compute_mc()`
 
 ---
 
