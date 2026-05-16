@@ -13,6 +13,7 @@ from .config import (
     MONGODB_COLLECTION,
     MONGODB_DATABASE,
     MONGODB_URL,
+    POSITIVE_EXAMPLES_PATH,
     SAMPLED_SOURCE_DOCS_PATH,
 )
 from .jalc_extract import (
@@ -34,6 +35,15 @@ SOURCE_DOC_PROJECTION = {
 }
 DEFAULT_POSITIVE_FIELD_NAMES = ["authors", "title", "journal", "year", "volume", "page"]
 CITATION_STYLE_ORDER = ["ipsj", "jsai", "lsj"]
+TYPO_FIELD_WEIGHTS = {
+    "authors": 20,
+    "title": 40,
+    "journal": 15,
+    "year": 5,
+    "volume": 5,
+    "issue": 5,
+    "page": 10,
+}
 
 # ObjectId や datetime を JSON 保存できる値へ再帰的に変換する。
 def _normalize_for_json(value: Any) -> Any:
@@ -194,6 +204,168 @@ def _build_reference_text(style: str, reference_fields: Dict[str, Any]) -> str:
     if style == "lsj":
         return _format_lsj_reference(reference_fields)
     raise ValueError(f"未対応の引用スタイルです: {style}")
+
+
+# 数値文字列として扱えるかを判定する。
+def _is_integer_text(value: Any) -> bool:
+    return bool(value) and str(value).isdigit()
+
+
+# 文字列から空白以外の 1 文字をランダムに削除する。
+def _remove_one_character(value: str, rng: random.Random) -> Optional[str]:
+    candidate_indexes = [index for index, ch in enumerate(value) if not ch.isspace()]
+    if not candidate_indexes:
+        return None
+    selected_index = rng.choice(candidate_indexes)
+    updated_value = value[:selected_index] + value[selected_index + 1 :]
+    return updated_value if updated_value else None
+
+
+# 数値文字列へ ±1 の変更を加える。
+def _apply_plus_minus_one(value: str, rng: random.Random) -> Optional[str]:
+    if not _is_integer_text(value):
+        return None
+    delta = rng.choice([-1, 1])
+    return str(int(value) + delta)
+
+
+# ページ文字列へ ±1 の変更を加える。
+def _apply_page_plus_minus_one(value: str, rng: random.Random) -> Optional[str]:
+    if not value:
+        return None
+    if "-" in value:
+        page_parts = value.split("-")
+        if len(page_parts) != 2 or not all(_is_integer_text(part) for part in page_parts):
+            return None
+        selected_index = rng.choice([0, 1])
+        delta = rng.choice([-1, 1])
+        page_parts[selected_index] = str(int(page_parts[selected_index]) + delta)
+        return "-".join(page_parts)
+    return _apply_plus_minus_one(value, rng)
+
+
+# reference_fields へ指定の誤植を 1 件分適用する。
+def _apply_typo_to_reference_fields(
+    typo_field: str,
+    reference_fields: Dict[str, Any],
+    rng: random.Random,
+) -> Optional[Dict[str, Any]]:
+    if typo_field == "authors":
+        authors = reference_fields["authors"]
+        if len(authors) <= 1:
+            return None
+        return {
+            "field": "authors",
+            "before": authors[:],
+            "after": authors[:-1],
+        }
+
+    if typo_field == "title":
+        updated_title = _remove_one_character(reference_fields["title"], rng)
+        if updated_title is None:
+            return None
+        return {
+            "field": "title",
+            "before": reference_fields["title"],
+            "after": updated_title,
+        }
+
+    if typo_field == "journal":
+        updated_journal = _remove_one_character(reference_fields["journal"], rng)
+        if updated_journal is None:
+            return None
+        return {
+            "field": "journal",
+            "before": reference_fields["journal"],
+            "after": updated_journal,
+        }
+
+    if typo_field == "year":
+        updated_year = _apply_plus_minus_one(reference_fields["year"], rng)
+        if updated_year is None:
+            return None
+        return {
+            "field": "year",
+            "before": reference_fields["year"],
+            "after": updated_year,
+        }
+
+    if typo_field == "volume":
+        updated_volume = _apply_plus_minus_one(reference_fields["volume"], rng)
+        if updated_volume is None:
+            return None
+        return {
+            "field": "volume",
+            "before": reference_fields["volume"],
+            "after": updated_volume,
+        }
+
+    if typo_field == "issue":
+        updated_issue = _apply_plus_minus_one(reference_fields["issue"], rng)
+        if updated_issue is None:
+            return None
+        return {
+            "field": "issue",
+            "before": reference_fields["issue"],
+            "after": updated_issue,
+        }
+
+    if typo_field == "page":
+        updated_page = _apply_page_plus_minus_one(reference_fields["page"], rng)
+        if updated_page is None:
+            return None
+        return {
+            "field": "page",
+            "before": reference_fields["page"],
+            "after": updated_page,
+        }
+
+    raise ValueError(f"未対応の誤植フィールドです: {typo_field}")
+
+
+# 現在の reference_fields に対して適用可能な誤植候補を返す。
+def _get_applicable_typo_fields(reference_fields: Dict[str, Any]) -> List[str]:
+    applicable_fields = []
+    if len(reference_fields["authors"]) > 1:
+        applicable_fields.append("authors")
+    if _remove_one_character(reference_fields["title"], random.Random(0)) is not None:
+        applicable_fields.append("title")
+    if _remove_one_character(reference_fields["journal"], random.Random(0)) is not None:
+        applicable_fields.append("journal")
+    if _is_integer_text(reference_fields["year"]):
+        applicable_fields.append("year")
+    if _is_integer_text(reference_fields["volume"]):
+        applicable_fields.append("volume")
+    if _is_integer_text(reference_fields["issue"]):
+        applicable_fields.append("issue")
+    if _apply_page_plus_minus_one(reference_fields["page"], random.Random(0)) is not None:
+        applicable_fields.append("page")
+    return applicable_fields
+
+
+# 適用可能な誤植候補から、重み付きで重複なしに対象フィールドを選ぶ。
+def _select_typo_fields(
+    reference_fields: Dict[str, Any],
+    typo_count: int,
+    rng: random.Random,
+) -> List[str]:
+    selected_fields: List[str] = []
+    remaining_fields = _get_applicable_typo_fields(reference_fields)
+
+    for _ in range(min(typo_count, len(remaining_fields))):
+        total_weight = sum(TYPO_FIELD_WEIGHTS[field_name] for field_name in remaining_fields)
+        threshold = rng.uniform(0, total_weight)
+        cumulative_weight = 0.0
+        chosen_field = remaining_fields[-1]
+        for field_name in remaining_fields:
+            cumulative_weight += TYPO_FIELD_WEIGHTS[field_name]
+            if threshold <= cumulative_weight:
+                chosen_field = field_name
+                break
+        selected_fields.append(chosen_field)
+        remaining_fields.remove(chosen_field)
+
+    return selected_fields
 
 
 # 評価用元メタデータのサンプリング条件を返す。
@@ -473,4 +645,93 @@ def build_base_positive_examples(
         "style_names": style_names,
         "field_names": positive_field_names,
         "default_output_path": str(BASE_POSITIVE_EXAMPLES_PATH),
+    }
+
+
+# 無加工正例データから、論文表2に従った誤植付き正例データを生成する。
+def build_positive_examples(
+    base_examples: Iterable[Dict[str, Any]],
+    *,
+    seed: Optional[int] = None,
+) -> Dict[str, Any]:
+    rng = random.Random(seed)
+    examples: List[Dict[str, Any]] = []
+    stats = {
+        "input_count": 0,
+        "built_count": 0,
+        "typo_example_count": 0,
+        "no_typo_example_count": 0,
+        "single_typo_count": 0,
+        "double_typo_count": 0,
+    }
+
+    for base_example in base_examples:
+        stats["input_count"] += 1
+
+        updated_example = {
+            "example_id": base_example["example_id"],
+            "source_id": base_example["source_id"],
+            "label": base_example["label"],
+            "doi": base_example["doi"],
+            "style": base_example["style"],
+            "field_names": list(base_example["field_names"]),
+            "base_example_id": base_example["example_id"],
+            "has_typos": False,
+            "typo_details": [],
+            "reference_fields": {
+                "authors": list(base_example["reference_fields"]["authors"]),
+                "title": base_example["reference_fields"]["title"],
+                "journal": base_example["reference_fields"]["journal"],
+                "year": base_example["reference_fields"]["year"],
+                "volume": base_example["reference_fields"]["volume"],
+                "issue": base_example["reference_fields"]["issue"],
+                "page": base_example["reference_fields"]["page"],
+            },
+            "reference_text": base_example["reference_text"],
+        }
+
+        has_typos = rng.random() < 0.35
+        if not has_typos:
+            examples.append(updated_example)
+            stats["built_count"] += 1
+            stats["no_typo_example_count"] += 1
+            continue
+
+        typo_count = 1 if rng.random() < 0.8 else 2
+        selected_fields = _select_typo_fields(updated_example["reference_fields"], typo_count, rng)
+        typo_details: List[Dict[str, Any]] = []
+        for typo_field in selected_fields:
+            typo_result = _apply_typo_to_reference_fields(
+                typo_field,
+                updated_example["reference_fields"],
+                rng,
+            )
+            if typo_result is None:
+                continue
+            updated_example["reference_fields"][typo_result["field"]] = typo_result["after"]
+            typo_details.append(typo_result)
+
+        if typo_details:
+            updated_example["has_typos"] = True
+            updated_example["typo_details"] = typo_details
+            updated_example["reference_text"] = _build_reference_text(
+                updated_example["style"],
+                updated_example["reference_fields"],
+            )
+            stats["typo_example_count"] += 1
+            if len(typo_details) == 1:
+                stats["single_typo_count"] += 1
+            elif len(typo_details) == 2:
+                stats["double_typo_count"] += 1
+        else:
+            stats["no_typo_example_count"] += 1
+
+        examples.append(updated_example)
+        stats["built_count"] += 1
+
+    return {
+        "examples": examples,
+        "stats": stats,
+        "seed": seed,
+        "default_output_path": str(POSITIVE_EXAMPLES_PATH),
     }
