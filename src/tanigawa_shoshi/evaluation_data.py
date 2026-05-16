@@ -2,6 +2,7 @@
 
 import json
 import random
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
@@ -13,6 +14,9 @@ from .config import (
     MONGODB_COLLECTION,
     MONGODB_DATABASE,
     MONGODB_URL,
+    NEGATIVE_EXAMPLES_PATH,
+    NEGATIVE_TITLE_REWRITE_REQUESTS_PATH,
+    NEGATIVE_TITLE_REWRITE_RESULTS_PATH,
     POSITIVE_EXAMPLES_PATH,
     SAMPLED_SOURCE_DOCS_PATH,
 )
@@ -34,6 +38,7 @@ SOURCE_DOC_PROJECTION = {
     **JALC_PROJECTION,
 }
 DEFAULT_POSITIVE_FIELD_NAMES = ["authors", "title", "journal", "year", "volume", "page"]
+DEFAULT_NEGATIVE_FIELD_NAMES = ["authors", "title", "journal", "year"]
 CITATION_STYLE_ORDER = ["ipsj", "jsai", "lsj"]
 TYPO_FIELD_WEIGHTS = {
     "authors": 20,
@@ -155,7 +160,8 @@ def _build_english_bibliography_suffix(reference_fields: Dict[str, Any]) -> str:
         parts.append(f"Vol. {reference_fields['volume']}")
     if reference_fields["issue"]:
         parts.append(f"No. {reference_fields['issue']}")
-    parts.append(f"pp. {reference_fields['page']}")
+    if reference_fields["page"]:
+        parts.append(f"pp. {reference_fields['page']}")
     return ", ".join(parts)
 
 
@@ -163,20 +169,21 @@ def _build_english_bibliography_suffix(reference_fields: Dict[str, Any]) -> str:
 def _format_ipsj_reference(reference_fields: Dict[str, Any]) -> str:
     authors_text = ", ".join(reference_fields["authors"])
     suffix = _build_english_bibliography_suffix(reference_fields)
-    return (
-        f"{authors_text}：{reference_fields['title']}, "
-        f"{reference_fields['journal']}, {suffix}, {reference_fields['year']}"
-    )
+    parts = [f"{authors_text}：{reference_fields['title']}", reference_fields["journal"]]
+    if suffix:
+        parts.append(suffix)
+    parts.append(reference_fields["year"])
+    return ", ".join(parts)
 
 
 # 人工知能学会形式の参考文献文字列を組み立てる。
 def _format_jsai_reference(reference_fields: Dict[str, Any]) -> str:
     authors_text = ", ".join(reference_fields["authors"])
     suffix = _build_english_bibliography_suffix(reference_fields)
-    return (
-        f"{authors_text}：{reference_fields['title']}, "
-        f"{reference_fields['journal']}, {suffix} ({reference_fields['year']})"
-    )
+    parts = [f"{authors_text}：{reference_fields['title']}", reference_fields["journal"]]
+    if suffix:
+        parts.append(suffix)
+    return f"{', '.join(parts)} ({reference_fields['year']})"
 
 
 # 日本言語学会形式の参考文献文字列を組み立てる。
@@ -187,12 +194,18 @@ def _format_lsj_reference(reference_fields: Dict[str, Any]) -> str:
         volume_issue = f"{reference_fields['volume']}({reference_fields['issue']})"
     elif not reference_fields["volume"]:
         volume_issue = reference_fields["issue"]
-    return (
+    text = (
         f"{authors_text}（{reference_fields['year']}）"
         f"「{reference_fields['title']}」"
         f"『{reference_fields['journal']}』"
-        f"{volume_issue}: {reference_fields['page']}."
     )
+    if volume_issue and reference_fields["page"]:
+        return f"{text}{volume_issue}: {reference_fields['page']}."
+    if volume_issue:
+        return f"{text}{volume_issue}."
+    if reference_fields["page"]:
+        return f"{text}{reference_fields['page']}."
+    return f"{text}."
 
 
 # 引用スタイル名に応じて参考文献文字列を組み立てる。
@@ -204,6 +217,28 @@ def _build_reference_text(style: str, reference_fields: Dict[str, Any]) -> str:
     if style == "lsj":
         return _format_lsj_reference(reference_fields)
     raise ValueError(f"未対応の引用スタイルです: {style}")
+
+
+# 雑誌名から学会名らしい文字列を推定して返す。
+def _extract_society_name(journal: str) -> str:
+    if not journal:
+        return journal
+
+    japanese_match = re.search(r"^(.+?学会)", journal)
+    if japanese_match:
+        return japanese_match.group(1)
+
+    english_patterns = [
+        r"(?:Journal|Transactions|Proceedings) of (?:the )?(.+?Society(?: of [A-Za-z .]+)?)$",
+        r"(.+?Society(?: of [A-Za-z .]+)?)",
+        r"(.+?Association(?: of [A-Za-z .]+)?)",
+    ]
+    for pattern in english_patterns:
+        match = re.search(pattern, journal)
+        if match:
+            return match.group(1).strip(" .")
+
+    return journal
 
 
 # 数値文字列として扱えるかを判定する。
@@ -734,4 +769,309 @@ def build_positive_examples(
         "stats": stats,
         "seed": seed,
         "default_output_path": str(POSITIVE_EXAMPLES_PATH),
+    }
+
+
+# 無加工正例データを source_id ごとにまとめる。
+def _group_examples_by_source_id(base_examples: Iterable[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+    grouped_examples: Dict[str, List[Dict[str, Any]]] = {}
+    for example in base_examples:
+        source_id = str(example["source_id"])
+        grouped_examples.setdefault(source_id, []).append(example)
+    return grouped_examples
+
+
+# 無加工正例 1 論文分から、負例用の共通書誌要素を作る。
+def _build_negative_reference_fields(reference_fields: Dict[str, Any]) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+    updated_fields = {
+        "authors": list(reference_fields["authors"]),
+        "title": reference_fields["title"],
+        "journal": reference_fields["journal"],
+        "year": reference_fields["year"],
+        "volume": reference_fields["volume"],
+        "issue": reference_fields["issue"],
+        "page": reference_fields["page"],
+    }
+    modification_details: List[Dict[str, Any]] = []
+
+    if len(updated_fields["authors"]) > 1:
+        before_authors = updated_fields["authors"][:]
+        updated_fields["authors"] = updated_fields["authors"][:-1]
+        modification_details.append(
+            {
+                "field": "authors",
+                "before": before_authors,
+                "after": updated_fields["authors"][:],
+            }
+        )
+
+    replaced_journal = _extract_society_name(updated_fields["journal"])
+    modification_details.append(
+        {
+            "field": "journal",
+            "before": updated_fields["journal"],
+            "after": replaced_journal,
+        }
+    )
+    updated_fields["journal"] = replaced_journal
+
+    modification_details.append(
+        {
+            "field": "year",
+            "before": updated_fields["year"],
+            "after": "2019",
+        }
+    )
+    updated_fields["year"] = "2019"
+
+    if updated_fields["volume"] or updated_fields["issue"] or updated_fields["page"]:
+        modification_details.append(
+            {
+                "field": "volume_issue_page",
+                "before": {
+                    "volume": updated_fields["volume"],
+                    "issue": updated_fields["issue"],
+                    "page": updated_fields["page"],
+                },
+                "after": {
+                    "volume": "",
+                    "issue": "",
+                    "page": "",
+                },
+            }
+        )
+    updated_fields["volume"] = ""
+    updated_fields["issue"] = ""
+    updated_fields["page"] = ""
+
+    return updated_fields, modification_details
+
+
+# 無加工正例データから、source_id 単位で一貫した改変内容の負例データを生成する。
+def build_negative_examples(
+    base_examples: Iterable[Dict[str, Any]],
+    *,
+    field_names: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    negative_field_names = field_names or DEFAULT_NEGATIVE_FIELD_NAMES
+    grouped_examples = _group_examples_by_source_id(base_examples)
+
+    examples: List[Dict[str, Any]] = []
+    stats = {
+        "input_count": 0,
+        "built_count": 0,
+        "source_group_count": len(grouped_examples),
+    }
+
+    for source_id, source_examples in grouped_examples.items():
+        stats["input_count"] += len(source_examples)
+        base_reference_fields = source_examples[0]["reference_fields"]
+        negative_reference_fields, negative_details = _build_negative_reference_fields(base_reference_fields)
+
+        for base_example in source_examples:
+            examples.append(
+                {
+                    "example_id": base_example["example_id"],
+                    "source_id": source_id,
+                    "label": "negative",
+                    "doi": None,
+                    "style": base_example["style"],
+                    "field_names": list(negative_field_names),
+                    "base_example_id": base_example["example_id"],
+                    "needs_title_rewrite": True,
+                    "title_rewrite_status": "pending",
+                    "negative_details": negative_details,
+                    "reference_fields": {
+                        "authors": list(negative_reference_fields["authors"]),
+                        "title": negative_reference_fields["title"],
+                        "journal": negative_reference_fields["journal"],
+                        "year": negative_reference_fields["year"],
+                        "volume": negative_reference_fields["volume"],
+                        "issue": negative_reference_fields["issue"],
+                        "page": negative_reference_fields["page"],
+                    },
+                    "reference_text": _build_reference_text(
+                        base_example["style"],
+                        negative_reference_fields,
+                    ),
+                }
+            )
+            stats["built_count"] += 1
+
+    return {
+        "examples": examples,
+        "stats": stats,
+        "field_names": negative_field_names,
+        "default_output_path": str(NEGATIVE_EXAMPLES_PATH),
+    }
+
+
+# source_id ごとに 1 回だけ AI でタイトル書換えを依頼するためのリクエスト一覧を作る。
+def build_negative_title_rewrite_requests(negative_examples: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
+    grouped_examples = _group_examples_by_source_id(negative_examples)
+    requests: List[Dict[str, Any]] = []
+
+    for source_id, source_examples in grouped_examples.items():
+        first_example = source_examples[0]
+        title = first_example["reference_fields"]["title"]
+        requests.append(
+            {
+                "source_id": source_id,
+                "title_rewrite_status": "pending",
+                "original_title": title,
+                "prompt": (
+                    "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。"
+                    " 変換後のタイトル文字列だけを返せ。"
+                    f" タイトル: {title}"
+                ),
+                "style_names": [example["style"] for example in source_examples],
+                "example_ids": [example["example_id"] for example in source_examples],
+            }
+        )
+
+    return {
+        "requests": requests,
+        "stats": {
+            "request_count": len(requests),
+        },
+        "default_output_path": str(NEGATIVE_TITLE_REWRITE_REQUESTS_PATH),
+    }
+
+
+# タイトル書換え結果を source_id ごとの参照しやすい辞書へ変換する。
+def _build_title_rewrite_result_map(
+    rewrite_results: Iterable[Dict[str, Any]],
+) -> Dict[str, Dict[str, Any]]:
+    result_map: Dict[str, Dict[str, Any]] = {}
+    for result in rewrite_results:
+        source_id = str(result.get("source_id") or "")
+        rewritten_title = (result.get("rewritten_title") or "").strip()
+        if not source_id:
+            raise ValueError("source_id が空のタイトル書換え結果があります。")
+        if not rewritten_title:
+            raise ValueError(f"source_id={source_id} の rewritten_title が空です。")
+        result_map[source_id] = result
+    return result_map
+
+
+# タイトル書換え結果を負例データへ反映し、reference_text を再生成する。
+def apply_negative_title_rewrite_results(
+    negative_examples: Iterable[Dict[str, Any]],
+    rewrite_results: Iterable[Dict[str, Any]],
+) -> Dict[str, Any]:
+    rewrite_result_map = _build_title_rewrite_result_map(rewrite_results)
+
+    examples: List[Dict[str, Any]] = []
+    stats = {
+        "input_count": 0,
+        "updated_count": 0,
+        "pending_count": 0,
+        "missing_rewrite_result_count": 0,
+    }
+
+    for negative_example in negative_examples:
+        stats["input_count"] += 1
+
+        existing_negative_details = list(negative_example.get("negative_details") or [])
+        filtered_negative_details = [
+            detail
+            for detail in existing_negative_details
+            if detail.get("field") != "title"
+        ]
+        existing_title_result = negative_example.get("title_rewrite_result") or {}
+        updated_example = {
+            **negative_example,
+            "field_names": list(negative_example["field_names"]),
+            "negative_details": filtered_negative_details,
+            "reference_fields": {
+                "authors": list(negative_example["reference_fields"]["authors"]),
+                "title": negative_example["reference_fields"]["title"],
+                "journal": negative_example["reference_fields"]["journal"],
+                "year": negative_example["reference_fields"]["year"],
+                "volume": negative_example["reference_fields"]["volume"],
+                "issue": negative_example["reference_fields"]["issue"],
+                "page": negative_example["reference_fields"]["page"],
+            },
+        }
+
+        source_id = str(negative_example["source_id"])
+        rewrite_result = rewrite_result_map.get(source_id)
+        if rewrite_result is None:
+            stats["missing_rewrite_result_count"] += 1
+            stats["pending_count"] += 1
+            examples.append(updated_example)
+            continue
+
+        rewritten_title = rewrite_result["rewritten_title"].strip()
+        original_title = (
+            existing_title_result.get("original_title")
+            or rewrite_result.get("original_title")
+            or updated_example["reference_fields"]["title"]
+        )
+        updated_example["reference_fields"]["title"] = rewritten_title
+        updated_example["needs_title_rewrite"] = False
+        updated_example["title_rewrite_status"] = rewrite_result.get(
+            "title_rewrite_status",
+            "completed",
+        )
+        updated_example["title_rewrite_result"] = {
+            "original_title": rewrite_result.get("original_title", original_title),
+            "rewritten_title": rewritten_title,
+        }
+        updated_example["negative_details"] = updated_example["negative_details"] + [
+            {
+                "field": "title",
+                "before": original_title,
+                "after": rewritten_title,
+            }
+        ]
+        updated_example["reference_text"] = _build_reference_text(
+            updated_example["style"],
+            updated_example["reference_fields"],
+        )
+        examples.append(updated_example)
+        stats["updated_count"] += 1
+
+    return {
+        "examples": examples,
+        "stats": stats,
+        "default_output_path": str(NEGATIVE_EXAMPLES_PATH),
+    }
+
+
+# AI 書換え済みタイトル結果の保存先向けに結果データを組み立てる。
+def build_negative_title_rewrite_results(
+    rewrite_requests: Iterable[Dict[str, Any]],
+    rewritten_titles_by_source_id: Dict[str, str],
+) -> Dict[str, Any]:
+    results: List[Dict[str, Any]] = []
+    stats = {
+        "input_count": 0,
+        "built_count": 0,
+        "missing_source_id_count": 0,
+    }
+
+    for request in rewrite_requests:
+        stats["input_count"] += 1
+        source_id = str(request.get("source_id") or "")
+        rewritten_title = (rewritten_titles_by_source_id.get(source_id) or "").strip()
+        if not source_id or not rewritten_title:
+            stats["missing_source_id_count"] += 1
+            continue
+        results.append(
+            {
+                "source_id": source_id,
+                "original_title": request.get("original_title", ""),
+                "rewritten_title": rewritten_title,
+                "title_rewrite_status": "completed",
+                "style_names": list(request.get("style_names") or []),
+                "example_ids": list(request.get("example_ids") or []),
+            }
+        )
+        stats["built_count"] += 1
+
+    return {
+        "results": results,
+        "stats": stats,
+        "default_output_path": str(NEGATIVE_TITLE_REWRITE_RESULTS_PATH),
     }

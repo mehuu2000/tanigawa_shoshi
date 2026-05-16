@@ -1,0 +1,802 @@
+[
+  {
+    "source_id": "6906efb3f54a306c79d12998",
+    "title_rewrite_status": "pending",
+    "original_title": "STUDIES OF TETANY DURING ANESTHESIA",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: STUDIES OF TETANY DURING ANESTHESIA",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906efb3f54a306c79d12998:ipsj",
+      "6906efb3f54a306c79d12998:jsai",
+      "6906efb3f54a306c79d12998:lsj"
+    ]
+  },
+  {
+    "source_id": "690712d276e32cb9064913a2",
+    "title_rewrite_status": "pending",
+    "original_title": "漁業奨勵と暴風",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 漁業奨勵と暴風",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690712d276e32cb9064913a2:ipsj",
+      "690712d276e32cb9064913a2:jsai",
+      "690712d276e32cb9064913a2:lsj"
+    ]
+  },
+  {
+    "source_id": "690714a176e32cb9068c56d7",
+    "title_rewrite_status": "pending",
+    "original_title": "Close-up ロボット ロボットと理学療法-現状と展望",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Close-up ロボット ロボットと理学療法-現状と展望",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690714a176e32cb9068c56d7:ipsj",
+      "690714a176e32cb9068c56d7:jsai",
+      "690714a176e32cb9068c56d7:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ee84f54a306c79a63fad",
+    "title_rewrite_status": "pending",
+    "original_title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ee84f54a306c79a63fad:ipsj",
+      "6906ee84f54a306c79a63fad:jsai",
+      "6906ee84f54a306c79a63fad:lsj"
+    ]
+  },
+  {
+    "source_id": "6907164976e32cb906d1a87d",
+    "title_rewrite_status": "pending",
+    "original_title": "工学部2年生以上におけるASD・ADHD関連の困り感",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 工学部2年生以上におけるASD・ADHD関連の困り感",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907164976e32cb906d1a87d:ipsj",
+      "6907164976e32cb906d1a87d:jsai",
+      "6907164976e32cb906d1a87d:lsj"
+    ]
+  },
+  {
+    "source_id": "6907181476e32cb9060acd04",
+    "title_rewrite_status": "pending",
+    "original_title": "検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907181476e32cb9060acd04:ipsj",
+      "6907181476e32cb9060acd04:jsai",
+      "6907181476e32cb9060acd04:lsj"
+    ]
+  },
+  {
+    "source_id": "6907138476e32cb9065f7770",
+    "title_rewrite_status": "pending",
+    "original_title": "Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907138476e32cb9065f7770:ipsj",
+      "6907138476e32cb9065f7770:jsai",
+      "6907138476e32cb9065f7770:lsj"
+    ]
+  },
+  {
+    "source_id": "6907137376e32cb9065d44a2",
+    "title_rewrite_status": "pending",
+    "original_title": "各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907137376e32cb9065d44a2:ipsj",
+      "6907137376e32cb9065d44a2:jsai",
+      "6907137376e32cb9065d44a2:lsj"
+    ]
+  },
+  {
+    "source_id": "6907143d76e32cb9067a7cce",
+    "title_rewrite_status": "pending",
+    "original_title": "４．伝統織物の復元",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: ４．伝統織物の復元",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907143d76e32cb9067a7cce:ipsj",
+      "6907143d76e32cb9067a7cce:jsai",
+      "6907143d76e32cb9067a7cce:lsj"
+    ]
+  },
+  {
+    "source_id": "6906eed6f54a306c79b059d0",
+    "title_rewrite_status": "pending",
+    "original_title": "A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906eed6f54a306c79b059d0:ipsj",
+      "6906eed6f54a306c79b059d0:jsai",
+      "6906eed6f54a306c79b059d0:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ee23f54a306c7999541b",
+    "title_rewrite_status": "pending",
+    "original_title": "低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 低濃度鉛暴露の生体影響についての研究 Ｉ 職業的鉛暴露指標としての各種生化学検査の有用性の評価",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ee23f54a306c7999541b:ipsj",
+      "6906ee23f54a306c7999541b:jsai",
+      "6906ee23f54a306c7999541b:lsj"
+    ]
+  },
+  {
+    "source_id": "690713c076e32cb906673070",
+    "title_rewrite_status": "pending",
+    "original_title": "距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713c076e32cb906673070:ipsj",
+      "690713c076e32cb906673070:jsai",
+      "690713c076e32cb906673070:lsj"
+    ]
+  },
+  {
+    "source_id": "690713c376e32cb9066782d0",
+    "title_rewrite_status": "pending",
+    "original_title": "STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713c376e32cb9066782d0:ipsj",
+      "690713c376e32cb9066782d0:jsai",
+      "690713c376e32cb9066782d0:lsj"
+    ]
+  },
+  {
+    "source_id": "6907142f76e32cb90677a871",
+    "title_rewrite_status": "pending",
+    "original_title": "Is God Our Benefactor? : An Argument from Suffering",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Is God Our Benefactor? : An Argument from Suffering",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907142f76e32cb90677a871:ipsj",
+      "6907142f76e32cb90677a871:jsai",
+      "6907142f76e32cb90677a871:lsj"
+    ]
+  },
+  {
+    "source_id": "6907142776e32cb9067617f2",
+    "title_rewrite_status": "pending",
+    "original_title": "炭素質ダストの宇宙曝露実験",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 炭素質ダストの宇宙曝露実験",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907142776e32cb9067617f2:ipsj",
+      "6907142776e32cb9067617f2:jsai",
+      "6907142776e32cb9067617f2:lsj"
+    ]
+  },
+  {
+    "source_id": "6907137576e32cb9065d8c6f",
+    "title_rewrite_status": "pending",
+    "original_title": "Sound generation in Q-switched YAG laser drilling.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Sound generation in Q-switched YAG laser drilling.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907137576e32cb9065d8c6f:ipsj",
+      "6907137576e32cb9065d8c6f:jsai",
+      "6907137576e32cb9065d8c6f:lsj"
+    ]
+  },
+  {
+    "source_id": "690716b276e32cb906e70516",
+    "title_rewrite_status": "pending",
+    "original_title": "小児麻酔前投薬の考察 エスタゾラムの応用",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 小児麻酔前投薬の考察 エスタゾラムの応用",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716b276e32cb906e70516:ipsj",
+      "690716b276e32cb906e70516:jsai",
+      "690716b276e32cb906e70516:lsj"
+    ]
+  },
+  {
+    "source_id": "690716e076e32cb906f084ab",
+    "title_rewrite_status": "pending",
+    "original_title": "ディルタイにおける生の美学の構成",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: ディルタイにおける生の美学の構成",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716e076e32cb906f084ab:ipsj",
+      "690716e076e32cb906f084ab:jsai",
+      "690716e076e32cb906f084ab:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ee20f54a306c7998ed15",
+    "title_rewrite_status": "pending",
+    "original_title": "平丸地区の地すべり集中発生について",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 平丸地区の地すべり集中発生について",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ee20f54a306c7998ed15:ipsj",
+      "6906ee20f54a306c7998ed15:jsai",
+      "6906ee20f54a306c7998ed15:lsj"
+    ]
+  },
+  {
+    "source_id": "6907133976e32cb906559531",
+    "title_rewrite_status": "pending",
+    "original_title": "遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907133976e32cb906559531:ipsj",
+      "6907133976e32cb906559531:jsai",
+      "6907133976e32cb906559531:lsj"
+    ]
+  },
+  {
+    "source_id": "6906efaaf54a306c79cfc579",
+    "title_rewrite_status": "pending",
+    "original_title": "心不全におけるGタンパク質シグナル",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 心不全におけるGタンパク質シグナル",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906efaaf54a306c79cfc579:ipsj",
+      "6906efaaf54a306c79cfc579:jsai",
+      "6906efaaf54a306c79cfc579:lsj"
+    ]
+  },
+  {
+    "source_id": "6907166976e32cb906d66a9b",
+    "title_rewrite_status": "pending",
+    "original_title": "25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907166976e32cb906d66a9b:ipsj",
+      "6907166976e32cb906d66a9b:jsai",
+      "6907166976e32cb906d66a9b:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ee74f54a306c79a3902d",
+    "title_rewrite_status": "pending",
+    "original_title": "609 有機複合材料の残留応力に及ぼす湿熱環境の影響",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 609 有機複合材料の残留応力に及ぼす湿熱環境の影響",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ee74f54a306c79a3902d:ipsj",
+      "6906ee74f54a306c79a3902d:jsai",
+      "6906ee74f54a306c79a3902d:lsj"
+    ]
+  },
+  {
+    "source_id": "6907143676e32cb9067910a8",
+    "title_rewrite_status": "pending",
+    "original_title": "新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907143676e32cb9067910a8:ipsj",
+      "6907143676e32cb9067910a8:jsai",
+      "6907143676e32cb9067910a8:lsj"
+    ]
+  },
+  {
+    "source_id": "690712f376e32cb9064ce7dc",
+    "title_rewrite_status": "pending",
+    "original_title": "NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690712f376e32cb9064ce7dc:ipsj",
+      "690712f376e32cb9064ce7dc:jsai",
+      "690712f376e32cb9064ce7dc:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ee7af54a306c79a4631d",
+    "title_rewrite_status": "pending",
+    "original_title": "潤滑法(&lt;小特集&gt;摩擦と潤滑)",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 潤滑法(&lt;小特集&gt;摩擦と潤滑)",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ee7af54a306c79a4631d:ipsj",
+      "6906ee7af54a306c79a4631d:jsai",
+      "6906ee7af54a306c79a4631d:lsj"
+    ]
+  },
+  {
+    "source_id": "6907132376e32cb9065219bc",
+    "title_rewrite_status": "pending",
+    "original_title": "Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907132376e32cb9065219bc:ipsj",
+      "6907132376e32cb9065219bc:jsai",
+      "6907132376e32cb9065219bc:lsj"
+    ]
+  },
+  {
+    "source_id": "6906eee9f54a306c79b2ca0d",
+    "title_rewrite_status": "pending",
+    "original_title": "Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906eee9f54a306c79b2ca0d:ipsj",
+      "6906eee9f54a306c79b2ca0d:jsai",
+      "6906eee9f54a306c79b2ca0d:lsj"
+    ]
+  },
+  {
+    "source_id": "690716c776e32cb906eabb8e",
+    "title_rewrite_status": "pending",
+    "original_title": "Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716c776e32cb906eabb8e:ipsj",
+      "690716c776e32cb906eabb8e:jsai",
+      "690716c776e32cb906eabb8e:lsj"
+    ]
+  },
+  {
+    "source_id": "6906eec0f54a306c79ae25c3",
+    "title_rewrite_status": "pending",
+    "original_title": "交叉免疫ニ關スル實驗的研究",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 交叉免疫ニ關スル實驗的研究",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906eec0f54a306c79ae25c3:ipsj",
+      "6906eec0f54a306c79ae25c3:jsai",
+      "6906eec0f54a306c79ae25c3:lsj"
+    ]
+  },
+  {
+    "source_id": "690713d676e32cb90669e4f2",
+    "title_rewrite_status": "pending",
+    "original_title": "プロジェクション溶接現象についての研究 Ｉ",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: プロジェクション溶接現象についての研究 Ｉ",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713d676e32cb90669e4f2:ipsj",
+      "690713d676e32cb90669e4f2:jsai",
+      "690713d676e32cb90669e4f2:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ef01f54a306c79b5b46e",
+    "title_rewrite_status": "pending",
+    "original_title": "Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ef01f54a306c79b5b46e:ipsj",
+      "6906ef01f54a306c79b5b46e:jsai",
+      "6906ef01f54a306c79b5b46e:lsj"
+    ]
+  },
+  {
+    "source_id": "6907130776e32cb9064ee977",
+    "title_rewrite_status": "pending",
+    "original_title": "Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907130776e32cb9064ee977:ipsj",
+      "6907130776e32cb9064ee977:jsai",
+      "6907130776e32cb9064ee977:lsj"
+    ]
+  },
+  {
+    "source_id": "6907144176e32cb9067b5406",
+    "title_rewrite_status": "pending",
+    "original_title": "Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907144176e32cb9067b5406:ipsj",
+      "6907144176e32cb9067b5406:jsai",
+      "6907144176e32cb9067b5406:lsj"
+    ]
+  },
+  {
+    "source_id": "690713c576e32cb90667b2af",
+    "title_rewrite_status": "pending",
+    "original_title": "構造物の連成問題に対する部分モード法の応用に関する研究",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 構造物の連成問題に対する部分モード法の応用に関する研究",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713c576e32cb90667b2af:ipsj",
+      "690713c576e32cb90667b2af:jsai",
+      "690713c576e32cb90667b2af:lsj"
+    ]
+  },
+  {
+    "source_id": "690713da76e32cb9066a5869",
+    "title_rewrite_status": "pending",
+    "original_title": "EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713da76e32cb9066a5869:ipsj",
+      "690713da76e32cb9066a5869:jsai",
+      "690713da76e32cb9066a5869:lsj"
+    ]
+  },
+  {
+    "source_id": "6906eefaf54a306c79b4c713",
+    "title_rewrite_status": "pending",
+    "original_title": "再生二水石膏粉を混和したエアモルタルの物性",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 再生二水石膏粉を混和したエアモルタルの物性",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906eefaf54a306c79b4c713:ipsj",
+      "6906eefaf54a306c79b4c713:jsai",
+      "6906eefaf54a306c79b4c713:lsj"
+    ]
+  },
+  {
+    "source_id": "690713ab76e32cb9066469cb",
+    "title_rewrite_status": "pending",
+    "original_title": "Progress of process control in the steel industry.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Progress of process control in the steel industry.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713ab76e32cb9066469cb:ipsj",
+      "690713ab76e32cb9066469cb:jsai",
+      "690713ab76e32cb9066469cb:lsj"
+    ]
+  },
+  {
+    "source_id": "6906ef15f54a306c79b8360a",
+    "title_rewrite_status": "pending",
+    "original_title": "拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906ef15f54a306c79b8360a:ipsj",
+      "6906ef15f54a306c79b8360a:jsai",
+      "6906ef15f54a306c79b8360a:lsj"
+    ]
+  },
+  {
+    "source_id": "6907169376e32cb906df72dc",
+    "title_rewrite_status": "pending",
+    "original_title": "漁獲されたキジハタ天然魚の餌付け",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 漁獲されたキジハタ天然魚の餌付け",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907169376e32cb906df72dc:ipsj",
+      "6907169376e32cb906df72dc:jsai",
+      "6907169376e32cb906df72dc:lsj"
+    ]
+  },
+  {
+    "source_id": "690716aa76e32cb906e5752e",
+    "title_rewrite_status": "pending",
+    "original_title": "2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716aa76e32cb906e5752e:ipsj",
+      "690716aa76e32cb906e5752e:jsai",
+      "690716aa76e32cb906e5752e:lsj"
+    ]
+  },
+  {
+    "source_id": "690713b576e32cb90665afc0",
+    "title_rewrite_status": "pending",
+    "original_title": "Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690713b576e32cb90665afc0:ipsj",
+      "690713b576e32cb90665afc0:jsai",
+      "690713b576e32cb90665afc0:lsj"
+    ]
+  },
+  {
+    "source_id": "690716d876e32cb906edea28",
+    "title_rewrite_status": "pending",
+    "original_title": "三重小塔",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 三重小塔",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716d876e32cb906edea28:ipsj",
+      "690716d876e32cb906edea28:jsai",
+      "690716d876e32cb906edea28:lsj"
+    ]
+  },
+  {
+    "source_id": "6907164f76e32cb906d2abc7",
+    "title_rewrite_status": "pending",
+    "original_title": "小松製作所におけるSQC教育",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 小松製作所におけるSQC教育",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907164f76e32cb906d2abc7:ipsj",
+      "6907164f76e32cb906d2abc7:jsai",
+      "6907164f76e32cb906d2abc7:lsj"
+    ]
+  },
+  {
+    "source_id": "6907138376e32cb9065f5535",
+    "title_rewrite_status": "pending",
+    "original_title": "The effect of neurac training in patients with chronic neck pain",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: The effect of neurac training in patients with chronic neck pain",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907138376e32cb9065f5535:ipsj",
+      "6907138376e32cb9065f5535:jsai",
+      "6907138376e32cb9065f5535:lsj"
+    ]
+  },
+  {
+    "source_id": "690716f876e32cb906f53011",
+    "title_rewrite_status": "pending",
+    "original_title": "希釈効果の規定因としての無関連性, 中立性, および両価性",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 希釈効果の規定因としての無関連性, 中立性, および両価性",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716f876e32cb906f53011:ipsj",
+      "690716f876e32cb906f53011:jsai",
+      "690716f876e32cb906f53011:lsj"
+    ]
+  },
+  {
+    "source_id": "690716c476e32cb906ea3037",
+    "title_rewrite_status": "pending",
+    "original_title": "ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "690716c476e32cb906ea3037:ipsj",
+      "690716c476e32cb906ea3037:jsai",
+      "690716c476e32cb906ea3037:lsj"
+    ]
+  },
+  {
+    "source_id": "6907145276e32cb9067e1dff",
+    "title_rewrite_status": "pending",
+    "original_title": "オンライン授業期間における授業観・授業運営の移り変わり",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: オンライン授業期間における授業観・授業運営の移り変わり",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907145276e32cb9067e1dff:ipsj",
+      "6907145276e32cb9067e1dff:jsai",
+      "6907145276e32cb9067e1dff:lsj"
+    ]
+  },
+  {
+    "source_id": "6907143f76e32cb9067ad945",
+    "title_rewrite_status": "pending",
+    "original_title": "Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6907143f76e32cb9067ad945:ipsj",
+      "6907143f76e32cb9067ad945:jsai",
+      "6907143f76e32cb9067ad945:lsj"
+    ]
+  },
+  {
+    "source_id": "6906efc0f54a306c79d35633",
+    "title_rewrite_status": "pending",
+    "original_title": "口腔・口腔低病変",
+    "prompt": "入力した論文タイトルを意味は同じまま別のタイトルに変換せよ。 変換後のタイトル文字列だけを返せ。 タイトル: 口腔・口腔低病変",
+    "style_names": [
+      "ipsj",
+      "jsai",
+      "lsj"
+    ],
+    "example_ids": [
+      "6906efc0f54a306c79d35633:ipsj",
+      "6906efc0f54a306c79d35633:jsai",
+      "6906efc0f54a306c79d35633:lsj"
+    ]
+  }
+]
