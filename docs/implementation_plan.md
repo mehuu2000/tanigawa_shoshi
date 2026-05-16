@@ -56,6 +56,7 @@ tanigawa_shoshi/
     08_build_evaluation_data.ipynb
     09_check_scoring.ipynb
     10_run_evaluation.ipynb
+    11_check_thresholds.ipynb
 ```
 
 `notebooks/` をメインの実行場所とする。
