@@ -1,0 +1,6757 @@
+[
+  {
+    "_id": "6906efb3f54a306c79d12998",
+    "content_type": "JA",
+    "doi": "10.14930/jsma1939.32.511",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "STUDIES OF TETANY DURING ANESTHESIA"
+      },
+      {
+        "lang": "ja",
+        "title": "麻酔中に発生したテタニー様症例の検討"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Yogi",
+            "first_name": "Hiroshi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "与儀",
+            "first_name": "洋"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Tei",
+            "first_name": "Akio"
+          },
+          {
+            "lang": "ja",
+            "last_name": "鄭",
+            "first_name": "彰雄"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Matsuzaki",
+            "first_name": "Shiro"
+          },
+          {
+            "lang": "ja",
+            "last_name": "松崎",
+            "first_name": "史朗"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Masuda",
+            "first_name": "Yutaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "増田",
+            "first_name": "豊"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Miyata",
+            "first_name": "Takuo"
+          },
+          {
+            "lang": "ja",
+            "last_name": "宮田",
+            "first_name": "拓雄"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Hosoyamada",
+            "first_name": "Akiyoshi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "細山田",
+            "first_name": "明義"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, Showa University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "昭和大学医学部麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "7",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Takahashi",
+            "first_name": "Keizo"
+          },
+          {
+            "lang": "ja",
+            "last_name": "高橋",
+            "first_name": "敬蔵"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "東洋医科大学麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          },
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, St. Marianna University",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "8",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Tomaru",
+            "first_name": "Teruaki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "外丸",
+            "first_name": "輝明"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Anesthesiology, School of Medicine, St. Marianna University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "東洋医科大学麻酔学教室",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1972"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "J Showa Med Assoc",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "J. Showa. Med. Assoc.",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of The Showa Medical Association",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of The Showa University Society",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "昭和医学会雑誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "昭医会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "昭和医会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "昭和学士会雑誌",
+        "type": "after",
+        "lang": "ja"
+      }
+    ],
+    "volume": "32",
+    "issue": "9",
+    "first_page": "511",
+    "last_page": "515"
+  },
+  {
+    "_id": "690712d276e32cb9064913a2",
+    "content_type": "JA",
+    "doi": "10.2151/jmsj1882.15.7_333",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "漁業奨勵と暴風"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "小川",
+            "first_name": "徳太郎"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1896"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of the Meteorological Society of Japan. Ser. I",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Meteorological Society of Japan. Ser. I",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Meteorological Society of Japan. Ser. II",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": " 気象集誌. 第2輯",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "氣象集誌. 第1輯",
+        "type": "full"
+      },
+      {
+        "journal_title_name": "氣象集誌. 第1輯",
+        "type": "abbreviation"
+      },
+      {
+        "journal_title_name": "気象集誌. 第2輯",
+        "type": "after",
+        "lang": "ja"
+      }
+    ],
+    "volume": "15",
+    "issue": "7",
+    "first_page": "333",
+    "last_page": "335"
+  },
+  {
+    "_id": "690714a176e32cb9068c56d7",
+    "content_type": "JA",
+    "doi": "10.11477/mf.1551202280",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "Close-up ロボット ロボットと理学療法-現状と展望"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "last_name": "田中",
+            "first_name": "敏明"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "北海道科学大学保健医療学部理学療法学科"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "last_name": "杉原",
+            "first_name": "俊一"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "3",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "医療法人秀友会札幌秀友会病院リハビリテーション科"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2021",
+      "publication_month": "04",
+      "publication_day": "15"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "理学療法ジャーナル",
+        "type": "full",
+        "lang": "ja"
+      }
+    ],
+    "volume": "55",
+    "issue": "4",
+    "first_page": "453",
+    "last_page": "459"
+  },
+  {
+    "_id": "6906ee84f54a306c79a63fad",
+    "content_type": "JA",
+    "doi": "10.1299/jsmeapbio.2015.8.111",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)"
+      },
+      {
+        "lang": "en",
+        "title": "OS8-2 A NOVEL DRIFT REMOVAL METHOD FOR GAIT ANALYSIS USING WEARBLE SENSORS(OS8: Wearable Technologies for Rehabilitation)"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Takeda",
+            "first_name": "Ryo"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Faculty of Engineering, Hokkaido University",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Lisco",
+            "first_name": "Giulia"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino",
+            "sequence": "2",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Fujisawa",
+            "first_name": "Tadashi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Engineering, Hokkaido University",
+            "sequence": "3",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Gastaldi",
+            "first_name": "Laura"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino",
+            "sequence": "2",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Pastorelli",
+            "first_name": "Stefano"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Mechanical and Aerospace Engineering, Politecnico di Torino",
+            "sequence": "2",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Tohyama",
+            "first_name": "Harukazu"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Health Science, Hokkaido University School of Medicine",
+            "sequence": "4",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "7",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Tadano",
+            "first_name": "Shigeru"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Faculty of Engineering, Hokkaido University",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2015"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Proceedings of the ... Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Proceedings of the Asian Pacific Conference on Biomechanics : emerging science and technology in biomechanics",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "2015.8",
+    "issue": "0",
+    "first_page": "111"
+  },
+  {
+    "_id": "6907164976e32cb906d1a87d",
+    "content_type": "JA",
+    "doi": "10.57540/campushealth.56.2_211",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "工学部2年生以上におけるASD・ADHD関連の困り感",
+        "subtitle": "－ASDの診断の有無による比較－"
+      },
+      {
+        "lang": "en",
+        "title": "The ASD/ADHD related support needs of undergraduate engineering major students with and without ASD diagnosis."
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "YAMAZAKI",
+            "first_name": "Isamu"
+          },
+          {
+            "lang": "ja",
+            "last_name": "山﨑",
+            "first_name": "勇"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "信州大学総合健康安全センター",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Center for Health, Safety, and Environmental Management, Shinshu University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "TAKAHASHI",
+            "first_name": "Tomone"
+          },
+          {
+            "lang": "ja",
+            "last_name": "高橋",
+            "first_name": "知音"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "信州大学学術研究院教育学系",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Institute of Education, Shinshu University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "金井",
+            "first_name": "美保子"
+          },
+          {
+            "lang": "en",
+            "last_name": "KANAI",
+            "first_name": "Mihoko"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Center for Health, Safety, and Environmental Management, Shinshu University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "信州大学総合健康安全センター",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SHINHA",
+            "first_name": "Sayaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "榛葉",
+            "first_name": "清香"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "信州大学総合健康安全センター",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Center for Health, Safety, and Environmental Management, Shinshu University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "金子",
+            "first_name": "稔"
+          },
+          {
+            "lang": "en",
+            "last_name": "KANEKO",
+            "first_name": "Minoru"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Center for Health, Safety, and Environmental Management, Shinshu University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "信州大学総合健康安全センター",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2019"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "CAMPUS HEALTH",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "CAMPUS HEALTH",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "56",
+    "issue": "2",
+    "first_page": "211",
+    "last_page": "217"
+  },
+  {
+    "_id": "6907181476e32cb9060acd04",
+    "content_type": "JA",
+    "doi": "10.11404/jsgcs.46.253",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "検診にて発見された食道裂孔ヘルニアを伴う噴門部早期癌"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "宇都宮",
+            "first_name": "尚"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "九州大学 臨床放射線科学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "北川",
+            "first_name": "晋二"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "福岡県対がん協会付設クリニック",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "増成",
+            "first_name": "暁"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "国立病院機構九州がんセンター 放射線科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "上田",
+            "first_name": "真信"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "新古賀病院 放射線科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "平賀",
+            "first_name": "聖久"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "国立病院機構九州医療センター 放射線科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "高野",
+            "first_name": "平八郎"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "高野胃腸科医院",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "7",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "八尾",
+            "first_name": "隆史"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "九州大学 形態機能病理",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2008"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本消化器集団検診学会雑誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "消化器集団検診",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "胃癌と集団検診",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Nihon Shoukaki Gan Kenshin Gakkai zasshi",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nihon Shoukaki Gan Kenshin Gakkai zasshi",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of Gastroenterological Cancer Screening",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "J Gastroenterol Cancer Screen",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of Gastroenterological Mass Survey",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "GASTRIC CANCER",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本消化器がん検診学会雑誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日消がん検診誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "46",
+    "issue": "2",
+    "first_page": "253",
+    "last_page": "256"
+  },
+  {
+    "_id": "6907138476e32cb9065f7770",
+    "content_type": "JA",
+    "doi": "10.3412/jsb.41.535",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Relationship between superoxide dismutase and catalase activities of gram-negative bacilli and the pathogenicity to mouse polymorphonuclear leukocytes."
+      },
+      {
+        "title": "実験的敗血症における各種グラム陰性かん菌の菌力の解析　　各菌種のｓｕｐｅｒｏｘｉｄｅ　ｄｉｓｍｕｔａｓｅおよびｃａｔａｌａｓｅ活性と好中球のどん食殺菌との相関"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "MIYAZAKI",
+            "first_name": "Shuichi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "宮崎",
+            "first_name": "修一"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "TSUJI",
+            "first_name": "Akiyoshi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "辻",
+            "first_name": "明良"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "ISHII",
+            "first_name": "Tetsuo"
+          },
+          {
+            "lang": "ja",
+            "last_name": "石井",
+            "first_name": "哲夫"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KITAYA",
+            "first_name": "Susumu"
+          },
+          {
+            "lang": "ja",
+            "last_name": "北矢",
+            "first_name": "進"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KANEKO",
+            "first_name": "Yasuko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "金子",
+            "first_name": "康子"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "GOTO",
+            "first_name": "Sachiko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "五島",
+            "first_name": "瑳智子"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Microbiology, School of Medicine Toho University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東邦大学医学部微生物学教室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1986"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Nippon Saikingaku Zasshi",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nippon Saikingaku Zasshi",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JAPANESE JOURNAL OF BACTERIOLOGY",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nihon Saikingaku Zasshi",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本細菌学雑誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日細菌誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Saikingaku zasshi",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Japanese journal of bacteriology",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本細菌学雑誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "細菌學雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "衛生學及細菌学時報",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本微生物學會雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "実験医学雑誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本微生物學病理學雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Eiseigaku oyobi saikingaku jiho",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nihon Biseibutsu Gakkai zasshi",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Jikken igaku zasshi",
+        "type": "before",
+        "lang": "en"
+      }
+    ],
+    "volume": "41",
+    "issue": "2",
+    "first_page": "535",
+    "last_page": "539"
+  },
+  {
+    "_id": "6907137376e32cb9065d44a2",
+    "content_type": "JA",
+    "doi": "10.2336/nishinihonhifu.49.919",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "各種皮膚疾患に対する「間宮」アロエ軟膏の治療経験"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "first_name": "「間宮」アロエ軟膏臨床評価研究班"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1987"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "西日本皮膚科",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Nishinihon Journal of Dermatology",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "西日皮膚",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Nishi Nihon Hifuka",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nishinihon J Dermatol",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "49",
+    "issue": "5",
+    "first_page": "919",
+    "last_page": "926"
+  },
+  {
+    "_id": "6907143d76e32cb9067a7cce",
+    "content_type": "JA",
+    "doi": "10.11419/senshoshi.58.2_185",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "４．伝統織物の復元"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "龍村",
+            "first_name": "光峯"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "一般財団法人 日本伝統織物研究所 代表理事",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2017"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "j.jpn.res.assn.text.end-uses",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "繊消誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "繊維製品消費科学会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "繊維製品消費科学",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "journal of the japan research association for textele end-uses",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JOURNAL of the JAPAN RESEARCH ASSOCIATION for TEXTILE END-USES",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "J. Jpn. Res. Assoc. Text. End-Uses",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "58",
+    "issue": "2",
+    "first_page": "185",
+    "last_page": "188"
+  },
+  {
+    "_id": "6906eed6f54a306c79b059d0",
+    "content_type": "JA",
+    "doi": "10.1587/transele.2019MMP0009",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "A Study of Impedance Switched Folded Monopole Antenna with Robustness to Metal for Installation on Metal Walls"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "NAKAGAWA",
+            "first_name": "Yuta"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Science and Engineering, National Defense Academy",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "MICHISHITA",
+            "first_name": "Naobumi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Science and Engineering, National Defense Academy",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "MORISHITA",
+            "first_name": "Hisashi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Science and Engineering, National Defense Academy",
+            "sequence": "1",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2019",
+      "publication_month": "10",
+      "publication_day": "01"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "IEICE Transactions on Electronics",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "IEICE Trans. Electron.",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "E102.C",
+    "issue": "10",
+    "first_page": "732",
+    "last_page": "739"
+  },
+  {
+    "_id": "6906ee23f54a306c7999541b",
+    "content_type": "JA",
+    "doi": "10.1539/joh1959.23.260",
+    "title_list": [
+      {
+        "title": "低濃度鉛暴露の生体影響についての研究　Ｉ　　職業的鉛暴露指標としての各種生化学検査の有用性の評価"
+      },
+      {
+        "lang": "en",
+        "title": "STUDIES ON THE BIOLOGICAL EFFECTS OF LOW LEVEL LEAD EXPOSURES : Part 1. Estimation of Usefulness of Some Biochemical Tests as Parameters for Occupational Lead Exposures"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "YAMADA",
+            "first_name": "Yuichi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "山田",
+            "first_name": "裕一"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KIDO",
+            "first_name": "Teruhiko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "城戸",
+            "first_name": "照彦"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "OKADA",
+            "first_name": "Akira"
+          },
+          {
+            "lang": "ja",
+            "last_name": "岡田",
+            "first_name": "晃"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "NOGAWA",
+            "first_name": "Koji"
+          },
+          {
+            "lang": "ja",
+            "last_name": "能川",
+            "first_name": "浩二"
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KOBAYASHI",
+            "first_name": "Etsuko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "小林",
+            "first_name": "悦子"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1981"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Sangyo Igaku",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Sangyo Igaku",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "産業医学",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "産業医学",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of Occupational Health",
+        "type": "after",
+        "lang": "ja"
+      }
+    ],
+    "volume": "23",
+    "issue": "3",
+    "first_page": "260",
+    "last_page": "269"
+  },
+  {
+    "_id": "690713c076e32cb906673070",
+    "content_type": "JA",
+    "doi": "10.5687/iscie.30.135",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "距離／加速度センサの融合に基づく運動目標追尾用固定係数フィルタの特性解析"
+      },
+      {
+        "lang": "en",
+        "title": "Performance Analysis of Fixed-gain Moving Object Tracking Filter based on Fusion of Range/Acceleration Sensors"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Saho",
+            "first_name": "Kenshi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "佐保",
+            "first_name": "賢志"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Faculty of Science and Engineering, Ritsumeikan University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "立命館大学　理工学部",
+                "lang": "ja"
+              }
+            ]
+          },
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "2017 年4 月より富山県立大学工学部",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Takahashi",
+            "first_name": "Yusuke"
+          },
+          {
+            "lang": "ja",
+            "last_name": "高橋",
+            "first_name": "悠祐"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "立命館大学　理工学部",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Faculty of Science and Engineering, Ritsumeikan University",
+                "lang": "en"
+              }
+            ]
+          },
+          {
+            "sequence": "3",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "2016 年4 月より株式会社メイテック",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Masugi",
+            "first_name": "Masao"
+          },
+          {
+            "lang": "ja",
+            "last_name": "馬杉",
+            "first_name": "正男"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "立命館大学　理工学部",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Faculty of Science and Engineering, Ritsumeikan University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2017"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Transactions of the Institute of Systems, Control and Information Engineers",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Transactions of ISCIE",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Trans. ISCIE",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Transactions of the Institute of Systems, Control and Information Engineers",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "システム制御情報学会論文誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "システム制御情報学会論文誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "30",
+    "issue": "4",
+    "first_page": "135",
+    "last_page": "142"
+  },
+  {
+    "_id": "690713c376e32cb9066782d0",
+    "content_type": "JA",
+    "doi": "10.2170/jjphysiol.12.186",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "STUDIES ON THE MECHANISM OF THE EXCITATIONCON-TRACTION COUPLING IN CARDIAC MUSCLE, WITH SPECIAL REFERENCE TO THE CAFFEINE-CONTRACTURE"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "鈴木",
+            "first_name": "啓司"
+          },
+          {
+            "lang": "en",
+            "last_name": "SUZUKI",
+            "first_name": "Keishi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Physiology, Sapporo Medical College",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Physiology, Sapporo Medical College",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1962"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "The Japanese Journal of Physiology",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JJP",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The Journal of Physiological Sciences",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Jpn.J.Physiol",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "12",
+    "issue": "2",
+    "first_page": "186",
+    "last_page": "199"
+  },
+  {
+    "_id": "6907142f76e32cb90677a871",
+    "content_type": "JA",
+    "doi": "10.24729/00006985",
+    "title_list": [
+      {
+        "title": "Is God Our Benefactor? : An Argument from Suffering"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "last_name": "Karlsen",
+            "first_name": "Dagfinn Sjaastad"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2013",
+      "publication_month": "09"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of Philosophy of Life"
+      }
+    ],
+    "volume": "3",
+    "issue": "3",
+    "first_page": "145",
+    "last_page": "167"
+  },
+  {
+    "_id": "6907142776e32cb9067617f2",
+    "content_type": "JA",
+    "doi": "10.14822/kjsass.66.12_381",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "炭素質ダストの宇宙曝露実験"
+      },
+      {
+        "lang": "en",
+        "title": "Space Exposure Experiment of Carbonaceous Dust"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SAKON",
+            "first_name": "Itsuki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "左近",
+            "first_name": "樹"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "東京大学 大学院理学系研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "遠藤",
+            "first_name": "いずみ"
+          },
+          {
+            "lang": "en",
+            "last_name": "ENDO",
+            "first_name": "Izumi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "東京大学 大学院理学系研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "池内",
+            "first_name": "綾人"
+          },
+          {
+            "lang": "en",
+            "last_name": "IKEUCHI",
+            "first_name": "Ayato"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "東京大学 大学院理学系研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "ONAKA",
+            "first_name": "Takashi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "尾中",
+            "first_name": "敬"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "東京大学 大学院理学系研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "木村",
+            "first_name": "勇気"
+          },
+          {
+            "lang": "en",
+            "last_name": "KIMURA",
+            "first_name": "Yuki"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "北海道大学 低温科学研究所",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KIMURA",
+            "first_name": "Seiji"
+          },
+          {
+            "lang": "ja",
+            "last_name": "木村",
+            "first_name": "誠二"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "3",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "電気通信大学 研究設備センター",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "7",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "WADA",
+            "first_name": "Setsuko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "和田",
+            "first_name": "節子"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "4",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "元 電気通信大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "8",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "NAKAMURA",
+            "first_name": "Masato"
+          },
+          {
+            "lang": "ja",
+            "last_name": "中村",
+            "first_name": "正人"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "5",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "日本大学 理工学部",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "9",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "市村",
+            "first_name": "淳"
+          },
+          {
+            "lang": "en",
+            "last_name": "ICHIMURA",
+            "first_name": "Atsushi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "6",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "東京理科大学 理学部二部",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "10",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "小川",
+            "first_name": "奈々子"
+          },
+          {
+            "lang": "en",
+            "last_name": "OGAWA",
+            "first_name": "Nanako"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "7",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "海洋研究開発機構",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "11",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "OHKOUCHI",
+            "first_name": "Naohiko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "大河内",
+            "first_name": "直彦"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "7",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "海洋研究開発機構",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "12",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "稲富",
+            "first_name": "裕光"
+          },
+          {
+            "lang": "en",
+            "last_name": "INATOMI",
+            "first_name": "Yuko"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "8",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "宇宙航空研究開発機構 宇宙科学研究所",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2018",
+      "publication_month": "12",
+      "publication_day": "05"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of the Japan Society for Aeronautical and Space Sciences",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本航空宇宙学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本航空宇宙学会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本航空學會誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Journal of the Society of Aeronautical Science of Nippon",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "応用力学",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Society of Applied Mechanics of Japan",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本航空学会誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Journal of the Japan Society of Aeronautical Engineering",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本航空宇宙学会論文集",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "JOURNAL OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Aeronautical and Space Sciences Japan",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "66",
+    "issue": "12",
+    "first_page": "381",
+    "last_page": "387"
+  },
+  {
+    "_id": "6907137576e32cb9065d8c6f",
+    "content_type": "JA",
+    "doi": "10.2493/jjspe.55.508",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Sound generation in Q-switched YAG laser drilling."
+      },
+      {
+        "title": "ＱスイッチＹＡＧレーザ加工の加工音"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "宮崎",
+            "first_name": "俊行"
+          },
+          {
+            "lang": "en",
+            "last_name": "MIYAZAKI",
+            "first_name": "Toshiyuki"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "正会員職業訓練大学校",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "田中",
+            "first_name": "義弘"
+          },
+          {
+            "lang": "en",
+            "last_name": "TANAKA",
+            "first_name": "Yoshihiro"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "正会員東京職業訓練短期大学校",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1989"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of the Japan Society for Precision Engineering",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Society for Precision Engineering",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "精密工学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "精密工学会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "精密機械",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Society of Precision Engineering",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "精密工学会誌論文集",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Society for Precision Engineering, Contributed Papers",
+        "type": "before",
+        "lang": "en"
+      }
+    ],
+    "volume": "55",
+    "issue": "3",
+    "first_page": "508",
+    "last_page": "513"
+  },
+  {
+    "_id": "690716b276e32cb906e70516",
+    "content_type": "JA",
+    "doi": "10.11261/iryo1946.33.90",
+    "title_list": [
+      {
+        "title": "小児麻酔前投薬の考察　　エスタゾラムの応用",
+        "subtitle": "―Estazolamの応用―"
+      },
+      {
+        "lang": "en",
+        "title": "Clinical Studies on the Effect of Estazolam as a Premedication in Pediatric Anaesthesia"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "榎本",
+            "first_name": "尚美"
+          },
+          {
+            "lang": "en",
+            "last_name": "ENOMOTO",
+            "first_name": "Naoyoshi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "国立相模原病院麻酔科",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Sagamihara National Hospital",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KUROSAWA",
+            "first_name": "Teruji"
+          },
+          {
+            "lang": "ja",
+            "last_name": "黒沢",
+            "first_name": "輝司"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Sagamihara National Hospital",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "国立相模原病院麻酔科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "側見",
+            "first_name": "涼子"
+          },
+          {
+            "lang": "en",
+            "last_name": "SOBAMI",
+            "first_name": "Ryoko"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "国立相模原病院麻酔科",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Sagamihara National Hospital",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1979"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Japanese Journal of National Medical Services",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Japanese Journal of National Medical Services",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "医療",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "医療",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "33",
+    "issue": "1",
+    "first_page": "90",
+    "last_page": "95"
+  },
+  {
+    "_id": "690716e076e32cb906f084ab",
+    "content_type": "JA",
+    "doi": "10.51027/diltheygsj.1998.10_16",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "ディルタイにおける生の美学の構成",
+        "subtitle": "体験の場としての感情と想像力の論理"
+      },
+      {
+        "lang": "en",
+        "title": "Der Aufbau der Lebensästhetik bei Dilthey",
+        "subtitle": "Gefühl als Topos des Erlebnisses und Logik der Einbildungskraft"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "ITO",
+            "first_name": "Naoki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "伊藤",
+            "first_name": "直樹"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1998"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Dilthey-forschung",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "ディルタイ研究",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Dilthey-forschung",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "ディルタイ研究",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "1998",
+    "issue": "10",
+    "first_page": "16",
+    "last_page": "29"
+  },
+  {
+    "_id": "6906ee20f54a306c7998ed15",
+    "content_type": "JA",
+    "doi": "10.3313/jls1964.11.2_43a",
+    "title_list": [
+      {
+        "title": "平丸地区の地すべり集中発生について"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "洒井",
+            "first_name": "淳行"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "建設省土木研究所",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1974"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Landslides",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Landslides",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Landslide Society",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "地すべり",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "地すべり",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本地すべり学会誌",
+        "type": "after",
+        "lang": "ja"
+      }
+    ],
+    "volume": "11",
+    "issue": "2",
+    "first_page": "43a",
+    "last_page": "45"
+  },
+  {
+    "_id": "6907133976e32cb906559531",
+    "content_type": "JA",
+    "doi": "10.1299/jsmecmd.2018.31.177",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "遷移クリープ挙動を考慮したパワーモジュール用アルミワイヤ接合部の熱疲労解析"
+      },
+      {
+        "lang": "en",
+        "title": "Thermal fatigue analysis for aluminium wire bonding of power modules considering transient creep"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SETOGUCHI",
+            "first_name": "Yoshiki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "瀬戸口",
+            "first_name": "慶樹"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "鹿児島大学",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Kagoshima University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SHISHIDO",
+            "first_name": "Nobuyuki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "宍戸",
+            "first_name": "信之"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "北九州市環境エレクトロニクス研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Green Electronics Research Institute, Kitakyushu",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KOGANEMARU",
+            "first_name": "Masaaki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "小金丸",
+            "first_name": "正明"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "鹿児島大学",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Kagoshima University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "池田",
+            "first_name": "徹"
+          },
+          {
+            "lang": "en",
+            "last_name": "IKEDA",
+            "first_name": "Toru"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Kagoshima University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "鹿児島大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "HAYAMA",
+            "first_name": "Yutaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "葉山",
+            "first_name": "裕"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "北九州市環境エレクトロニクス研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Green Electronics Research Institute, Kitakyushu",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "MIYAZAKI",
+            "first_name": "Noriyuki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "宮崎",
+            "first_name": "則幸"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Green Electronics Research Institute, Kitakyushu",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "北九州市環境エレクトロニクス研究所",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2018"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "計算力学講演会講演論文集",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Proceedings of The Computational Mechanics Conference",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "計算力学講演会",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "2018.31",
+    "issue": "0",
+    "first_page": "177"
+  },
+  {
+    "_id": "6906efaaf54a306c79cfc579",
+    "content_type": "JA",
+    "doi": "10.11281/shinzo.54.261",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "心不全におけるGタンパク質シグナル"
+      },
+      {
+        "lang": "en",
+        "title": "G-protein-mediated cellular signaling in heart failure"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "竹藤",
+            "first_name": "幹人"
+          },
+          {
+            "lang": "en",
+            "last_name": "Takefuji",
+            "first_name": "Mikito"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of Cardiology, Nagoya University Graduate School of Medicine",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "名古屋大学大学院医学系研究科　循環器内科学",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2022",
+      "publication_month": "02",
+      "publication_day": "15"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Shinzo",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Shinzo",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "心臓",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "心臓",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "54",
+    "issue": "2",
+    "first_page": "261",
+    "last_page": "267"
+  },
+  {
+    "_id": "6907166976e32cb906d66a9b",
+    "content_type": "JA",
+    "doi": "10.11316/jpsgaiyo.64.2.3.0_435_2",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "25aPS-83 TbCoGa_5の極低温および磁場中弾性定数(領域8ポスターセッション(f電子系等),領域8,強相関系:高温超伝導,強相関f電子系など)"
+      },
+      {
+        "lang": "en",
+        "title": "25aPS-83 Elastic constants of TbCoGa_5 under the magnetic field and very low temperature"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Sanada",
+            "first_name": "Naoyuki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "眞田",
+            "first_name": "直幸"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "横浜国大院工",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Advanced Materials Chemistry, Yokohama National Univ.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Watanuki",
+            "first_name": "Ryuta"
+          },
+          {
+            "lang": "ja",
+            "last_name": "綿貫",
+            "first_name": "竜太"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Advanced Materials Chemistry, Yokohama National Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "横浜国大院工",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Suzuki",
+            "first_name": "Kazuya"
+          },
+          {
+            "lang": "ja",
+            "last_name": "鈴木",
+            "first_name": "和也"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "横浜国大院工",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Advanced Materials Chemistry, Yokohama National Univ.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Akatsu",
+            "first_name": "Mitsuhiro"
+          },
+          {
+            "lang": "ja",
+            "last_name": "赤津",
+            "first_name": "光洋"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "新潟大院自然",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Graduate School of Science and Technology, Niigata Univ.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Nemoto",
+            "first_name": "Yuichi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "根本",
+            "first_name": "祐一"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Graduate School of Science and Technology, Niigata Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "新潟大院自然",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Goto",
+            "first_name": "Terutaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "後藤",
+            "first_name": "輝孝"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "新潟大院自然",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Graduate School of Science and Technology, Niigata Univ.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2009"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本物理学会講演概要集",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Meeting Abstracts of the Physical Society of Japan",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "64.2.3",
+    "issue": "0",
+    "first_page": "435"
+  },
+  {
+    "_id": "6906ee74f54a306c79a3902d",
+    "content_type": "JA",
+    "doi": "10.1299/jsmemecjo.2000.3.0_101",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "609 有機複合材料の残留応力に及ぼす湿熱環境の影響"
+      },
+      {
+        "lang": "en",
+        "title": "Effects of Moisture and Heat on Residual Stresses in Organic Composites"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "小沢",
+            "first_name": "喜仁"
+          },
+          {
+            "lang": "en",
+            "last_name": "OZAWA",
+            "first_name": "Yoshihito"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Fukushima University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "福島大",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2000"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "年次大会講演論文集",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The proceedings of the JSME annual meeting",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "年次大会",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Proceedings of Mechanical Engineering Congress, Japan",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "年次大会講演資料集",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The Reference Collection of Annual Meeting",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "年次大会資料集",
+        "type": "before",
+        "lang": "ja"
+      }
+    ],
+    "volume": "2000.3",
+    "issue": "0",
+    "first_page": "101",
+    "last_page": "102"
+  },
+  {
+    "_id": "6907143676e32cb9067910a8",
+    "content_type": "JA",
+    "doi": "10.15052/00003904",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "新型コロナウイルス影響下の学校における科学教育の取り組み : 教職員アンケートとインタビュー調査から"
+      },
+      {
+        "lang": "en",
+        "title": "Survey on the Influence of the New Coronavirus on the Actual State of School Education : A Focus on the Ideal Science Education Methodology\\n"
+      },
+      {
+        "title": "シンガタ コロナ ウイルス エイキョウカ ノ ガッコウ ニ オケル カガク キョウイク ノ トリクミ　キョウショクイン アンケート ト　インタビュー　チョウサ　カラ"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "仲井",
+            "first_name": "勝巳"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2021",
+      "publication_month": "10",
+      "publication_day": "25"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "聖学院大学論叢 = The Journal of Seigakuin University"
+      }
+    ],
+    "volume": "第34巻",
+    "issue": "第1号",
+    "first_page": "17",
+    "last_page": "31"
+  },
+  {
+    "_id": "690712f376e32cb9064ce7dc",
+    "content_type": "JA",
+    "doi": "10.1248/cpb.48.1634",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "NO-Mediated Aromatic Nitration during Decomposition of Phenolic S-Nitrosothiols in Non-Aqueous Aerobic Medium."
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "PETIT",
+            "first_name": "Catherine"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "BERNARDES-GENISSON",
+            "first_name": "Vania"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "HOFFMANN",
+            "first_name": "Pascal"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SOUCHARD",
+            "first_name": "Jean-Pierre"
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "LABIDALLE",
+            "first_name": "Serge"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2000"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Chem. Pharm. Bull.",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "CHEMICAL & PHARMACEUTICAL BULLETIN",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Pharmaceutical Bulletin",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Pharmaceutical Bulletin",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "ＣＨＥＭＩＣＡＬ　＆　ＰＨＡＲＭＡＣＥＵＴＩＣＡＬ　ＢＵＬＬＥＴＩＮ",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Ｃｈｅｍ．　Ｐｈａｒｍ．　Ｂｕｌｌ．",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Chemical and Pharmaceutical Bulletin",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "公衆衛生年報",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The annual reports of the Public Health Division of the Pharmaceutical Society of Japan",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "衛生化学",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Eisei kagaku",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of Health Science",
+        "type": "before",
+        "lang": "ja"
+      }
+    ],
+    "volume": "48",
+    "issue": "11",
+    "first_page": "1634",
+    "last_page": "1638"
+  },
+  {
+    "_id": "6906ee7af54a306c79a4631d",
+    "content_type": "JA",
+    "doi": "10.1299/jsmemag.66.538_1541",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "潤滑法(&lt;小特集&gt;摩擦と潤滑)"
+      },
+      {
+        "lang": "en",
+        "title": "Lubricating Method(&lt;Special Collection&gt;Subject Regarding Friction and Lubrication)"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "赤岡",
+            "first_name": "純"
+          },
+          {
+            "lang": "en",
+            "last_name": "AKAOKA",
+            "first_name": "Jun"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "鉄道技術研究所",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1963"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本機械学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Society of Mechanical Engineers",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "機械學會誌",
+        "type": "before",
+        "lang": "ja"
+      }
+    ],
+    "volume": "66",
+    "issue": "538",
+    "first_page": "1541",
+    "last_page": "1550"
+  },
+  {
+    "_id": "6907132376e32cb9065219bc",
+    "content_type": "JA",
+    "doi": "10.9773/sosei.53.346",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Development of Shearing with Torsion for Restricting Work Hardening by Torsion",
+        "subtitle": "&mdash; Shearing with Torsion of Bars and Wires II &mdash;"
+      },
+      {
+        "title": "ねじりによる加工硬化領域を狭めたねじり付加せん断加工の開発",
+        "subtitle": "&mdash; 棒線材のねじり付加せん断加工　第2報 &mdash;"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "梶野",
+            "first_name": "智史"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "独立行政法人　産業技術総合研究所",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "田中",
+            "first_name": "智也"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "早稲田大学　基幹理工学部",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "浅川",
+            "first_name": "基男"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "早稲田大学　基幹理工学部",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2012"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of the Japan Society for Technology of Plasticity",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the JSTP",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "SOSEI-TO-KAKOU",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "塑性と加工",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "塑性と加工",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "53",
+    "issue": "615",
+    "first_page": "346",
+    "last_page": "350"
+  },
+  {
+    "_id": "6906eee9f54a306c79b2ca0d",
+    "content_type": "JA",
+    "doi": "10.1541/ieejias.127.1050",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Bilateral Teleoperation under Time-Varying Communication Time Delay Considering Contact with Environment"
+      },
+      {
+        "lang": "ja",
+        "title": "環境との接触を考慮した変動通信遅延下でのバイラテラル制御"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Iiyama",
+            "first_name": "Noriko"
+          },
+          {
+            "lang": "ja",
+            "last_name": "飯山",
+            "first_name": "法子"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of System Design Engineering, Keio University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "慶應義塾大学理工学部システムデザイン工学科",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Natori",
+            "first_name": "Kenji"
+          },
+          {
+            "lang": "ja",
+            "last_name": "名取",
+            "first_name": "賢二"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of System Design Engineering, Keio University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "慶應義塾大学理工学部システムデザイン工学科",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Ohnishi",
+            "first_name": "Kouhei"
+          },
+          {
+            "lang": "ja",
+            "last_name": "大西",
+            "first_name": "公平"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Department of System Design Engineering, Keio University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "慶應義塾大学理工学部システムデザイン工学科",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2007"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "IEEJ Transactions on Industry Applications",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "IEEJ Trans. IA",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.C",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.B",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.A",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The Journal of the Institute of Electrical Engineers of Japan",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "IEEJ Transactions on Sensors and Micromachines",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "電気学会論文誌Ｄ（産業応用部門誌）",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電学論Ｄ",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. C",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. B",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. A",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電氣學會雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌Ｅ（センサ・マイクロマシン部門誌）",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "IEEJ Trans.IA",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. D,　産業応用部門誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌．　Ｄ，　産業応用部門誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "127",
+    "issue": "10",
+    "first_page": "1050",
+    "last_page": "1056"
+  },
+  {
+    "_id": "690716c776e32cb906eabb8e",
+    "content_type": "JA",
+    "doi": "10.11213/tonyobyo.57.329",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Hypoglycemic Attacks in Diabetic Patients while Driving an Automobile"
+      },
+      {
+        "lang": "ja",
+        "title": "糖尿病患者における自動車運転中の低血糖発作の実態～低血糖発作による交通事故低減への啓発～"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "松村",
+            "first_name": "美穂子"
+          },
+          {
+            "lang": "en",
+            "last_name": "Matsumura",
+            "first_name": "Mihoko"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "獨協医科大学内分泌代謝内科",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University School of Medicine",
+                "lang": "en"
+              }
+            ]
+          },
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "栃木県医師会塩原温泉病院",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Shiobara Hot Spring Hospital",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "中谷",
+            "first_name": "祐己"
+          },
+          {
+            "lang": "en",
+            "last_name": "Nakatani",
+            "first_name": "Yuki"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University Nikko Medical Center",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "獨協医科大学日光医療センター糖尿病・内分泌内科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "百目木",
+            "first_name": "希実"
+          },
+          {
+            "lang": "en",
+            "last_name": "Domeki",
+            "first_name": "Nozomi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "獨協医科大学内分泌代謝内科",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University School of Medicine",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Yanagi",
+            "first_name": "Kazunori"
+          },
+          {
+            "lang": "ja",
+            "last_name": "柳",
+            "first_name": "一徳"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University School of Medicine",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "獨協医科大学内分泌代謝内科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "池田",
+            "first_name": "志織"
+          },
+          {
+            "lang": "en",
+            "last_name": "Ikeda",
+            "first_name": "Shiori"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University School of Medicine",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "獨協医科大学内分泌代謝内科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "6",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "伴場",
+            "first_name": "信之"
+          },
+          {
+            "lang": "en",
+            "last_name": "Banba",
+            "first_name": "Nobuyuki"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University Nikko Medical Center",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "獨協医科大学日光医療センター糖尿病・内分泌内科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "7",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "森山",
+            "first_name": "俊男"
+          },
+          {
+            "lang": "en",
+            "last_name": "Moriyama",
+            "first_name": "Toshio"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "栃木県医師会塩原温泉病院",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Shiobara Hot Spring Hospital",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "8",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "麻生",
+            "first_name": "好正"
+          },
+          {
+            "lang": "en",
+            "last_name": "Asou",
+            "first_name": "Yosimasa"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Endocrinology and Metabolism, Dokkyo Medical University School of Medicine",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "獨協医科大学内分泌代謝内科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2014"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "糖尿病",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Diabetes Society",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Diabetes Society",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "糖尿病",
+        "type": "full",
+        "lang": "ja"
+      }
+    ],
+    "volume": "57",
+    "issue": "5",
+    "first_page": "329",
+    "last_page": "336"
+  },
+  {
+    "_id": "6906eec0f54a306c79ae25c3",
+    "content_type": "JA",
+    "doi": "10.3412/jsb1928.29.721",
+    "title_list": [
+      {
+        "title": "交叉免疫ニ關スル實驗的研究",
+        "subtitle": "其2.生菌免疫原ヲ以テセル研究"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "田部井",
+            "first_name": "和"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "京都帝國大學醫學部微生物學教室 (主任木村教授)",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1935"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Zeitschrift der Japanischen Mikrobiologische Gesellschaft",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本微生物學病理學雜誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本微生物學病理學雜誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "細菌學雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "衛生學及細菌学時報",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本微生物學會雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "実験医学雑誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "日本細菌学雑誌",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Nippon Saikingaku Zasshi",
+        "type": "after",
+        "lang": "en"
+      }
+    ],
+    "volume": "29",
+    "issue": "6",
+    "first_page": "721",
+    "last_page": "744"
+  },
+  {
+    "_id": "690713d676e32cb90669e4f2",
+    "content_type": "JA",
+    "doi": "10.2207/qjjws1943.46.7_470",
+    "title_list": [
+      {
+        "title": "プロジェクション溶接現象についての研究　Ｉ",
+        "subtitle": "ナゲット形成におよぼす電流,加圧力の影響"
+      },
+      {
+        "lang": "en",
+        "title": "Study on Projection Welding (1st Report)"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "仲田",
+            "first_name": "周次"
+          },
+          {
+            "lang": "en",
+            "last_name": "Nakata",
+            "first_name": "Shuji"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "大阪大学工学部",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Faculty of Engineering Osaka Univ",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "西川",
+            "first_name": "雅弘"
+          },
+          {
+            "lang": "en",
+            "last_name": "Nishikawa",
+            "first_name": "Masahiro"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "大阪大学工学部",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Faculty of Engineering Osaka Univ",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "末松",
+            "first_name": "孝規"
+          },
+          {
+            "lang": "en",
+            "last_name": "Suematsu",
+            "first_name": "Takanori"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "日産自動車",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Nissan Motor Co., Ltd.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "水谷",
+            "first_name": "二郎"
+          },
+          {
+            "lang": "en",
+            "last_name": "Mizutani",
+            "first_name": "Jiro"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Shinko Hamano",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "新興刃物",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Kaneda",
+            "first_name": "Takeyoshi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "兼田",
+            "first_name": "武芳"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Nissan Motor Co., Ltd.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "日産自動車",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1977"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Yosetsu Gakkai Shi",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JOURNAL of the JAPAN ELECTRIC WELDING SOCIETY",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Japanese Welding Society",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "溶接学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "溶接学会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気鎔接協會會誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "鎔接協会誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "熔接協會誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "溶接学会論文集",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Japan Welding Society",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "熔接學會誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "46",
+    "issue": "7",
+    "first_page": "470",
+    "last_page": "477"
+  },
+  {
+    "_id": "6906ef01f54a306c79b5b46e",
+    "content_type": "JA",
+    "doi": "10.4200/jjhg1948.18.97",
+    "title_list": [
+      {
+        "title": "Szereszewski, R.: <b>Structual Changes in the Economy of Ghana, 1891-1911,</b> Weidenfeld and Nicolson, London, 1965, 161 pp. 2 Figures, 32 Tables,邦価2,160円"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "小林",
+            "first_name": "健太郎"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1966"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "人文地理",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Japanese Journal of Human Geography",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Japanese Journal of Human Geography",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "人文地理",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Jimbun Chiri",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "18",
+    "issue": "1",
+    "first_page": "97",
+    "last_page": "98"
+  },
+  {
+    "_id": "6907130776e32cb9064ee977",
+    "content_type": "JA",
+    "doi": "10.2745/dds.9.345",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Properties of soluble glutathione-dextran conjugates as a macromolecular prodrug dependent on the linkage structure."
+      },
+      {
+        "title": "グルタチオン‐デキストラン結合体の結合様式と高分子プロドラッグとしての性質"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Kaneo",
+            "first_name": "Yoshiharu"
+          },
+          {
+            "lang": "ja",
+            "last_name": "金尾",
+            "first_name": "義治"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Biopharmaceutics, School of Pharmacy, Fukuyama University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "福山大学薬学部薬物動態学研究室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "小川",
+            "first_name": "享子"
+          },
+          {
+            "lang": "en",
+            "last_name": "Ogawa",
+            "first_name": "Kyoko"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Department of Biopharmaceutics, School of Pharmacy, Fukuyama University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "福山大学薬学部薬物動態学研究室",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "田中",
+            "first_name": "哲郎"
+          },
+          {
+            "lang": "en",
+            "last_name": "Tanaka",
+            "first_name": "Tetsuro"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "福山大学薬学部薬物動態学研究室",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Biopharmaceutics, School of Pharmacy, Fukuyama University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "藤原",
+            "first_name": "由美恵"
+          },
+          {
+            "lang": "en",
+            "last_name": "Fujihara",
+            "first_name": "Yumie"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "福山大学薬学部薬物動態学研究室",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Department of Biopharmaceutics, School of Pharmacy, Fukuyama University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1994"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Drug Delivery System",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "DDS",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Official Journal of the Japan Society of Drug Delivery System",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Ｄｒｕｇ　Ｄｅｌｉｖｅｒｙ　Ｓｙｓｔｅｍ",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "ＤＤＳ",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "9",
+    "issue": "5",
+    "first_page": "345",
+    "last_page": "350"
+  },
+  {
+    "_id": "6907144176e32cb9067b5406",
+    "content_type": "JA",
+    "doi": "10.50900/jamdmicro.13.1_40",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Er,Cr:YSGG- AND DIODE-LASER-ASSISTED PERIAPICAL MICRO-SURGERY OF A FIRST MANDIBULAR MOLAR WITH POOR PROGNOSIS AFTER CONVENTIONAL ENDODONTICS: A CASE REPORT"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Smith",
+            "first_name": "John D."
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Private practice in Hillsboro",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Nguyen",
+            "first_name": "Tuong Nguyen"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Private practice in Salem",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2022"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "The International Journal of Microdentistry",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "The International Journal of Microdentistry",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Int J Microdent",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Int J Microdent",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "13",
+    "issue": "1",
+    "first_page": "40",
+    "last_page": "44"
+  },
+  {
+    "_id": "690713c576e32cb90667b2af",
+    "content_type": "JA",
+    "doi": "10.3130/aijsaxx.329.0_26",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "構造物の連成問題に対する部分モード法の応用に関する研究"
+      },
+      {
+        "lang": "en",
+        "title": "THE APPLICATION OF THE COMPONENT MODE METHOD TO THE COUPLING PROBLEMS OF STRUCTURES"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "和泉",
+            "first_name": "正哲"
+          },
+          {
+            "lang": "en",
+            "last_name": "IZUMI",
+            "first_name": "MASANORI"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Faculty of Engineering, Tohoku Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東北大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "伊藤",
+            "first_name": "敬一"
+          },
+          {
+            "lang": "en",
+            "last_name": "ITO",
+            "first_name": "KEIICHI"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Hachinohe Tech. Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "八戸工業大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "勝倉",
+            "first_name": "裕"
+          },
+          {
+            "lang": "en",
+            "last_name": "KATSUKURA",
+            "first_name": "HIROSHI"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Faculty of Engineering, Tohoku Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東北大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "滝田",
+            "first_name": "貢"
+          },
+          {
+            "lang": "en",
+            "last_name": "TAKITA",
+            "first_name": "MITSUGU"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "3",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Faculty of Engineering, Tohoku Univ.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東北大学大学院",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1983"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本建築学会論文報告集",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Transactions of the Architectural Institute of Japan",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本建築学会構造系論文集",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of Structural and Construction Engineering (Transactions of AIJ)",
+        "type": "after",
+        "lang": "en"
+      }
+    ],
+    "volume": "329",
+    "issue": "0",
+    "first_page": "26",
+    "last_page": "35"
+  },
+  {
+    "_id": "690713da76e32cb9066a5869",
+    "content_type": "JA",
+    "doi": "10.1254/jjp.22.115",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "EFFECTS OF ORALLY ADMINISTERED THIAMINE TETRAHYDROFURFURYL DISULFIDE ON FOETAL DEVELOPMENT OF RABBITS AND MONKEYS"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "MIZUTANI",
+            "first_name": "Masahiro"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Biological Research Laboratories, Research and Development Division, Takeda Chemical Industries, Ltd.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "IHARA",
+            "first_name": "Toshio"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Biological Research Laboratories, Research and Development Division, Takeda Chemical Industries, Ltd.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "KAZIWARA",
+            "first_name": "Kyo"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Biological Research Laboratories, Research and Development Division, Takeda Chemical Industries, Ltd.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1972"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "The Japanese Journal of Pharmacology",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Jpn.J.Pharmacol",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Jpn.J.Pharmacol.",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of Pharmacological Sciences",
+        "type": "after",
+        "lang": "ja"
+      }
+    ],
+    "volume": "22",
+    "issue": "1",
+    "first_page": "115",
+    "last_page": "124"
+  },
+  {
+    "_id": "6906eefaf54a306c79b4c713",
+    "content_type": "JA",
+    "doi": "10.14250/cement.75.356",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "再生二水石膏粉を混和したエアモルタルの物性"
+      },
+      {
+        "lang": "en",
+        "title": "PHYSICAL CHARACTERISTICS OF AIR MORTAR MIXED WITH RECYCLED DIHYDRATE GYPSUM POWDER"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "西本",
+            "first_name": "つかさ"
+          },
+          {
+            "lang": "en",
+            "last_name": "NISIMOTO",
+            "first_name": "Tsukasa"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "NAGOYA INSTITUTE OF TECHNOLOGY, Engineering Department of Civil-Engineering（Gokiso-cho, Showa-ku, Nagoya-shi, Aichi 466-8555, Japan）",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "名古屋工業大学　工学部社会工学科（〒466-8555愛知県名古屋市昭和区御器所町）",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "後藤",
+            "first_name": "優"
+          },
+          {
+            "lang": "en",
+            "last_name": "GOTO",
+            "first_name": "Yu"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "NAGOYA INSTITUTE OF TECHNOLOGY, Graduate School of Engineering in Department of Civil-Engineering（Gokiso-cho, Showa-ku, Nagoya-shi, Aichi 466-8555, Japan）",
+            "sequence": "2",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "名古屋工業大学　大学院工学研究科社会工学専攻（〒466-8555愛知県名古屋市昭和区御器所町）",
+            "sequence": "2",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "上原",
+            "first_name": "匠"
+          },
+          {
+            "lang": "en",
+            "last_name": "UEHARA",
+            "first_name": "Takumi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "NAGOYA INSTITUTE OF TECHNOLOGY, Graduate School of Engineering in Department of Civil-Engineering（Gokiso-cho, Showa-ku, Nagoya-shi, Aichi 466-8555, Japan）",
+            "sequence": "2",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "名古屋工業大学　大学院工学研究科社会工学専攻（〒466-8555愛知県名古屋市昭和区御器所町）",
+            "sequence": "2",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2022",
+      "publication_month": "03",
+      "publication_day": "31"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Cement Science and Concrete Technology",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "セメント・コンクリート論文集",
+        "type": "full"
+      }
+    ],
+    "volume": "75",
+    "issue": "1",
+    "first_page": "356",
+    "last_page": "363"
+  },
+  {
+    "_id": "690713ab76e32cb9066469cb",
+    "content_type": "JA",
+    "doi": "10.1541/ieejias.109.6",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Progress of process control in the steel industry."
+      },
+      {
+        "title": "鉄鋼分野における制御技術の動向と今後への期待"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Misaka",
+            "first_name": "Yosisuke"
+          },
+          {
+            "lang": "ja",
+            "last_name": "美坂",
+            "first_name": "佳助"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Sumitomo Metal Industrv Co. Ltd.",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "住友金属工業(株)",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "高橋",
+            "first_name": "亮一"
+          },
+          {
+            "lang": "en",
+            "last_name": "Takahashi",
+            "first_name": "Ryoichi"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "住友金属工業(株)",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Sumitomo Metal Industrv Co. Ltd.",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1989"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "IEEJ Transactions on Industry Applications",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "IEEJ Trans. IA",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.C",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.B",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The transactions of the Institute of Electrical Engineers of Japan.A",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The Journal of the Institute of Electrical Engineers of Japan",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "IEEJ Transactions on Sensors and Micromachines",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "電気学会論文誌Ｄ（産業応用部門誌）",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電学論Ｄ",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. C",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. B",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. A",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電氣學會雜誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌Ｅ（センサ・マイクロマシン部門誌）",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "IEEJ Trans.IA",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "電気学会論文誌. D,　産業応用部門誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気学会論文誌．　Ｄ，　産業応用部門誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "109",
+    "issue": "1",
+    "first_page": "6",
+    "last_page": "9"
+  },
+  {
+    "_id": "6906ef15f54a306c79b8360a",
+    "content_type": "JA",
+    "doi": "10.2207/qjjws.37.68",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "拘束ひずみによるレーザ・アークハイブリッド溶接の低温割れ発生に対する力学的評価"
+      },
+      {
+        "lang": "en",
+        "title": "Mechanical Evaluation on Cold Cracking of Laser-arc Hybrid Welding by Restraint Strain"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "廣畑",
+            "first_name": "幹人"
+          },
+          {
+            "lang": "en",
+            "last_name": "HIROHATA",
+            "first_name": "Mikihito"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Engineering, Osaka University",
+            "sequence": "1",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "大阪大学大学院 工学研究科",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "竹田",
+            "first_name": "文哉"
+          },
+          {
+            "lang": "en",
+            "last_name": "TAKEDA",
+            "first_name": "Fumiya"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "Graduate School of Engineering, Nagoya University",
+            "sequence": "2",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "名古屋大学大学院 工学研究科",
+            "sequence": "2",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "猪瀬",
+            "first_name": "幸太郎"
+          },
+          {
+            "lang": "en",
+            "last_name": "INOSE",
+            "first_name": "Koutarou"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "IHI Corporation",
+            "sequence": "3",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "株式会社IHI",
+            "sequence": "3",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "松本",
+            "first_name": "直幸"
+          },
+          {
+            "lang": "en",
+            "last_name": "MATSUMOTO",
+            "first_name": "Naoyuki"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "IHI Corporation",
+            "sequence": "3",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "株式会社IHI",
+            "sequence": "3",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "5",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "阿部",
+            "first_name": "大輔"
+          },
+          {
+            "lang": "en",
+            "last_name": "ABE",
+            "first_name": "Daisuke"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "IHI Corporation",
+            "sequence": "3",
+            "lang": "en"
+          },
+          {
+            "affiliation_name": "株式会社IHI",
+            "sequence": "3",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2019"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "QUARTERLY JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JOURNAL of the JAPAN ELECTRIC WELDING SOCIETY",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of the Japanese Welding Society",
+        "type": "before",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "JOURNAL OF THE JAPAN WELDING SOCIETY",
+        "type": "after",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "溶接学会論文集",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "電気鎔接協會會誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "鎔接協会誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "熔接協會誌",
+        "type": "before",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "溶接学会誌",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "溶接学会論文集",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "37",
+    "issue": "1",
+    "first_page": "68",
+    "last_page": "80"
+  },
+  {
+    "_id": "6907169376e32cb906df72dc",
+    "content_type": "JA",
+    "doi": "10.34394/aquaticanimals.2022.0_AA2022-4",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "漁獲されたキジハタ天然魚の餌付け"
+      },
+      {
+        "lang": "en",
+        "title": "Food acclimatization of wild red-spotted grouper Epinephelus akaara under captive condition"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Takeuchi",
+            "first_name": "Hiroyuki"
+          },
+          {
+            "lang": "ja",
+            "last_name": "竹内",
+            "first_name": "宏行"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "水産研究・教育機構水産技術研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Fisheries Technology Institute, Japan Fisheries Research and Education Agency",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Imai",
+            "first_name": "Tadashi"
+          },
+          {
+            "lang": "ja",
+            "last_name": "今井",
+            "first_name": "正"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "水産研究・教育機構水産技術研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Fisheries Technology Institute, Japan Fisheries Research and Education Agency",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Morita",
+            "first_name": "Tetsuo"
+          },
+          {
+            "lang": "ja",
+            "last_name": "森田",
+            "first_name": "哲男"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "水産研究・教育機構水産技術研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Fisheries Technology Institute, Japan Fisheries Research and Education Agency",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Sakiyama",
+            "first_name": "Kazutaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "崎山",
+            "first_name": "一孝"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "水産研究・教育機構水産技術研究所",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Fisheries Technology Institute, Japan Fisheries Research and Education Agency",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2022"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "水生動物",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Aquatic Animals",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "2022",
+    "issue": "0",
+    "first_page": "AA2022-4"
+  },
+  {
+    "_id": "690716aa76e32cb906e5752e",
+    "content_type": "JA",
+    "doi": "10.20693/jspeconf.55.0_84",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "2)運動実践者から運動指導者への意識変革を促す教科専門科目授業の試み : 体育心理学,運動方法実習V(バレーボール)の授業を通じて(スポーツ専門諸科学の教員養成における役割を問い直す,シンポジウム,体育科教育,専門分科会企画)"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "賀川",
+            "first_name": "昌明"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "鳴門教育大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2004"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本体育学会大会号",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Abstracts of Japan Society of Physical Education, Health and Sport Sciences Conference",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "日本体育学会大会予稿集",
+        "type": "after",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Japan Society of Physical Education, Health and Sport Sciences Conference Proceedings",
+        "type": "after",
+        "lang": "en"
+      }
+    ],
+    "volume": "55",
+    "issue": "0",
+    "first_page": "84"
+  },
+  {
+    "_id": "690713b576e32cb90665afc0",
+    "content_type": "JA",
+    "doi": "10.2116/bunsekikagaku.51.613",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Dissolution with HNO3-HF/ICP-OES for an analysis of Ag-In-Sn alloys and others by using the sequential correction method."
+      },
+      {
+        "lang": "ja",
+        "title": "逐次補正法を用いる銀‐インジウム‐スズ合金等の硝酸‐フッ化水素酸溶解／誘導結合プラズマ発光分析法"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "DANZAKI",
+            "first_name": "Y&ucirc;etsu"
+          },
+          {
+            "lang": "ja",
+            "last_name": "檀崎",
+            "first_name": "祐悦"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Institute for Materials Research, Tohoku University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "東北大学金属材料研究所",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2002"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "BUNSEKI KAGAKU",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "分析化学",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Bunseki kagaku",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "分析化学",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "BUNSEKI KAGAKU",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "51",
+    "issue": "8",
+    "first_page": "613",
+    "last_page": "617"
+  },
+  {
+    "_id": "690716d876e32cb906edea28",
+    "content_type": "JA",
+    "doi": "10.24484/sitereports.10052-2672",
+    "title_list": [
+      {
+        "title": "三重小塔"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "first_name": "柳澤,和明"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2003",
+      "publication_month": "03",
+      "publication_day": "31"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "宮城県文化財調査報告書 : 新田東遺跡"
+      }
+    ],
+    "volume": "191",
+    "first_page": "223",
+    "last_page": "227"
+  },
+  {
+    "_id": "6907164f76e32cb906d2abc7",
+    "content_type": "JA",
+    "doi": "10.20684/quality.21.1_26",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "小松製作所におけるSQC教育"
+      },
+      {
+        "lang": "en",
+        "title": "SQC Training Programs in Komatsu Ltd."
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "SUYAMA",
+            "first_name": "Masuo"
+          },
+          {
+            "lang": "ja",
+            "last_name": "須山",
+            "first_name": "益男"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "(株)コマツ・キャリヤ・クリエイト",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "1991",
+      "publication_month": "01",
+      "publication_day": "15"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "品質",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of The Japanese Society for Quality Control",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "21",
+    "issue": "1",
+    "first_page": "26",
+    "last_page": "34"
+  },
+  {
+    "_id": "6907138376e32cb9065f5535",
+    "content_type": "JA",
+    "doi": "10.1589/jpts.27.1303",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "The effect of neurac training in patients with chronic neck          pain"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Yun",
+            "first_name": "Soo"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": " Department of Physical Therapy, Sahmyook University:              26-21 Gongneung2-dong, Nowon-gu, Seoul 139-742, Republic of Korea",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Kim",
+            "first_name": "You Lim"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": " Department of Physical Therapy, Sahmyook University:              26-21 Gongneung2-dong, Nowon-gu, Seoul 139-742, Republic of Korea",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "Lee",
+            "first_name": "Suk Min"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": " Department of Physical Therapy, Sahmyook University:              26-21 Gongneung2-dong, Nowon-gu, Seoul 139-742, Republic of Korea",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2015"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "Journal of Physical Therapy Science",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "J Phys Ther Sci",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Ｊ　Ｐｈｙｓ　Ｔｈｅｒ　Ｓｃｉ",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "27",
+    "issue": "5",
+    "first_page": "1303",
+    "last_page": "1307"
+  },
+  {
+    "_id": "690716f876e32cb906f53011",
+    "content_type": "JA",
+    "doi": "10.14966/jssp.KJ00003724879",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "希釈効果の規定因としての無関連性, 中立性, および両価性"
+      },
+      {
+        "lang": "en",
+        "title": "Irrelevance, neutrality, and ambivalence as determinants of dilution effect"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "en",
+            "last_name": "OKUDA",
+            "first_name": "Hidetaka"
+          },
+          {
+            "lang": "ja",
+            "last_name": "奥田",
+            "first_name": "秀宇"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "成城大学文芸学部",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Seijo University",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2003"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "社会心理学研究",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Japanese Journal of Social Psychology",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "19",
+    "issue": "1",
+    "first_page": "11",
+    "last_page": "17"
+  },
+  {
+    "_id": "690716c476e32cb906ea3037",
+    "content_type": "JA",
+    "doi": "10.18974/jvrsj.10.3_52",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "ラク楽実践VR―手と足と頭を使え！VRシステムの作り方―"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "中谷",
+            "first_name": "正明"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "岐阜大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "木島",
+            "first_name": "竜吾"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "岐阜大学",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "白井",
+            "first_name": "暁彦"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "CPNI",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2005",
+      "publication_month": "09",
+      "publication_day": "25"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本バーチャルリアリティ学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Virtual Reality Society of Japan",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "VR学会誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "VRSJ Journal",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "10",
+    "issue": "3",
+    "first_page": "52",
+    "last_page": "53"
+  },
+  {
+    "_id": "6907145276e32cb9067e1dff",
+    "content_type": "JA",
+    "doi": "10.19022/jlem.29.1_38",
+    "title_list": [
+      {
+        "lang": "ja",
+        "title": "オンライン授業期間における授業観・授業運営の移り変わり",
+        "subtitle": "―文章表現科目を事例として―"
+      },
+      {
+        "lang": "en",
+        "title": "The Transition of Perception towards Online Lessons and Their Management:",
+        "subtitle": "Taking Writing Classes as the Case"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "畠山",
+            "first_name": "理恵"
+          },
+          {
+            "lang": "en",
+            "last_name": "HATAKEYAMA",
+            "first_name": "Rie"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "文化学園大学",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Bunka Gakuen University",
+                "lang": "en"
+              }
+            ],
+            "affiliation_identifier_list": [
+              {
+                "affiliation_identifier": "https://ror.org/035bxea77",
+                "type": "ROR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2022"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "日本語教育方法研究会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "JLEM",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of Japanese language education methods",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "The journal of Japanese Language Education Methods",
+        "type": "full",
+        "lang": "en"
+      }
+    ],
+    "volume": "29",
+    "issue": "1",
+    "first_page": "38",
+    "last_page": "39"
+  },
+  {
+    "_id": "6907143f76e32cb9067ad945",
+    "content_type": "JA",
+    "doi": "10.11357/jsam1937.65.78",
+    "title_list": [
+      {
+        "lang": "en",
+        "title": "Development of a High Efficiency Cogeneration Systems using Biogas for the Lower Pollution of the Environment. Part 4. Economical Evaluation of BIOCGS by a Profitable Model.",
+        "subtitle": "Economical Evaluation of BIOCGS by a Profitable Model"
+      },
+      {
+        "title": "環境調和型高効率バイオガス用コージェネレーションシステムの開発　第４報　　ＢＩＯＣＧＳの経済性評価",
+        "subtitle": "BIOCGSの経済性評価"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "朴",
+            "first_name": "宗洙"
+          },
+          {
+            "lang": "en",
+            "last_name": "PARK",
+            "first_name": "Jong-Soo"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "農業機械学会",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "The Japanese Society of Agricultural Machinery",
+                "lang": "en"
+              }
+            ]
+          },
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Graduate School of Agriculture, Hokkaido University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "北海道大学大学院農学研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "寺尾",
+            "first_name": "日出男"
+          },
+          {
+            "lang": "en",
+            "last_name": "TERAO",
+            "first_name": "Hideo"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "The Japanese Society of Agricultural Machinery",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "農業機械学会",
+                "lang": "ja"
+              }
+            ]
+          },
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "Graduate School of Agriculture, Hokkaido University",
+                "lang": "en"
+              },
+              {
+                "affiliation_name": "北海道大学大学院農学研究科",
+                "lang": "ja"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "石井",
+            "first_name": "耕太"
+          },
+          {
+            "lang": "en",
+            "last_name": "ISHII",
+            "first_name": "Kohta"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "sequence": "1",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "農業機械学会",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "The Japanese Society of Agricultural Machinery",
+                "lang": "en"
+              }
+            ]
+          },
+          {
+            "sequence": "2",
+            "affiliation_name_list": [
+              {
+                "affiliation_name": "北海道立中央農業試験場",
+                "lang": "ja"
+              },
+              {
+                "affiliation_name": "Hokkaido Central Agricultural Experiment Station",
+                "lang": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2003"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "JOURNAL of the JAPANESE SOCIETY of AGRICULTURAL MACHINERY",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Nogyo Kikai Gakkaishi",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "Journal of JSAM",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "農業機械学会誌",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "農機誌",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "Journal of the Japanese Society of Agricultural Machinery",
+        "type": "abbreviation",
+        "lang": "en"
+      }
+    ],
+    "volume": "65",
+    "issue": "1",
+    "first_page": "78",
+    "last_page": "84"
+  },
+  {
+    "_id": "6906efc0f54a306c79d35633",
+    "content_type": "JA",
+    "doi": "10.11453/orltokyo1958.43.470",
+    "title_list": [
+      {
+        "title": "口腔・口腔低病変"
+      }
+    ],
+    "creator_list": [
+      {
+        "sequence": "1",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "橋本",
+            "first_name": "透"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "東京慈恵会医科大学解剖学講座第1",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "2",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "木村",
+            "first_name": "雅子"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "東京慈恵会医科大学放射線医学講座",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "3",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "尾尻",
+            "first_name": "博也"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "東京慈恵会医科大学放射線医学講座",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      },
+      {
+        "sequence": "4",
+        "type": "person",
+        "names": [
+          {
+            "lang": "ja",
+            "last_name": "多田",
+            "first_name": "信平"
+          }
+        ],
+        "affiliation_list": [
+          {
+            "affiliation_name": "東京慈恵会医科大学放射線医学講座",
+            "sequence": "1",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "publication_date": {
+      "publication_year": "2000"
+    },
+    "journal_title_name_list": [
+      {
+        "journal_title_name": "耳展",
+        "type": "abbreviation",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "JIBI INKOKA TEMBO",
+        "type": "full",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "OTO-RHINO-LARYNGOLOGY,TOKYO",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "O.R.L.Tokyo",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "耳鼻咽喉科展望",
+        "type": "full",
+        "lang": "ja"
+      },
+      {
+        "journal_title_name": "OTO-RHINO-LARYNGOLOGY, TOKYO",
+        "type": "abbreviation",
+        "lang": "en"
+      },
+      {
+        "journal_title_name": "ＯＲＬ，　Ｔｏｋｙｏ",
+        "type": "abbreviation",
+        "lang": "ja"
+      }
+    ],
+    "volume": "43",
+    "issue": "5",
+    "first_page": "470",
+    "last_page": "471"
+  }
+]
