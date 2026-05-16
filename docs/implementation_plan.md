@@ -42,6 +42,8 @@ tanigawa_shoshi/
       search.py
       evaluation_data.py
       scoring.py
+      rerank.py
+      evaluation.py
 
   notebooks/
     01_check_tokenizer.ipynb
@@ -206,6 +208,29 @@ all_tokens
 * `compute_rc()`
 * `compute_cc()`
 * `compute_mc()`
+
+### `rerank.py`
+
+候補群に対するスコア付与、再ランキング、閾値判定を担当する。
+
+想定内容：
+
+* `score_candidates()`
+* `rerank_candidates()`
+* `select_top_candidate()`
+* `apply_threshold()`
+
+### `evaluation.py`
+
+単一件評価・全件評価・方式別集計を担当する。
+
+想定内容：
+
+* `evaluate_single_example()`
+* `evaluate_positive_example()`
+* `evaluate_negative_example()`
+* `evaluate_dataset()`
+* `summarize_results()`
 
 ---
 
